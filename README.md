@@ -15,7 +15,7 @@
 <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/Проверенные-447-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Verified configs"/></a>
 <img src="https://img.shields.io/badge/Обновлено-2026--06--25_14%3A27_UTC-f97316?style=for-the-badge&logo=clockify&logoColor=white" alt="Updated"/>
 <!-- STATS_END -->
-<a href="https://t.me/happ_incy_bot"><img src="https://img.shields.io/badge/Telegram-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+<a href="https://t.me/happ_incy_bot?start=github"><img src="https://img.shields.io/badge/Telegram-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 
 <br/><br/>
 
@@ -84,9 +84,9 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.
 
 <div align="center">
 
-### 🤖 [@happ_incy_bot](https://t.me/happ_incy_bot)
+### 🤖 [@happ_incy_bot](https://t.me/happ_incy_bot?start=github)
 
-<a href="https://t.me/happ_incy_bot"><img src="https://img.shields.io/badge/Получить_стабильный_VPN-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+<a href="https://t.me/happ_incy_bot?start=github"><img src="https://img.shields.io/badge/Получить_стабильный_VPN-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 
 *Личный ключ · Стабильное соединение · Быстрое подключение*
 
@@ -139,7 +139,7 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.
 Если помогло — поставь звезду ⭐ и поделись с теми, кому нужен VPN в России.
 
 <a href="https://github.com/aviamastersgh/vpn-free-russia"><img src="https://img.shields.io/github/stars/aviamastersgh/vpn-free-russia?style=social" alt="Stars"/></a>
-<a href="https://t.me/happ_incy_bot"><img src="https://img.shields.io/badge/Telegram-@happ__incy__bot-2CA5E0?style=flat&logo=telegram" alt="Telegram"/></a>
+<a href="https://t.me/happ_incy_bot?start=github"><img src="https://img.shields.io/badge/Telegram-@happ__incy__bot-2CA5E0?style=flat&logo=telegram" alt="Telegram"/></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=100&section=footer" alt="footer"/>
 
