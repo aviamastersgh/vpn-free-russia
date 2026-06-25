@@ -1,7 +1,7 @@
-# RU CIDR list
-# Источник: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt
-# Обновлено: 2026-06-25 15:20 UTC
+# ✅ RU CIDR Configs | happ_incy_bot
+# Обновлено: 2026-06-25 15:33 UTC
 # Строк: 43
+# Telegram: https://t.me/happ_incy_bot
 #
 vless://dba50bb9-2456-4128-8632-f7ba1e6a7ab5@78.41.111.87:443?encryption=none&security=tls&sni=s10211.cdn.ngenix.net&fp=qq&alpn=http/1.1&insecure=0&allowInsecure=0&type=ws&host=s10211.cdn.ngenix.net&path=/api/user#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://c25d94a5-7ac8-41f1-86f1-512a4098df19@87.228.101.211:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=5post-gate.x5.ru&pbk=kDGigLxn2RUJ8HqhPVUb8pRAcjn5zMhR0-QrORmbIDk&sid=be6abde66d48cd13&spx=%2F#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D

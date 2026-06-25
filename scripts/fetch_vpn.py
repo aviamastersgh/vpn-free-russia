@@ -115,10 +115,10 @@ def save_ru_configs():
     ]
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     header = (
-        f"# RU CIDR list\n"
-        f"# Источник: {RU_CIDR_SOURCE}\n"
+        f"# ✅ RU CIDR Configs | happ_incy_bot\n"
         f"# Обновлено: {ts}\n"
         f"# Строк: {len(lines)}\n"
+        f"# Telegram: https://t.me/happ_incy_bot\n"
         "#\n"
     )
     with open("ru_configs.txt", "w", encoding="utf-8") as f:
