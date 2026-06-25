@@ -33,16 +33,19 @@
 - 📥 Скачивает конфиги из ~15 открытых источников
 - 🔍 Убирает дубликаты
 - ✅ Проверяет TCP-доступность каждого сервера
-- 📤 Публикует два файла
+- 📤 Публикует три файла
 
 | Файл | Описание | Скачать |
 |------|----------|---------|
 | `all_configs.txt` | Все найденные конфиги | [GitHub Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
 | `verified_configs.txt` | Только рабочие (TCP-проверка) ✅ | [GitHub Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
+| `ru_configs.txt` | RU CIDR-список ⚠️ без проверки, на свой риск | [GitHub Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt) |
 
 > **GitHack** — используйте как прокси, если GitHub Raw заблокирован в вашем регионе.
 
 > ⚠️ Серверы **публичные и общедоступные** — никакой регистрации не нужно.
+
+> ⚠️ **`ru_configs.txt` не проходит проверку доступности.** Список копируется из стороннего источника как есть, без TCP-проверки и без фильтрации. Используйте на свой риск — часть строк может быть неактуальной.
 
 ---
 
@@ -128,7 +131,7 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 
 | # | Репозиторий | Протоколы |
 |---|-------------|-----------|
-| 1 | [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) | VLESS, Reality |
+| 1 | [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) | VLESS, Reality, RU CIDR-листы |
 | 2 | [barry-far/V2ray-Configs](https://github.com/barry-far/V2ray-Configs) | VLESS, VMess, SS, Trojan |
 | 3 | [mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator) | Mix |
 | 4 | [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) | Mix |
@@ -137,7 +140,7 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 | 7 | [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe) | Mix |
 | 8 | [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree) | VMess |
 
-> Мы не генерируем и не продаём серверы — только агрегируем и проверяем публичные источники.
+> Мы не генерируем и не продаём серверы — только агрегируем и проверяем публичные источники. Исключение — `ru_configs.txt`, который публикуется без проверки (см. предупреждение выше).
 
 ---
 
