@@ -24,14 +24,14 @@ git pull --rebase origin main || true
 echo "[PY] fetch + verify..."
 python3 scripts/fetch_vpn.py
 # ── 4. Коммитим если есть изменения ──────────────────────
-if git diff --quiet all_configs.txt verified_configs.txt README.md 2>/dev/null; then
+if git diff --quiet all_configs.txt verified_configs.txt ru_configs.txt README.md 2>/dev/null; then
     echo "[GIT] Нет изменений, пропускаем коммит"
     exit 0
 fi
 TOTAL=$(grep -v '^#' all_configs.txt | grep -v '^$' | wc -l | tr -d ' ')
 VERIFIED=$(grep -v '^#' verified_configs.txt | grep -v '^$' | wc -l | tr -d ' ')
 TS=$(date -u '+%Y-%m-%d %H:%M UTC')
-git add all_configs.txt verified_configs.txt README.md
+git add all_configs.txt verified_configs.txt ru_configs.txt README.md
 git commit -m "🔄 auto-update: all=${TOTAL}, verified=${VERIFIED} [${TS}]"
 echo "[GIT] push..."
 git push origin main

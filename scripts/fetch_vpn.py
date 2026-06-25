@@ -104,6 +104,29 @@ def check_config(config: str) -> bool:
     except Exception:
         return False
 
+RU_CIDR_SOURCE = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt"
+
+def save_ru_configs():
+    print(f"\n[FETCH] {RU_CIDR_SOURCE}")
+    text = fetch_url(RU_CIDR_SOURCE)
+    lines = [
+        l.strip() for l in text.splitlines()
+        if l.strip() and not l.strip().startswith("#")
+    ]
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    header = (
+        f"# RU CIDR list\n"
+        f"# Источник: {RU_CIDR_SOURCE}\n"
+        f"# Обновлено: {ts}\n"
+        f"# Строк: {len(lines)}\n"
+        "#\n"
+    )
+    with open("ru_configs.txt", "w", encoding="utf-8") as f:
+        f.write(header)
+        f.write("\n".join(lines))
+        f.write("\n")
+    print(f"[SAVE] ru_configs.txt — {len(lines)} строк")
+
 def main():
     print("=" * 60)
     print(f"VPN Fetcher запущен: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
@@ -207,6 +230,7 @@ def main():
     except FileNotFoundError:
         print("[SKIP] README.md не найден, пропускаем")
 
+    save_ru_configs()
     print("\n✅ Готово!")
 
 
