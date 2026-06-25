@@ -8,8 +8,8 @@
 **Публичные, бесплатные VPN-конфигурации. Обновляются каждые 6 часов автоматически.**  
 VLESS · VMess · Shadowsocks · Trojan · Hysteria2
 
-[![Configs](https://img.shields.io/badge/Все_конфиги-<!--STATS_ALL-->716<!--/STATS_ALL-->-blue?style=for-the-badge)](https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/all_configs.txt)
-[![Verified](https://img.shields.io/badge/Проверенные-<!--STATS_VER-->447<!--/STATS_VER-->-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/verified_configs.txt)
+[![Configs](https://img.shields.io/badge/Все_конфиги-<!--STATS_ALL-->716<!--/STATS_ALL-->-blue?style=for-the-badge)](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt)
+[![Verified](https://img.shields.io/badge/Проверенные-<!--STATS_VER-->447<!--/STATS_VER-->-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt)
 [![Updated](https://img.shields.io/badge/Обновлено-<!--STATS_TS-->2026-06-25 14:27 UTC<!--/STATS_TS-->-orange?style=for-the-badge)](#)
 [![Telegram](https://img.shields.io/badge/Telegram_бот-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/happ_incy_bot)
 
@@ -38,15 +38,15 @@ VLESS · VMess · Shadowsocks · Trojan · Hysteria2
 
 | Список | Ссылка для Happ |
 |--------|----------------|
-| ✅ Проверенные (рекомендуется) | [Открыть в Happ](happ://add/https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/verified_configs.txt) |
-| 📋 Все конфиги | [Открыть в Happ](happ://add/https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/all_configs.txt) |
+| ✅ Проверенные (рекомендуется) | [Открыть в Happ](happ://add/https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
+| 📋 Все конфиги | [Открыть в Happ](happ://add/https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
 
 ### 🐛 Incy
 
 | Список | Ссылка для Incy |
 |--------|----------------|
-| ✅ Проверенные (рекомендуется) | [Открыть в Incy](incy://import/https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/verified_configs.txt) |
-| 📋 Все конфиги | [Открыть в Incy](incy://import/https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/all_configs.txt) |
+| ✅ Проверенные (рекомендуется) | [Открыть в Incy](incy://import/https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
+| 📋 Все конфиги | [Открыть в Incy](incy://import/https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
 
 > **Как это работает?** Ссылка открывает приложение и импортирует список серверов напрямую в клиент — никаких подписок, никакой регистрации. Серверы публичные и доступны всем бесплатно.
 
@@ -86,8 +86,8 @@ VLESS · VMess · Shadowsocks · Trojan · Hysteria2
 
 | Файл | Описание | Ссылка |
 |------|----------|--------|
-| `all_configs.txt` | Все конфиги из всех источников | [Raw](https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/all_configs.txt) · [GitHack](https://raw.githack.com/happ-incy-bot/vpn-free-russia/main/all_configs.txt) |
-| `verified_configs.txt` | Только рабочие (проверены TCP) | [Raw](https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/verified_configs.txt) · [GitHack](https://raw.githack.com/happ-incy-bot/vpn-free-russia/main/verified_configs.txt) |
+| `all_configs.txt` | Все конфиги из всех источников | [Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
+| `verified_configs.txt` | Только рабочие (проверены TCP) | [Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
 
 > **GitHack** работает как прокси — используйте его если GitHub Raw заблокирован.
 
@@ -122,9 +122,9 @@ VLESS · VMess · Shadowsocks · Trojan · Hysteria2
 
 | Зеркало | Ссылка (verified) |
 |---------|-------------------|
-| GitHack | `https://raw.githack.com/happ-incy-bot/vpn-free-russia/main/verified_configs.txt` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/happ-incy-bot/vpn-free-russia@main/verified_configs.txt` |
-| Yandex Translate | `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/verified_configs.txt&lang=ru-en` |
+| GitHack | `https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/verified_configs.txt` |
+| Yandex Translate | `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt&lang=ru-en` |
 
 ---
 
