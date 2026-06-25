@@ -8,9 +8,9 @@
 **Публичные, бесплатные VPN-конфигурации. Обновляются каждые 6 часов автоматически.**  
 VLESS · VMess · Shadowsocks · Trojan · Hysteria2
 
-[![Configs](https://img.shields.io/badge/Все_конфиги-<!--STATS_ALL-->0<!--/STATS_ALL-->-blue?style=for-the-badge)](https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/all_configs.txt)
-[![Verified](https://img.shields.io/badge/Проверенные-<!--STATS_VER-->0<!--/STATS_VER-->-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/verified_configs.txt)
-[![Updated](https://img.shields.io/badge/Обновлено-<!--STATS_TS-->never<!--/STATS_TS-->-orange?style=for-the-badge)](#)
+[![Configs](https://img.shields.io/badge/Все_конфиги-<!--STATS_ALL-->716<!--/STATS_ALL-->-blue?style=for-the-badge)](https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/all_configs.txt)
+[![Verified](https://img.shields.io/badge/Проверенные-<!--STATS_VER-->447<!--/STATS_VER-->-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/happ-incy-bot/vpn-free-russia/main/verified_configs.txt)
+[![Updated](https://img.shields.io/badge/Обновлено-<!--STATS_TS-->2026-06-25 14:27 UTC<!--/STATS_TS-->-orange?style=for-the-badge)](#)
 [![Telegram](https://img.shields.io/badge/Telegram_бот-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/happ_incy_bot)
 
 </div>
