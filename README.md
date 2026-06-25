@@ -10,9 +10,11 @@
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/Все_конфиги-<!--STATS_ALL-->716<!--/STATS_ALL-->-4C8BF5?style=for-the-badge&logo=server&logoColor=white" alt="Configs"/></a>
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/Проверенные-<!--STATS_VER-->447<!--/STATS_VER-->-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Verified"/></a>
-<img src="https://img.shields.io/badge/Обновлено-<!--STATS_TS-->2026--06--25_14%3A27_UTC<!--/STATS_TS-->-f97316?style=for-the-badge&logo=clockify&logoColor=white" alt="Updated"/>
+<!-- STATS_START -->
+<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/Все_конфиги-716-4C8BF5?style=for-the-badge&logo=server&logoColor=white" alt="All configs"/></a>
+<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/Проверенные-447-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Verified configs"/></a>
+<img src="https://img.shields.io/badge/Обновлено-2026--06--25_14%3A27_UTC-f97316?style=for-the-badge&logo=clockify&logoColor=white" alt="Updated"/>
+<!-- STATS_END -->
 <a href="https://t.me/happ_incy_bot"><img src="https://img.shields.io/badge/Telegram-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 
 <br/><br/>
@@ -46,41 +48,24 @@
 
 ## ⚡ Быстрое подключение
 
-> Нажмите ссылку прямо с телефона — приложение откроется и автоматически добавит серверы.
+> Нажмите кнопку с телефона — откроется страница, которая запустит приложение автоматически.
 
-### 📱 Happ
+<div align="center">
 
-<table>
-<tr><th></th><th>Список</th><th>Действие</th></tr>
-<tr>
-  <td>✅</td>
-  <td>Проверенные <em>(рекомендуется)</em></td>
-  <td><a href="happ://import?url=https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt">➕ Открыть в Happ</a></td>
-</tr>
-<tr>
-  <td>📋</td>
-  <td>Все конфиги</td>
-  <td><a href="happ://import?url=https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt">➕ Открыть в Happ</a></td>
-</tr>
-</table>
+<a href="https://aviamastersgh.github.io/vpn-free-russia/"><img src="https://img.shields.io/badge/📱_Открыть_в_Happ-667eea?style=for-the-badge&logoColor=white" alt="Open in Happ"/></a>
+&nbsp;
+<a href="https://aviamastersgh.github.io/vpn-free-russia/"><img src="https://img.shields.io/badge/🐛_Открыть_в_Incy-f5576c?style=for-the-badge&logoColor=white" alt="Open in Incy"/></a>
 
-### 🐛 Incy
+</div>
 
-<table>
-<tr><th></th><th>Список</th><th>Действие</th></tr>
-<tr>
-  <td>✅</td>
-  <td>Проверенные <em>(рекомендуется)</em></td>
-  <td><a href="incy://import?url=https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt">➕ Открыть в Incy</a></td>
-</tr>
-<tr>
-  <td>📋</td>
-  <td>Все конфиги</td>
-  <td><a href="incy://import?url=https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt">➕ Открыть в Incy</a></td>
-</tr>
-</table>
+<br/>
 
-> **Как это работает?** Ссылка открывает приложение и импортирует список серверов — без подписки и регистрации.
+> Страница откроется в браузере и предложит выбрать приложение — Happ или Incy. После нажатия серверы добавятся автоматически.
+
+**Или вручную — скопируйте ссылку и добавьте в любой клиент:**
+```
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+```
 
 ---
 
@@ -88,19 +73,14 @@
 
 | Клиент | Платформа | Способ добавления |
 |--------|-----------|-------------------|
-| **Happ** | Android / iOS | Deep link выше |
-| **Incy** | Android / iOS | Deep link выше |
+| **Happ** | Android / iOS | Кнопка выше |
+| **Incy** | Android / iOS | Кнопка выше |
 | **v2rayNG** | Android | Импорт → из URL подписки |
 | **Streisand** | iOS | Настройки → Добавить подписку |
 | **NekoBox** | Android | Профили → Добавить → URL |
 | **v2rayN** | Windows | Подписки → Добавить |
 | **Hiddify** | Android / Desktop | Добавить профиль по ссылке |
 | **Karing** | Android / iOS / Desktop | Импорт ссылки |
-
-**Ссылка для подписки (paste в любой клиент):**
-```
-https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
-```
 
 ---
 
@@ -113,7 +93,7 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 
 ### 🤖 [@happ_incy_bot](https://t.me/happ_incy_bot)
 
-<a href="https://t.me/happ_incy_bot"><img src="https://img.shields.io/badge/Получить_стабильный_VPN-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot"/></a>
+<a href="https://t.me/happ_incy_bot"><img src="https://img.shields.io/badge/Получить_стабильный_VPN-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 
 *Личный ключ · Стабильное соединение · Быстрое подключение*
 
@@ -165,7 +145,7 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 
 Если помогло — поставь звезду ⭐ и поделись с теми, кому нужен VPN в России.
 
-<a href="https://github.com/aviamastersgh/vpn-free-russia"><img src="https://img.shields.io/github/stars/aviamastersgh/vpn-free-russia?style=social" alt="GitHub Stars"/></a>
+<a href="https://github.com/aviamastersgh/vpn-free-russia"><img src="https://img.shields.io/github/stars/aviamastersgh/vpn-free-russia?style=social" alt="Stars"/></a>
 <a href="https://t.me/happ_incy_bot"><img src="https://img.shields.io/badge/Telegram-@happ__incy__bot-2CA5E0?style=flat&logo=telegram" alt="Telegram"/></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=100&section=footer" alt="footer"/>
