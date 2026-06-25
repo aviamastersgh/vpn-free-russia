@@ -1,136 +1,134 @@
-<!-- SEO meta-description (GitHub reads первые ~160 символов) -->
+<!-- SEO meta-description -->
 <!-- Free VPN configs for Russia 2024-2026. VLESS, VMess, Shadowsocks, Trojan, Hysteria2. Auto-updated every 6 hours. Works with Happ, Incy, v2rayNG, Streisand, NekoBox. Bypass RKN censorship. -->
 
 <div align="center">
 
-# 🚀 Free VPN Configs — Бесплатный VPN для России
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=200&section=header&text=🔓%20Free%20VPN%20Russia&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Бесплатные%20VPN-конфиги%20%7C%20Обновление%20каждые%206%20часов&descAlignY=58&descSize=16&descColor=aaaacc"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=🔓%20Free%20VPN%20Russia&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Бесплатные%20VPN-конфиги%20%7C%20Обновление%20каждые%206%20часов&descAlignY=58&descSize=16&descColor=f0e6ff" alt="Free VPN Russia"/>
+</picture>
 
-**Публичные, бесплатные VPN-конфигурации. Обновляются каждые 6 часов автоматически.**  
-VLESS · VMess · Shadowsocks · Trojan · Hysteria2
+<br/>
 
-[![Configs](https://img.shields.io/badge/Все_конфиги-<!--STATS_ALL-->716<!--/STATS_ALL-->-blue?style=for-the-badge)](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt)
-[![Verified](https://img.shields.io/badge/Проверенные-<!--STATS_VER-->447<!--/STATS_VER-->-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt)
-[![Updated](https://img.shields.io/badge/Обновлено-<!--STATS_TS-->2026-06-25 14:27 UTC<!--/STATS_TS-->-orange?style=for-the-badge)](#)
-[![Telegram](https://img.shields.io/badge/Telegram_бот-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/happ_incy_bot)
+[![Configs](https://img.shields.io/badge/Все_конфиги-<!--STATS_ALL-->716<!--/STATS_ALL-->-4C8BF5?style=for-the-badge&logo=server&logoColor=white)](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt)
+[![Verified](https://img.shields.io/badge/Проверенные-<!--STATS_VER-->447<!--/STATS_VER-->-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white)](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt)
+[![Updated](https://img.shields.io/badge/Обновлено-<!--STATS_TS-->2026--06--25_14:27_UTC<!--/STATS_TS-->-f97316?style=for-the-badge&logo=clockify&logoColor=white)](#)
+[![Telegram](https://img.shields.io/badge/Telegram-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/happ_incy_bot)
+
+<br/>
+
+**VLESS · VMess · Shadowsocks · Trojan · Hysteria2 · TUIC**
 
 </div>
 
 ---
 
-## 📖 Введение
+## 📖 О проекте
 
-Этот репозиторий — **агрегатор публичных бесплатных VPN-конфигураций**, работающих на территории России для обхода блокировок Роскомнадзора (РКН).
+Этот репозиторий — **агрегатор публичных бесплатных VPN-конфигураций**, работающих в России для обхода блокировок РКН.
 
-Каждые **6 часов** скрипт собирает конфиги из десятков открытых источников, проверяет TCP-доступность каждого сервера и публикует два файла:
+Каждые **6 часов** скрипт:
+- 📥 Скачивает конфиги из ~15 открытых источников
+- 🔍 Убирает дубликаты
+- ✅ Проверяет TCP-доступность каждого сервера
+- 📤 Публикует два файла
 
-- **`all_configs.txt`** — все найденные конфиги (без проверки)  
-- **`verified_configs.txt`** — только те, чей сервер откликнулся на момент проверки
+| Файл | Описание | Скачать |
+|------|----------|---------|
+| `all_configs.txt` | Все найденные конфиги | [GitHub Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
+| `verified_configs.txt` | Только рабочие (TCP-проверка) ✅ | [GitHub Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
 
-> ⚠️ Конфиги **публичные и общедоступные** — серверы бесплатны для всех. Никакой подписки не нужно: просто добавьте ссылку в клиент.
+> **GitHack** — используйте как прокси, если GitHub Raw заблокирован в вашем регионе.
+
+> ⚠️ Серверы **публичные и общедоступные** — никакой регистрации не нужно.
 
 ---
 
-## ⚡ Быстрое подключение — одна кнопка
+## ⚡ Быстрое подключение
 
-> Нажмите ссылку прямо с телефона — приложение откроется автоматически и предложит добавить список серверов.
+> Нажмите ссылку прямо с телефона — приложение откроется и автоматически добавит серверы.
 
 ### 📱 Happ
 
-| Список | Ссылка для Happ |
-|--------|----------------|
-| ✅ Проверенные (рекомендуется) | [Открыть в Happ](happ://add/https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
-| 📋 Все конфиги | [Открыть в Happ](happ://add/https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
+| | Список | Действие |
+|---|--------|----------|
+| ✅ | Проверенные *(рекомендуется)* | [➕ Открыть в Happ](happ://import?url=https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
+| 📋 | Все конфиги | [➕ Открыть в Happ](happ://import?url=https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
 
 ### 🐛 Incy
 
-| Список | Ссылка для Incy |
-|--------|----------------|
-| ✅ Проверенные (рекомендуется) | [Открыть в Incy](incy://import/https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
-| 📋 Все конфиги | [Открыть в Incy](incy://import/https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
+| | Список | Действие |
+|---|--------|----------|
+| ✅ | Проверенные *(рекомендуется)* | [➕ Открыть в Incy](incy://import?url=https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
+| 📋 | Все конфиги | [➕ Открыть в Incy](incy://import?url=https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
 
-> **Как это работает?** Ссылка открывает приложение и импортирует список серверов напрямую в клиент — никаких подписок, никакой регистрации. Серверы публичные и доступны всем бесплатно.
+> **Как это работает?** Ссылка открывает приложение и импортирует список серверов — без подписки и регистрации.
 
 ---
 
 ## 📱 Поддерживаемые клиенты
 
-| Клиент | Платформа | Как добавить |
-|--------|-----------|--------------|
-| **Happ** | Android / iOS | [happ://add/{{ССЫЛКА}}](#-happ) |
-| **Incy** | Android / iOS | [incy://import/{{ССЫЛКА}}](#-incy) |
-| v2rayNG | Android | Импорт → из буфера обмена / URL |
-| Streisand | iOS | Добавить подписку |
-| NekoBox | Android | Профили → добавить |
-| v2rayN | Windows | Подписка → добавить |
-| Hiddify | Android / Desktop | Добавить профиль |
-| Karing | Android / iOS / Desktop | Импорт ссылки |
+| Клиент | Платформа | Способ добавления |
+|--------|-----------|-------------------|
+| **Happ** | Android / iOS | Deep link выше |
+| **Incy** | Android / iOS | Deep link выше |
+| **v2rayNG** | Android | Импорт → из URL подписки |
+| **Streisand** | iOS | Настройки → Добавить подписку |
+| **NekoBox** | Android | Профили → Добавить → URL |
+| **v2rayN** | Windows | Подписки → Добавить |
+| **Hiddify** | Android / Desktop | Добавить профиль по ссылке |
+| **Karing** | Android / iOS / Desktop | Импорт ссылки |
+
+**Ссылка для подписки (paste в любой клиент):**
+```
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+```
 
 ---
 
-## 🔒 Стабильный VPN
+## 🔒 Стабильный VPN (личный ключ)
 
 Публичные конфиги могут иногда прерываться — это нормально для бесплатных серверов.  
-Для **надёжного и стабильного** соединения воспользуйтесь нашим Telegram-ботом:
+Для **надёжного соединения** используйте наш Telegram-бот:
 
 <div align="center">
 
 ### 🤖 [@happ_incy_bot](https://t.me/happ_incy_bot)
 
-**Стабильный VPN · Личный ключ · Быстрое подключение**
+[![Telegram Bot](https://img.shields.io/badge/Получить_стабильный_VPN-@happ__incy__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/happ_incy_bot)
+
+*Личный ключ · Стабильное соединение · Быстрое подключение*
 
 </div>
 
 ---
 
-## 📂 Файлы репозитория
+## 🛠 Поддерживаемые протоколы
 
-| Файл | Описание | Ссылка |
-|------|----------|--------|
-| `all_configs.txt` | Все конфиги из всех источников | [Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
-| `verified_configs.txt` | Только рабочие (проверены TCP) | [Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
-
-> **GitHack** работает как прокси — используйте его если GitHub Raw заблокирован.
-
----
-
-## 🔄 Как устроено обновление
-
-```
-Каждые 6 часов на VPS:
-  1. Скрипт скачивает конфиги из ~15 публичных источников
-  2. Убирает дубликаты
-  3. Проверяет каждый конфиг: TCP-соединение до host:port
-  4. Сохраняет два файла и делает git commit + push
-```
-
----
-
-## 🛠 Протоколы
-
-- **VLESS** (в т.ч. Reality, XTLS) — наиболее устойчив к блокировкам РКН
-- **VMess** — классика, широко поддерживается
-- **Shadowsocks** — быстрый, лёгкий
-- **Trojan** — маскируется под HTTPS
-- **Hysteria2** — UDP, высокая скорость
-- **TUIC** — современный, на QUIC
+| Протокол | Особенность |
+|----------|-------------|
+| **VLESS** + Reality / XTLS | 🥇 Наиболее устойчив к блокировкам РКН |
+| **VMess** | Классика, широкая совместимость |
+| **Shadowsocks** | Быстрый и лёгкий |
+| **Trojan** | Маскируется под HTTPS-трафик |
+| **Hysteria2** | UDP, высокая скорость |
+| **TUIC** | Современный протокол на базе QUIC |
 
 ---
 
 ## 🌍 Если GitHub заблокирован
 
-Используйте зеркала для доступа к файлам без VPN:
-
-| Зеркало | Ссылка (verified) |
-|---------|-------------------|
-| GitHack | `https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/verified_configs.txt` |
-| Yandex Translate | `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt&lang=ru-en` |
+| Зеркало | Ссылка |
+|---------|--------|
+| **GitHack** | `https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt` |
+| **jsDelivr** | `https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/verified_configs.txt` |
+| **Yandex Translate** | `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt&lang=ru-en` |
 
 ---
 
-## 📋 Источники
+## 📋 Источники конфигов
 
-Конфиги собираются из следующих публичных репозиториев:
+Конфиги собираются из открытых публичных репозиториев:
 
 | # | Репозиторий | Протоколы |
 |---|-------------|-----------|
@@ -143,16 +141,18 @@ VLESS · VMess · Shadowsocks · Trojan · Hysteria2
 | 7 | [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe) | Mix |
 | 8 | [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree) | VMess |
 
-Все источники — публичные репозитории с открытыми лицензиями.  
-Мы не генерируем и не продаём серверы — только агрегируем и проверяем.
+> Мы не генерируем и не продаём серверы — только агрегируем и проверяем публичные источники.
 
 ---
 
-## ⭐ Поддержи проект
+## ⭐ Поддержать проект
 
-Если помогло — поставь звезду ⭐ и поделись с теми, кому нужен VPN.
+Если помогло — поставь звезду ⭐ и поделись с теми, кому нужен VPN в России.
 
-[![Telegram](https://img.shields.io/badge/@happ__incy__bot-Telegram-2CA5E0?style=flat&logo=telegram)](https://t.me/happ_incy_bot)
+[![GitHub Stars](https://img.shields.io/github/stars/aviamastersgh/vpn-free-russia?style=social)](https://github.com/aviamastersgh/vpn-free-russia)
+[![Telegram](https://img.shields.io/badge/Telegram-@happ__incy__bot-2CA5E0?style=flat&logo=telegram)](https://t.me/happ_incy_bot)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=100&section=footer" alt="footer"/>
 
 ---
 
