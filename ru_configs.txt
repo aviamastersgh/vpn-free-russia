@@ -1,6 +1,6 @@
 # RU CIDR list (без проверок)
 # Источник: https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt
-# Обновлено: 2026-06-25 15:01 UTC
+# Обновлено: 2026-06-25 15:03 UTC
 # Строк: 48
 #
 # profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Полная • Full
