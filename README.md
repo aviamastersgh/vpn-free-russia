@@ -39,35 +39,24 @@
 |------|----------|---------|
 | `all_configs.txt` | Все найденные конфиги | [GitHub Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
 | `verified_configs.txt` | Только рабочие (TCP-проверка) ✅ | [GitHub Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
-| `ru_configs.txt` | RU CIDR-список ⚠️ без проверки, на свой риск | [GitHub Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt) |
+| `ru_configs.txt` | RU CIDR-список ⚠️ Обход белых списков и глушилок | [GitHub Raw](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt) · [GitHack](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt) |
 
 > **GitHack** — используйте как прокси, если GitHub Raw заблокирован в вашем регионе.
 
 > ⚠️ Серверы **публичные и общедоступные** — никакой регистрации не нужно.
 
-> ⚠️ **`ru_configs.txt` не проходит проверку доступности.** Список копируется из стороннего источника как есть, без TCP-проверки и без фильтрации. Используйте на свой риск — часть строк может быть неактуальной.
-
 ---
 
 ## ⚡ Быстрое подключение
 
-> Нажмите кнопку с телефона — откроется страница, которая запустит приложение автоматически.
-
-<div align="center">
-
-<a href="https://aviamastersgh.github.io/vpn-free-russia/"><img src="https://img.shields.io/badge/📱_Открыть_в_Happ-667eea?style=for-the-badge&logoColor=white" alt="Open in Happ"/></a>
-&nbsp;
-<a href="https://aviamastersgh.github.io/vpn-free-russia/"><img src="https://img.shields.io/badge/🐛_Открыть_в_Incy-f5576c?style=for-the-badge&logoColor=white" alt="Open in Incy"/></a>
-
-</div>
-
-<br/>
-
-> Страница откроется в браузере и предложит выбрать приложение — Happ или Incy. После нажатия серверы добавятся автоматически.
-
-**Или вручную — скопируйте ссылку и добавьте в любой клиент:**
+**Скопируйте ссылки и добавьте в любой клиент:**
+Обычные серверы:
 ```
 https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+```
+Обход белых списков:
+```
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
 ```
 
 ---
