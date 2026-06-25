@@ -50,11 +50,12 @@
 ## ⚡ Быстрое подключение
 
 **Скопируйте ссылки и добавьте в любой клиент:**
-Обычные серверы:
+
+>*Обычные серверы:*
 ```
 https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
 ```
-Обход белых списков:
+>*Обход белых списков:*
 ```
 https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
 ```
