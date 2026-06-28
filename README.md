@@ -4,7 +4,7 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: white)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=200&section=header&text=🔓%20Free%20VPN%20Russia&fontSize=42&fontColor=ffffff&fontAlignY=45&desc=Бесплатные%20VPN-конфиги%20%7C%20Обновление%20каждые%206%20часов&descAlignY=58&descSize=16&descColor=aaaacc"/>
+  <source media="(prefers-color-scheme: white)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=200&section=header&text=🔓%20Free%20VPN%20Russia&fontSize=42&fontColor=ffffff&fontAlignY=70&desc=Бесплатные%20VPN-конфиги%20%7C%20Обновление%20каждые%206%20часов&descAlignY=58&descSize=16&descColor=aaaacc"/>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=🔓%20Free%20VPN%20Russia&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Бесплатные%20VPN-конфиги%20%7C%20Обновление%20каждые%206%20часов&descAlignY=58&descSize=16&descColor=f0e6ff" alt="Free VPN Russia"/>
 </picture>
 
