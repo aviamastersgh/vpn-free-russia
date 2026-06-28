@@ -142,8 +142,6 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.
 <a href="https://github.com/aviamastersgh/vpn-free-russia"><img src="https://img.shields.io/github/stars/aviamastersgh/vpn-free-russia?style=social" alt="Stars"/></a>
 <a href="https://t.me/NosokVPNBot?start=partner_8655864538"><img src="https://img.shields.io/badge/Telegram-@NosokVpnBot-2CA5E0?style=flat&logo=telegram" alt="Telegram"/></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=100&section=footer" alt="footer"/>
-
 ---
 ## ‼️ Дисклеймер
 
@@ -166,6 +164,8 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.
 *Проект некоммерческий, бесплатный, вся представленная "платежная" информация найдена случайным образом где-то в интернет-пространстве, скопирована "как есть" для демонстрации возможного примера и автору не принадлежит.*
 
 *Совет - закройте эту страницу, удалите все VPN с вашего компьютера, поставьте MAX и Yandex на все устройства, чтобы "ловило" даже на парковке, и пользуйтесь только интернет-ресурсами, которые разрешены вашим интернет-провайдером, ну вы поняли.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=100&section=footer" alt="footer"/>
 
 <!-- SEO keywords (hidden) -->
 <!--
