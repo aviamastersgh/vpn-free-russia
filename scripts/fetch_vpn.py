@@ -17,9 +17,9 @@ from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ─── НАСТРОЙКИ ────────────────────────────────────────────────────────────────
-TIMEOUT = 8           # секунды на проверку одного конфига
-MAX_WORKERS = 30      # параллельных потоков при проверке
-MAX_CONFIGS = 500     # лимит конфигов в verified_configs.txt
+TIMEOUT = 8
+MAX_WORKERS = 30
+MAX_CONFIGS = 500
 
 # ─── ИСТОЧНИКИ ────────────────────────────────────────────────────────────────
 SOURCES = [
@@ -115,10 +115,10 @@ def save_ru_configs():
     ]
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     header = (
-        f"# ✅ RU CIDR Configs | happ_incy_bot\n"
+        f"# ✅ RU CIDR Configs | NosokVPNBot\n"
         f"# Обновлено: {ts}\n"
         f"# Строк: {len(lines)}\n"
-        f"# Telegram: https://t.me/happ_incy_bot\n"
+        f"# Telegram: https://t.me/NosokVPNBot?start=partner_8655864538\n"
         "#\n"
     )
     with open("ru_configs.txt", "w", encoding="utf-8") as f:
@@ -126,6 +126,7 @@ def save_ru_configs():
         f.write("\n".join(lines))
         f.write("\n")
     print(f"[SAVE] ru_configs.txt — {len(lines)} строк")
+    return len(lines)
 
 def main():
     print("=" * 60)
@@ -151,11 +152,11 @@ def main():
 
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     header = (
-        f"# 🌐 Free VPN Configs | happ_incy_bot\n"
+        f"# 🌐 Free VPN Configs | NosokVPNBot\n"
         f"# Обновлено: {ts}\n"
         f"# Всего конфигов: {len(all_configs)}\n"
         f"# Подробнее: https://github.com/aviamastersgh/vpn-free-russia\n"
-        f"# Telegram: https://t.me/happ_incy_bot\n"
+        f"# Telegram: https://t.me/NosokVPNBot?start=partner_8655864538\n"
         "#\n"
     )
     with open("all_configs.txt", "w", encoding="utf-8") as f:
@@ -192,12 +193,12 @@ def main():
     print(f"\nРабочих конфигов: {len(verified)} из {checked} проверено")
 
     v_header = (
-        f"# ✅ Verified VPN Configs | happ_incy_bot\n"
+        f"# ✅ Verified VPN Configs | NosokVPNBot\n"
         f"# Обновлено: {ts}\n"
         f"# Проверенных: {len(verified)}\n"
         f"# Проверка: TCP-соединение до хоста:порт\n"
         f"# Подробнее: https://github.com/aviamastersgh/vpn-free-russia\n"
-        f"# Telegram: https://t.me/happ_incy_bot\n"
+        f"# Telegram: https://t.me/NosokVPNBot?start=partner_8655864538\n"
         "#\n"
     )
     with open("verified_configs.txt", "w", encoding="utf-8") as f:
@@ -206,18 +207,14 @@ def main():
         f.write("\n")
     print(f"[SAVE] verified_configs.txt — {len(verified)} конфигов")
 
-     try:
+    # Сохраняем RU конфиги и получаем счётчик
+    ru_count = save_ru_configs()
+
+    # Обновляем README
+    try:
         with open("README.md", "r", encoding="utf-8") as f:
             readme = f.read()
- 
-        # Считаем строки в ru_configs.txt
-        try:
-            with open("ru_configs.txt", "r", encoding="utf-8") as f:
-                ru_lines = [l for l in f if l.strip() and not l.strip().startswith("#")]
-            ru_count = len(ru_lines)
-        except FileNotFoundError:
-            ru_count = 0
- 
+
         readme = re.sub(
             r"(<!--STATS_ALL-->).*?(<!--/STATS_ALL-->)",
             f"<!--STATS_ALL-->{len(all_configs)}<!--/STATS_ALL-->",
@@ -238,14 +235,13 @@ def main():
             f"<!--STATS_TS-->{ts}<!--/STATS_TS-->",
             readme,
         )
- 
+
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(readme)
         print("[UPDATE] README.md обновлён")
     except FileNotFoundError:
         print("[SKIP] README.md не найден, пропускаем")
 
-    save_ru_configs()
     print("\n✅ Готово!")
 
 
