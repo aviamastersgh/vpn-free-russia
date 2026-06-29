@@ -1,6 +1,6 @@
 # Free VPN Configs | NosokVPNBot
-# Обновлено: 2026-06-29 11:01 UTC
-# Всего: 915
+# Обновлено: 2026-06-29 11:06 UTC
+# Всего: 910
 # https://t.me/NosokVPNBot?start=partner_8655864538
 #
 vless://5a28d935-e940-46fe-bc44-229b126e052a@130.94.59.236:443?security=reality&encryption=none&pbk=s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=c56d4f1c#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Beijing%20%7C%20%5BBL%5D
@@ -757,24 +757,19 @@ ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@172.99.190.149:8080#%F0%9F%87%AC%F
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.199:8080#%F0%9F%87%B3%F0%9F%87%B1NL-193.29.139.199-0227
 ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@172.99.190.149:8090#%F0%9F%87%AC%F0%9F%87%A7GB-172.99.190.149-0228
 vmess://ewogICAgImFkZCI6ICIxOTQuMjMzLjgxLjE2IiwKICAgICJhaWQiOiAwLAogICAgImhvc3QiOiAidmlldHRlbC5ha2FtYWl6ZWQubmV0IiwKICAgICJpZCI6ICJhYWVmMDVkYS1lOGNlLTRhN2MtOWRjOC01ZGIzYWE1ZmEzMDkiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvIiwKICAgICJwb3J0IjogODAsCiAgICAicHMiOiAi8J+HuPCfh6xTRy0xOTQuMjMzLjgxLjE2LTAyMjkiLAogICAgInRscyI6ICIiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ==
-vless://3e06720a-86f0-49b9-8f00-062681e3b385@vip.bcjdvip.com:14004?security=reality&type=tcp&packetEncoding=xudp&sni=apple.com&fp=chrome&flow=xtls-rprx-vision&sid=22c485f4000241&pbk=zSt5a1vs3C3oxm3fSUB_egA98IO3XZr7JGzE6OdMTz8#%E7%BE%8E%E5%9B%BD+%E6%83%A0%E6%99%AEHP
 trojan://urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh@92.119.35.97:443?security=tls#%E5%B8%8C%E8%85%8A+V2CROSS.COM
-vless://3e06720a-86f0-49b9-8f00-062681e3b385@vip.bcjdvip.com:14009?security=reality&type=tcp&packetEncoding=xudp&sni=apple.com&fp=safari&flow=xtls-rprx-vision&sid=6a1a47&pbk=CAFHM6x5kO2ofkpEDelcOJlZ4i6Kw4ZlDNIfdV6ptUw#%E7%BE%8E%E5%9B%BD+%E6%83%A0%E6%99%AEHP
-trojan://urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh@92.119.35.87:443?security=tls#%E5%B8%8C%E8%85%8A+V2CROSS.COM
+trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.138:443?security=tls#%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM
+trojan://urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh@92.119.35.71:443?security=tls#%E5%B8%8C%E8%85%8A+V2CROSS.COM
+trojan://n-S5Kuz58YgwljisuLEJltip2OWf1ourWz@185.137.157.250:443?allowInsecure=0&security=tls&sni=fra250.clientfirewall.click#%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM
+vless://b08562b0-dbc0-47d1-860d-9435133b25c9@cf8.466688.xyz:443?sni=cfoo-146.pages.dev&type=ws&host=cfoo-146.pages.dev&path=/QiangLieTuiJian?ed=2560fp=chrome&security=tls#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
+trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.145:443?allowInsecure=0&security=tls#%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM
+trojan://aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR@92.119.35.127:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#%E5%B8%8C%E8%85%8A+V2CROSS.COM
+trojan://Mitivpn@151.101.242.172:80?path=/ed=mitivpn&security=none&host=4-4-3-mitivpn.global.ssl.fastly.net&type=ws#%E6%84%8F%E5%A4%A7%E5%88%A9+%E7%B1%B3%E5%85%B0Fastly%E8%8A%82%E7%82%B9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXT2lyM2xYQmhNSERjTEZQUWRFWlhQdTM3X3BUUURDWGZt@103.111.114.82:28061#%E5%8D%B0%E5%BA%A6+V2CROSS.COM
-vless://72d1797c-cef8-410a-b8fd-db9104dc3cb0@104.18.206.22:443?encryption=none&fp=chrome&host=amooaliii.net&path=/jdhfyws&security=tls&sni=amooaliii.net&type=ws#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
-vless://3e06720a-86f0-49b9-8f00-062681e3b385@vip.bcjdvip.com:14007?security=reality&type=tcp&packetEncoding=xudp&sni=apple.com&fp=safari&flow=xtls-rprx-vision&sid=1d89ebb78c&pbk=wybFjQzLnkKIaaTEhwp_N9UXU8miqds9U__P971YHlU#%E7%BE%8E%E5%9B%BD+%E6%83%A0%E6%99%AEHP
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyX05SZS0rV1JxMnpWcU1wQ25KdFRFU2xUOFd5ZmZIeUZ5@38.54.80.160:16292#%E7%BE%8E%E5%9B%BD+%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8
-vless://b08562b0-dbc0-47d1-860d-9435133b25c9@cf9.466688.xyz:443?encryption=none&security=tls&sni=cfoo-146.pages.dev&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=cfoo-146.pages.dev&path=/QiangLieTuiJian?ed=2560#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
-vless://192bc523-26fe-4233-b10d-725deb710ea5@support.zoom.us:443?path=/us-gllc&security=tls&encryption=none&insecure=0&host=support.zoom.us.yxls.eu.cc&type=ws&allowInsecure=0&sni=support.zoom.us.yxls.eu.cc#%E7%BE%8E%E5%9B%BD+V2CROSS.COM
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJLWJQM2xGaC5kVEczWGl0RjdYdFZLODNDWjdySTJVdD1u@45.32.122.179:23027#%E6%96%B0%E5%8A%A0%E5%9D%A1+Choopa%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
-vless://f0db70ae-559e-4cba-aa00-3a04eb04c3e0@fm3.pages.dev:443?fp=chrome&security=tls&sni=fm3.pages.dev&type=ws#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
-trojan://Mitivpn@151.101.110.219:443?path=/boost&security=tls&insecure=0&host=3-mitivpn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com#%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACFastly%E8%8A%82%E7%82%B9
-trojan://humanity@104.18.152.225:443?security=tls&sni=www.ignitelimit.com&type=ws&path=/assignment&Host=www.ignitelimit.com#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXT2lyM2xYQmhNSERjTEZQUWRFWlhQdTM3X3BUUURDWGZt@103.111.114.80:28061#%E5%8D%B0%E5%BA%A6+V2CROSS.COM
-trojan://n-S5Kuz58YgwljisuLEJltip2OWf1ourWz@185.137.157.250:443?security=tls&sni=fra250.clientfirewall.click#%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A+V2CROSS.COM
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnV0JnbUtiOEFMMXVSSzBqWjQ0QW9PUGFDNWxWVE9IWm1p@91.108.254.104:13683#%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM
-trojan://T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf@103.125.216.18:443?allowInsecure=0&security=tls#%E4%BA%9A%E5%A4%AA%E5%9C%B0%E5%8C%BA+V2CROSS.COM
+trojan://humanity@104.17.121.9:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=1&host=www.calmlunch.com&fp=chrome&type=ws&allowInsecure=1&sni=www.calmlunch.com#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@104.21.227.134:443?encryption=none&host=t1s1.rittbo.kdns.fr&path=/&security=tls&sni=t1s1.rittbo.kdns.fr&type=ws#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.174.3:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&fp=chrome&type=ws&allowInsecure=0&sni=JoinProxyVPN11.amoosamiii.net#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
+trojan://T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf@103.125.216.18:443?security=tls#%E4%BA%9A%E5%A4%AA%E5%9C%B0%E5%8C%BA+V2CROSS.COM
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6Ziy6IyD5aKD5aSW5Yq/5Yqb5riX6YCPIiwgImFkZCI6ICIxMjcuMC4wLjUzIiwgInBvcnQiOiAiODAiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4In0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6Ziy6IyD5aKD5aSW5Yq/5Yqb5riX6YCPICMxIiwgImFkZCI6ICIxMjcuMC4wLjUzIiwgInBvcnQiOiAiODEiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4In0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6Ziy6IyD5aKD5aSW5Yq/5Yqb5riX6YCPICMyIiwgImFkZCI6ICIxMjcuMC4wLjUzIiwgInBvcnQiOiAiODIiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4In0=
