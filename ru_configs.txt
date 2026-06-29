@@ -1,7 +1,7 @@
-# ✅ RU CIDR Configs | happ_incy_bot
-# Обновлено: 2026-06-29 09:00 UTC
+# ✅ RU CIDR Configs | NosokVPNBot
+# Обновлено: 2026-06-29 10:54 UTC
 # Строк: 258
-# Telegram: https://t.me/happ_incy_bot
+# Telegram: https://t.me/NosokVPNBot?start=partner_8655864538
 #
 vless://3dd402e2-dcef-4b55-91cf-6e32df59991c@81.163.23.115:2097?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&fp=firefox&sni=gazeta-business.ru&pbk=DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM&sid=c05d4c564d2bcd#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://7b973a03-7d66-4ae0-85a8-d43a5e561b74@msk.v2raytun-proxy.app:2083?mode=gun&security=reality&encryption=none&pbk=-ljhp6OZ_8KudLYANB-6BD6XaLIS5RqWvFnYRXKrXms&fp=chrome&type=grpc&serviceName=grpc&sni=ads.x5.ru&sid=a7c236bb91557d48#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
