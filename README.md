@@ -11,10 +11,10 @@
 <br/>
 
 <!-- STATS_START -->
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/Все_конфиги-<!--STATS_ALL-->915<!--/STATS_ALL-->-4C8BF5?style=for-the-badge&logo=server&logoColor=white" alt="All configs"/></a>
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/Проверенные-<!--STATS_VER-->500<!--/STATS_VER-->-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Verified configs"/></a>
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt"><img src="https://img.shields.io/badge/RU_обход-<!--STATS_RU-->258<!--/STATS_RU-->-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="RU configs"/></a>
-<img src="https://img.shields.io/badge/Обновлено-<!--STATS_TS-->2026-06-29 10:55 UTC<!--/STATS_TS-->-f97316?style=for-the-badge&logo=clockify&logoColor=white" alt="Updated"/>
+<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/Все_конфиги-915-4C8BF5?style=for-the-badge&logo=server&logoColor=white" alt="All configs"/></a>
+<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/Проверенные-500-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Verified configs"/></a>
+<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt"><img src="https://img.shields.io/badge/RU_обход-258-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="RU configs"/></a>
+<img src="https://img.shields.io/badge/Обновлено-2026-06-29_11%3A01_UTC-f97316?style=for-the-badge&logo=clockify&logoColor=white" alt="Updated"/>
 <!-- STATS_END -->
 
 <a href="https://t.me/NosokVPNBot?start=partner_8655864538"><img src="https://img.shields.io/badge/Telegram-@NosokVpnBot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram VPN бот"/></a>
