@@ -206,9 +206,18 @@ def main():
         f.write("\n")
     print(f"[SAVE] verified_configs.txt — {len(verified)} конфигов")
 
-    try:
+     try:
         with open("README.md", "r", encoding="utf-8") as f:
             readme = f.read()
+ 
+        # Считаем строки в ru_configs.txt
+        try:
+            with open("ru_configs.txt", "r", encoding="utf-8") as f:
+                ru_lines = [l for l in f if l.strip() and not l.strip().startswith("#")]
+            ru_count = len(ru_lines)
+        except FileNotFoundError:
+            ru_count = 0
+ 
         readme = re.sub(
             r"(<!--STATS_ALL-->).*?(<!--/STATS_ALL-->)",
             f"<!--STATS_ALL-->{len(all_configs)}<!--/STATS_ALL-->",
@@ -220,10 +229,16 @@ def main():
             readme,
         )
         readme = re.sub(
+            r"(<!--STATS_RU-->).*?(<!--/STATS_RU-->)",
+            f"<!--STATS_RU-->{ru_count}<!--/STATS_RU-->",
+            readme,
+        )
+        readme = re.sub(
             r"(<!--STATS_TS-->).*?(<!--/STATS_TS-->)",
             f"<!--STATS_TS-->{ts}<!--/STATS_TS-->",
             readme,
         )
+ 
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(readme)
         print("[UPDATE] README.md обновлён")
