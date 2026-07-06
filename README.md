@@ -58,6 +58,15 @@
 
 ---
 
+## ⭐ Поддержать проект
+
+Если помогло — поставьте звезду ⭐ и поделитесь с теми, кому нужен VPN в России.
+
+<a href="https://github.com/aviamastersgh/vpn-free-russia"><img src="https://img.shields.io/github/stars/aviamastersgh/vpn-free-russia?style=social" alt="Stars"/></a>
+<a href="https://t.me/NosokVPNBot?start=partner_8655864538"><img src="https://img.shields.io/badge/Telegram-@NosokVpnBot-2CA5E0?style=flat&logo=telegram" alt="Telegram"/></a>
+
+---
+
 ## 📖 О проекте
 
 Этот репозиторий — **агрегатор публичных бесплатных VPN-конфигураций**, работающих в России для обхода блокировок РКН (Роскомнадзора).
@@ -360,15 +369,6 @@ https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
 | 8 | [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree) | VMess |
 
 > Мы не генерируем и не продаём серверы — только агрегируем и проверяем публичные источники.
-
----
-
-## ⭐ Поддержать проект
-
-Если помогло — поставьте звезду ⭐ и поделитесь с теми, кому нужен VPN в России.
-
-<a href="https://github.com/aviamastersgh/vpn-free-russia"><img src="https://img.shields.io/github/stars/aviamastersgh/vpn-free-russia?style=social" alt="Stars"/></a>
-<a href="https://t.me/NosokVPNBot?start=partner_8655864538"><img src="https://img.shields.io/badge/Telegram-@NosokVpnBot-2CA5E0?style=flat&logo=telegram" alt="Telegram"/></a>
 
 ---
 
