@@ -9,10 +9,10 @@
 <br/>
 
 <!-- LANG_SWITCH_START -->
-<a href="README.md"><img src="https://img.shields.io/badge/🇷🇺_Русский-4C8BF5?style=for-the-badge" alt="Русский"/></a>
-<a href="README.en.md"><img src="https://img.shields.io/badge/🇬🇧_English-4C8BF5?style=for-the-badge" alt="English"/></a>
-<a href="README.ar.md"><img src="https://img.shields.io/badge/🇸🇦_العربية-4C8BF5?style=for-the-badge" alt="العربية"/></a>
-<a href="README.zh.md"><img src="https://img.shields.io/badge/🇨🇳_中文-selected-2ea44f?style=for-the-badge" alt="中文"/></a>
+<a href="README.md"><img src="https://img.shields.io/badge/🇷🇺-4C8BF5?style=for-the-badge&labelColor=4C8BF5" height="45"/></a>  
+<a href="README.en.md"><img src="https://img.shields.io/badge/🇬🇧-4C8BF5?style=for-the-badge&labelColor=4C8BF5" height="45"/></a>  
+<a href="README.ar.md"><img src="https://img.shields.io/badge/🇸🇦-4C8BF5?style=for-the-badge&labelColor=4C8BF5" height="45"/></a>  
+<a href="README.zh.md"><img src="https://img.shields.io/badge/🇨🇳-2ea44f?style=for-the-badge&labelColor=2ea44f" height="45"/></a>
 <!-- LANG_SWITCH_END -->
 
 <br/><br/>
