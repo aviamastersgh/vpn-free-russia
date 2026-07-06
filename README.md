@@ -50,9 +50,9 @@
 Если конфиги сегодня выручили — будет очень приятно получить от тебя поддержку ❤️
 
 Самые удобные способы:
-- USDT (TRC-20) → TLkat7EH1LZ6aZB3nQ3yScJD1a9CSkYV1d
-- Solana (SOL) → H8dJ9wJmCzYqBjvPW5fXkA8dTFngmpvLfNvQcn2mJGdS
-- Bitcoin → bc1q376tjzk663f3kkrkvtgnqy2p9xat5klk5dytag
+- USDT (TRC-20) → ```TLkat7EH1LZ6aZB3nQ3yScJD1a9CSkYV1d```
+- Solana (SOL) → ```H8dJ9wJmCzYqBjvPW5fXkA8dTFngmpvLfNvQcn2mJGdS```
+- Bitcoin → ```bc1q376tjzk663f3kkrkvtgnqy2p9xat5klk5dytag```
 Даже небольшая сумма от многих людей = стабильные обновления и новые зеркала.
 Спасибо! 🙏
 
