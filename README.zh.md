@@ -9,10 +9,11 @@
 <br/>
 
 <!-- LANG_SWITCH_START -->
-<a href="README.md"><img src="https://img.shields.io/badge/🇷🇺-4C8BF5?style=for-the-badge&labelColor=4C8BF5" width="90"/></a>   
-<a href="README.en.md"><img src="https://img.shields.io/badge/🇬🇧-4C8BF5?style=for-the-badge&labelColor=4C8BF5" width="90"/></a>   
-<a href="README.ar.md"><img src="https://img.shields.io/badge/🇸🇦-4C8BF5?style=for-the-badge&labelColor=4C8BF5" width="90"/></a>   
-<a href="README.zh.md"><img src="https://img.shields.io/badge/🇨🇳-2ea44f?style=for-the-badge&labelColor=2ea44f" width="90"/></a>
+<div align="center">
+
+# [🇷🇺](README.md) &nbsp;&nbsp;&nbsp; [🇬🇧](README.en.md) &nbsp;&nbsp;&nbsp; [🇸🇦](README.ar.md) &nbsp;&nbsp;&nbsp; 🇨🇳
+
+</div>
 <!-- LANG_SWITCH_END -->
 
 <br/><br/>
