@@ -56,12 +56,9 @@
 > Даже небольшая сумма от многих людей = стабильные обновления и новые зеркала.
 Спасибо! 🙏
 
----
-
 Также не забывайте ставить звезду ⭐ и поделитесь с теми, кому нужен VPN в России.
 
 <a href="https://github.com/aviamastersgh/vpn-free-russia"><img src="https://img.shields.io/github/stars/aviamastersgh/vpn-free-russia?style=social" alt="Stars"/></a>
-<a href="https://t.me/NosokVPNBot?start=partner_8655864538"><img src="https://img.shields.io/badge/Telegram-@NosokVpnBot-2CA5E0?style=flat&logo=telegram" alt="Telegram"/></a>
 
 ---
 
