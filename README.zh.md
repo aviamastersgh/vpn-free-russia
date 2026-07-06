@@ -11,7 +11,9 @@
 <!-- LANG_SWITCH_START -->
 <div align="center">
 
-# [🇷🇺](README.md) &nbsp;&nbsp;&nbsp; [🇬🇧](README.en.md) &nbsp;&nbsp;&nbsp; [🇸🇦](README.ar.md) &nbsp;&nbsp;&nbsp; 🇨🇳
+### 🇨🇳 中文
+
+[🇷🇺 Русский](README.md) · [🇬🇧 English](README.en.md) · [🇸🇦 العربية](README.ar.md)
 
 </div>
 <!-- LANG_SWITCH_END -->
