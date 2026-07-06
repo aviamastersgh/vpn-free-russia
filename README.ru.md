@@ -8,6 +8,15 @@
 
 <br/>
 
+<!-- LANG_SWITCH_START -->
+<a href="README.md"><img src="https://img.shields.io/badge/🇷🇺_Русский-selected-2ea44f?style=for-the-badge" alt="Русский"/></a>
+<a href="README.en.md"><img src="https://img.shields.io/badge/🇬🇧_English-4C8BF5?style=for-the-badge" alt="English"/></a>
+<a href="README.ar.md"><img src="https://img.shields.io/badge/🇸🇦_العربية-4C8BF5?style=for-the-badge" alt="العربية"/></a>
+<a href="README.zh.md"><img src="https://img.shields.io/badge/🇨🇳_中文-4C8BF5?style=for-the-badge" alt="中文"/></a>
+<!-- LANG_SWITCH_END -->
+
+<br/><br/>
+
 <!-- STATS_START -->
 <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/Все_конфиги-732-4C8BF5?style=for-the-badge&logo=server&logoColor=white" alt="All configs"/></a>
 <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/Проверенные-500-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Verified configs"/></a>
