@@ -1,15 +1,14 @@
 # RU CIDR Configs | NosokVPNBot
-# Обновлено: 2026-09-01 11:03 UTC
-# Строк: 10
+# Обновлено: 2026-09-01 13:00 UTC
+# Строк: 9
 # Telegram: https://t.me/NosokVPNBot?start=partner_8655864538
 #
-vless://a3f3dc83-9a89-4385-8ad4-e415b3450680@ru.videoclothing.xyz:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=ru.videoclothing.xyz&pbk=IT2OXBtlI3eRzvV4MO0EEtMj8EYfRY_mTwf2IlFo6D0&sid=f52f321c9374790d&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%5B%2ACIDR%5D
-vless://a3f3dc83-9a89-4385-8ad4-e415b3450680@89.125.121.229:443?security=reality&encryption=none&sni=ru.videoclothing.xyz&pbk=IT2OXBtlI3eRzvV4MO0EEtMj8EYfRY_mTwf2IlFo6D0&sid=f52f321c9374790d&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%5B%2ACIDR%5D
-vless://a3f3dc83-9a89-4385-8ad4-e415b3450680@89.125.121.229:443?security=reality&encryption=none&sni=ru.videoclothing.xyz&pbk=IT2OXBtlI3eRzvV4MO0EEtMj8EYfRY_mTwf2IlFo6D0&sid=f52f321c9374790d&flow=xtls-rprx-vision&fp=edge#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%5B%2ACIDR%5D
-vless://a3f3dc83-9a89-4385-8ad4-e415b3450680@89.125.121.229:443?security=reality&encryption=none&sni=ru.videoclothing.xyz&pbk=IT2OXBtlI3eRzvV4MO0EEtMj8EYfRY_mTwf2IlFo6D0&sid=f52f321c9374790d&flow=xtls-rprx-vision&fp=firefox#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%5B%2ACIDR%5D
-vless://a3f3dc83-9a89-4385-8ad4-e415b3450680@89.125.121.229:443?security=reality&encryption=none&sni=ru.videoclothing.xyz&pbk=IT2OXBtlI3eRzvV4MO0EEtMj8EYfRY_mTwf2IlFo6D0&sid=f52f321c9374790d&flow=xtls-rprx-vision&fp=qq#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%5B%2ACIDR%5D
-vless://a3f3dc83-9a89-4385-8ad4-e415b3450680@89.125.121.229:443?security=reality&encryption=none&sni=ru.videoclothing.xyz&pbk=IT2OXBtlI3eRzvV4MO0EEtMj8EYfRY_mTwf2IlFo6D0&sid=f52f321c9374790d&flow=xtls-rprx-vision&fp=safari#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%5B%2ACIDR%5D
-vless://a3f3dc83-9a89-4385-8ad4-e415b3450680@ru.videoclothing.xyz:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=ru.videoclothing.xyz&pbk=IT2OXBtlI3eRzvV4MO0EEtMj8EYfRY_mTwf2IlFo6D0&sid=f52f321c9374790d&fp=android#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%5B%2ACIDR%5D
-vless://a3f3dc83-9a89-4385-8ad4-e415b3450680@ru.videoclothing.xyz:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=ru.videoclothing.xyz&pbk=IT2OXBtlI3eRzvV4MO0EEtMj8EYfRY_mTwf2IlFo6D0&sid=f52f321c9374790d&fp=firefox#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%5B%2ACIDR%5D
-vless://a3f3dc83-9a89-4385-8ad4-e415b3450680@ru.videoclothing.xyz:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=ru.videoclothing.xyz&pbk=IT2OXBtlI3eRzvV4MO0EEtMj8EYfRY_mTwf2IlFo6D0&sid=f52f321c9374790d&fp=ios#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%5B%2ACIDR%5D
-vless://a3f3dc83-9a89-4385-8ad4-e415b3450680@ru.videoclothing.xyz:443?type=tcp&security=reality&flow=xtls-rprx-vision&sni=ru.videoclothing.xyz&pbk=IT2OXBtlI3eRzvV4MO0EEtMj8EYfRY_mTwf2IlFo6D0&sid=f52f321c9374790d&fp=safari#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%5B%2ACIDR%5D
+vless://b4bd9c97-ba8e-4f31-8616-7812d03a8447@sixseven.orionv4.online:443?encryption=none&type=ws&security=tls&sni=sixseven.orionv4.online&path=%2Fcdn%2Fstream&host=sixseven.orionv4.online&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%5B%2ACIDR%5D
+vless://b4bd9c97-ba8e-4f31-8616-7812d03a8447@sixseven.orionv4.online:443?encryption=none&type=ws&security=tls&sni=sixseven.orionv4.online&path=%2Fcdn%2Fstream&host=sixseven.orionv4.online&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%5B%2ACIDR%5D
+vless://b4bd9c97-ba8e-4f31-8616-7812d03a8447@sixseven.orionv4.online:443?encryption=none&type=ws&security=tls&sni=sixseven.orionv4.online&path=%2Fcdn%2Fstream&host=sixseven.orionv4.online&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%5B%2ACIDR%5D
+vless://b4bd9c97-ba8e-4f31-8616-7812d03a8447@sixseven.orionv4.online:443?encryption=none&type=ws&security=tls&sni=sixseven.orionv4.online&path=%2Fcdn%2Fstream&host=sixseven.orionv4.online&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%5B%2ACIDR%5D
+vless://b4bd9c97-ba8e-4f31-8616-7812d03a8447@sixseven.orionv4.online:443?encryption=none&type=ws&security=tls&sni=sixseven.orionv4.online&path=%2Fcdn%2Fstream&host=sixseven.orionv4.online&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%5B%2ACIDR%5D
+hysteria2://5b88763e-e1a1-43a2-8556-bc7963ce8739@fast100.screw.page:443?sni=fast100.screw.page&fm=%7B#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
+hysteria2://5b88763e-e1a1-43a2-8556-bc7963ce8739@fast93.screw.page:443?sni=fast93.screw.page&fm=%7B#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
+hysteria2://5b88763e-e1a1-43a2-8556-bc7963ce8739@fast_s100.screw.page:443?sni=fast_s100.screw.page&fm=%7B#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6ogR2VybWFueSB8IFsqQ0lEUl0iLCJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCJwb3J0IjoiNDQzIiwiaWQiOiJkYjUwYTIwZS03ZmY1LTRlNzAtOTQ4Zi0xN2NjOWNhN2MxNTQiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6ImF1dG8iLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInRscyI6InRscyIsImhvc3QiOiIiLCJzbmkiOiIiLCJhbHBuIjoiIiwiZnAiOiIifQ==
