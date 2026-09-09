@@ -4,3 +4,8 @@ __pycache__/
 .env
 *.log
 .DS_Store
+
+# Server-only backups
+.server-backups/
+# Server-only updater scripts
+scripts/
