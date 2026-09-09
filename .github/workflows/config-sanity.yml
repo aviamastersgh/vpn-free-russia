@@ -25,7 +25,7 @@ jobs:
           for file in all_configs.txt verified_configs.txt ru_configs.txt; do
             test -s "$file"
 
-            if LC_ALL=C grep -q $'\x00' "$file"; then
+            if python3 -c 'import sys; sys.exit(0 if b"\x00" in open(sys.argv[1], "rb").read() else 1)' "$file"; then
               echo "ERROR: $file contains NUL byte"
               exit 1
             fi
