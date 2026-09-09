@@ -1,24 +1,26 @@
 # Changelog
 
-## 2026-09
+All notable changes to this project are documented here.
 
-### Repository growth and documentation update
+## 2026-09-10
 
-- Added structured documentation.
-- Added Android, iPhone, Windows and macOS guides.
-- Added guides for v2rayNG, Hiddify, NekoBox and Karing.
-- Added FAQ and troubleshooting documentation.
-- Added stable VPN information.
-- Added GitHub issue templates.
-- Added pull request template.
-- Added security policy.
-- Added multilingual navigation.
-- Kept server-side update scripts outside Git tracking.
+### Added
 
-### Main configuration lists
+- Multilingual documentation structure.
+- Android, iPhone, Windows and macOS setup guides.
+- Client-specific guides for v2rayNG, Hiddify, NekoBox and Karing.
+- FAQ and troubleshooting documentation.
+- Sources documentation.
+- Stable VPN information page.
+- SEO-oriented documentation page.
+- GitHub issue templates.
+- Pull request template.
+- Security policy.
+- Markdown repository checks.
+- Configuration sanity checks.
 
-- `verified_configs.txt` — automatically checked public configurations.
-- `all_configs.txt` — larger deduplicated configuration collection.
-- `ru_configs.txt` — RU-specific configuration list.
+### Repository
 
-The configuration lists are refreshed independently from the documentation.
+- Russian remains the primary project language.
+- English, Chinese and Arabic README versions remain available.
+- Server-side updater scripts remain excluded from the public repository.

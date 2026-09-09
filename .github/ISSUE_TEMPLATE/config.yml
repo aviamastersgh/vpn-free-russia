@@ -1,5 +1,14 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
+
 contact_links:
   - name: 📚 Documentation
     url: https://github.com/aviamastersgh/vpn-free-russia/tree/main/docs
-    about: Read the setup guides, FAQ and troubleshooting documentation.
+    about: Read the setup guides and troubleshooting documentation.
+
+  - name: ⚡ Verified VPN subscription
+    url: https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+    about: Open the current verified public subscription.
+
+  - name: 🔒 Stable VPN
+    url: https://t.me/NosokVPNBot?start=partner_8655864538
+    about: Optional stable VPN service for users who need a more predictable connection.

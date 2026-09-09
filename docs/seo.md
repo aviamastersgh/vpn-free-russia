@@ -1,44 +1,68 @@
-# VPN Free Russia — Search Topics
+# Бесплатный VPN для России — инструкции и публичные конфигурации
 
-This project is focused on practical discovery and setup of public VPN configurations.
+Этот проект собирает и регулярно обновляет публичные VPN-конфигурации для пользователей в России.
 
-## Primary topics
+Поддерживаются конфигурации на базе:
 
-- бесплатный VPN Россия
-- бесплатный VPN для России
-- VPN конфиги
-- VPN конфигурации
-- бесплатные VPN конфиги
-- рабочие VPN конфиги
-- проверенные VPN конфиги
-- VPN серверы
-- VLESS конфиги
-- VLESS Reality
-- Xray VPN
-- sing-box VPN
-- v2rayNG
-- Hiddify
-- NekoBox
-- Karing
+- VLESS
+- Reality
+- Hysteria2
+- Trojan
+- VMess
+- Shadowsocks
+- TUIC
+- Xray
+- sing-box
 
-## Platform topics
+## Быстрый старт
 
-- VPN Android
-- VPN iPhone
-- VPN iPad
-- VPN Windows
-- VPN macOS
+Для большинства пользователей рекомендуется:
 
-## User intent
+`verified_configs.txt`
 
-The repository serves users looking for:
+Подписка:
 
-1. Free public VPN configurations.
-2. Updated VPN subscription lists.
-3. VLESS / Reality configurations.
-4. Xray and sing-box compatible configurations.
-5. Instructions for popular VPN clients.
-6. Troubleshooting when public servers stop working.
-7. A more convenient stable VPN option when maintaining public configurations becomes inconvenient.
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
 
-This file documents the project's content strategy. It is not intended to be keyword spam.
+Все найденные конфигурации:
+
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt
+
+Конфигурации для сценариев с ограничениями белых списков:
+
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
+
+## VPN для Android
+
+- [v2rayNG](v2rayng.md)
+- [Hiddify](hiddify.md)
+- [NekoBox](nekobox.md)
+- [Karing](karing.md)
+
+## VPN для других устройств
+
+- [iPhone / iPad](iphone.md)
+- [Windows](windows.md)
+- [macOS](macos.md)
+
+## Если VPN не подключается
+
+Смотрите:
+
+- [Troubleshooting](troubleshooting.md)
+- [FAQ](faq.md)
+
+Если проблема связана с конкретной конфигурацией, можно сообщить о ней через GitHub Issues.
+
+## Языки
+
+- [🇷🇺 Русский](../README.md)
+- [🇬🇧 English](../README.en.md)
+- [🇨🇳 中文](../README.zh.md)
+- [🇸🇦 العربية](../README.ar.md)
+
+## Важно
+
+Публичные VPN-конфигурации не гарантируют постоянную работоспособность.
+
+Список может меняться по мере появления, исчезновения или блокировки отдельных серверов.

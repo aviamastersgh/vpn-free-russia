@@ -1,0 +1,46 @@
+name: Configuration sanity check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  sanity:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate configuration files
+        run: |
+          set -e
+
+          for file in all_configs.txt verified_configs.txt ru_configs.txt; do
+            test -s "$file"
+
+            python3 - "$file" <<'PY'
+import sys
+from pathlib import Path
+
+p = Path(sys.argv[1])
+data = p.read_bytes()
+
+assert b"\x00" not in data
+text = data.decode("utf-8")
+
+configs = [
+    line.strip()
+    for line in text.splitlines()
+    if line.strip() and not line.startswith("#")
+]
+
+assert configs, f"{p} contains no configurations"
+
+print(f"{p}: {len(configs)} configs")
+PY
+          done

@@ -1,0 +1,52 @@
+name: Markdown and repository checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check UTF-8 Markdown
+        shell: bash
+        run: |
+          set -e
+          find . \
+            -path './.git' -prune -o \
+            -path './all_configs.txt' -prune -o \
+            -path './verified_configs.txt' -prune -o \
+            -path './ru_configs.txt' -prune -o \
+            -name '*.md' -type f -print0 |
+          while IFS= read -r -d '' file; do
+            python3 - "$file" <<'PY'
+import sys
+from pathlib import Path
+
+p = Path(sys.argv[1])
+p.read_text(encoding="utf-8", errors="strict")
+print("OK:", p)
+PY
+          done
+
+      - name: Check required subscription files
+        run: |
+          test -s all_configs.txt
+          test -s verified_configs.txt
+          test -s ru_configs.txt
+
+      - name: Check language README files
+        run: |
+          test -s README.md
+          test -s README.en.md
+          test -s README.zh.md
+          test -s README.ar.md
