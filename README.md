@@ -17,9 +17,12 @@
 Работают через совместимые клиенты: **v2rayNG, v2rayN, Karing, Hiddify, Happ, NekoBox, Streisand, v2Box** и другие клиенты на базе Xray / sing-box / совместимых ядер.
 
 <p>
-  <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/✅%20Проверенные%20конфиги-367-2ea44f?style=for-the-badge" alt="Проверенные VPN конфиги"></a>
-  <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/📦%20Все%20конфиги-671-4C8BF5?style=for-the-badge" alt="Все VPN конфиги"></a>
-  <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt"><img src="https://img.shields.io/badge/🇷🇺%20RU%20обход-26-2ea44f?style=for-the-badge" alt="RU конфиги"></a>
+  <!-- STATS_START -->
+<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/Все_конфиги-8776-4C8BF5?style=for-the-badge&logo=server&logoColor=white" alt="All configs"/></a>
+<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/Проверенные-500-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Verified configs"/></a>
+<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt"><img src="https://img.shields.io/badge/RU_обход-58-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="RU configs"/></a>
+<img src="https://img.shields.io/badge/Обновлено-2026_09_09_22%3A10_UTC-f97316?style=for-the-badge&logo=clockify&logoColor=white" alt="Updated"/>
+<!-- STATS_END -->
 </p>
 
 <p>
