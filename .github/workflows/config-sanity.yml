@@ -14,33 +14,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Validate configuration files
+        shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
           for file in all_configs.txt verified_configs.txt ru_configs.txt; do
             test -s "$file"
 
-            python3 - "$file" <<'PY'
-import sys
-from pathlib import Path
+            if LC_ALL=C grep -q $'\x00' "$file"; then
+              echo "ERROR: $file contains NUL byte"
+              exit 1
+            fi
 
-p = Path(sys.argv[1])
-data = p.read_bytes()
+            if ! LC_ALL=C grep -q '[^[:space:]]' "$file"; then
+              echo "ERROR: $file contains no configurations"
+              exit 1
+            fi
 
-assert b"\x00" not in data
-text = data.decode("utf-8")
+            if ! iconv -f UTF-8 -t UTF-8 "$file" >/dev/null 2>&1; then
+              echo "ERROR: $file is not valid UTF-8"
+              exit 1
+            fi
 
-configs = [
-    line.strip()
-    for line in text.splitlines()
-    if line.strip() and not line.startswith("#")
-]
-
-assert configs, f"{p} contains no configurations"
-
-print(f"{p}: {len(configs)} configs")
-PY
+            count=$(grep -cv '^[[:space:]]*$' "$file")
+            echo "$file: $count non-empty lines"
           done
