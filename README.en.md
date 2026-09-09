@@ -1,394 +1,656 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=200&section=header&text=🔓%20Free%20VPN%20Russia&fontSize=42&fontColor=ffffff&fontAlignY=20&desc=Free%20VPN%20configs%20%7C%20Updated%20every%206%20hours&descAlignY=58&descSize=16&descColor=aaaacc"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=🔓%20Free%20VPN%20Russia&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Free%20VPN%20configs%20%7C%20Updated%20every%206%20hours&descAlignY=58&descSize=16&descColor=f0e6ff"/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=🔓%20Free%20VPN%20Russia&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Free%20VPN%20configs%20%7C%20Updated%20every%206%20hours&descAlignY=58&descSize=16&descColor=f0e6ff" alt="Free VPN Russia — free VPN configs for Russia 2025-2026, supports Happ, Incy, v2rayNG"/>
-</picture>
+<p align="center">
+<a href="README.md">🇷🇺 Русский</a>
+&nbsp; · &nbsp;
+🇬🇧 <strong>English</strong>
+&nbsp; · &nbsp;
+<a href="README.zh.md">🇨🇳 中文</a>
+&nbsp; · &nbsp;
+<a href="README.ar.md">🇸🇦 العربية</a>
+</p>
 
-<br/>
+# 🇷🇺 Free VPN Configs for Russia
 
-<!-- LANG_SWITCH_START -->
-<div align="center">
+**Updated public VPN subscriptions for Russia: VLESS, Reality, Hysteria2, Trojan, VMess, Shadowsocks and TUIC.**
 
-### 🇬🇧 English
+Works with compatible clients including **v2rayNG, v2rayN, Karing, Hiddify, Happ, NekoBox, Streisand, v2Box** and other Xray / sing-box compatible clients.
 
-[🇷🇺 Русский](README.md) · [🇸🇦 العربية](README.ar.md) · [🇨🇳 中文](README.zh.md)
+<p>
+  <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/%E2%9C%85%20Verified-367-2ea44f?style=for-the-badge" alt="Verified VPN configs"></a>
+  <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/%F0%9F%93%A6%20All%20configs-671-4C8BF5?style=for-the-badge" alt="All VPN configs"></a>
+  <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt"><img src="https://img.shields.io/badge/%F0%9F%87%B7%F0%9F%87%BA%20RU%20bypass-26-2ea44f?style=for-the-badge" alt="RU configs"></a>
+</p>
 
-</div>
-<!-- LANG_SWITCH_END -->
+<p>
+  <a href="https://github.com/aviamastersgh/vpn-free-russia/stargazers"><img src="https://img.shields.io/github/stars/aviamastersgh/vpn-free-russia?style=flat-square&label=%E2%AD%90%20Stars" alt="GitHub Stars"></a>
+  <a href="https://github.com/aviamastersgh/vpn-free-russia/network/members"><img src="https://img.shields.io/github/forks/aviamastersgh/vpn-free-russia?style=flat-square&label=Forks" alt="GitHub Forks"></a>
+  <a href="https://github.com/aviamastersgh/vpn-free-russia/commits/main"><img src="https://img.shields.io/github/last-commit/aviamastersgh/vpn-free-russia?style=flat-square&label=Updated" alt="Last update"></a>
+</p>
 
-<br/><br/>
-
-<!-- STATS_START -->
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/All_configs-732-4C8BF5?style=for-the-badge&logo=server&logoColor=white" alt="All configs"/></a>
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/Verified-500-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Verified configs"/></a>
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt"><img src="https://img.shields.io/badge/RU_bypass-69-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="RU configs"/></a>
-<img src="https://img.shields.io/badge/Updated-2026_07_06_15%3A00_UTC-f97316?style=for-the-badge&logo=clockify&logoColor=white" alt="Updated"/>
-<!-- STATS_END -->
-
-<a href="https://t.me/NosokVPNBot?start=partner_8655864538"><img src="https://img.shields.io/badge/Telegram-@NosokVpnBot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram VPN bot"/></a>
-<a href="https://github.com/aviamastersgh/vpn-free-russia"><img src="https://img.shields.io/github/stars/aviamastersgh/vpn-free-russia?style=for-the-badge&color=yellow" alt="Stars"/></a>
-
-<br/><br/>
-
-**VLESS · VMess · Shadowsocks · Trojan · Hysteria2 · TUIC**
-
-*Free VPN configs for Russia · Bypass Roskomnadzor (RKN) blocks · Works with Happ, Incy, v2ray*
+<p>
+  <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><strong>⚡ OPEN FREE VPN SUBSCRIPTION</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://t.me/NosokVPNBot?start=partner_8655864538"><strong>🔒 STABLE VPN</strong></a>
+</p>
 
 </div>
 
 ---
 
-## 📑 Contents
+## 🚨 Save this repository before you need it
 
-- [About the project](#-about-the-project)
-- [Three files — what's the difference](#-three-files--whats-the-difference)
-- [Quick connect](#-quick-connect)
-- [Which file do I need](#-which-file-do-i-need)
-- [Client instructions](#-how-to-add-configs-to-a-client--step-by-step)
-- [Supported clients](#-supported-clients)
-- [Stable VPN — personal key](#-stable-vpn--personal-key)
-- [Protocols](#-supported-protocols)
-- [FAQ](#-faq)
-- [Mirrors](#-mirrors-if-github-is-blocked)
-- [Sources](#-config-sources)
-- [Disclaimer](#️-disclaimer)
+Internet access and access to individual websites can become unstable. **Save this page now**: bookmark it, keep the main links in your notes, or create a Fork so you have your own copy.
 
----
+<p align="center">
+  <a href="https://github.com/aviamastersgh/vpn-free-russia/stargazers"><strong>⭐ Star this repository</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/aviamastersgh/vpn-free-russia/fork"><strong>🍴 Fork the repository</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/aviamastersgh/vpn-free-russia">🔖 Bookmark it</a>
+</p>
 
-## 💙 Support the project
-**This project runs purely on enthusiasm and donations. Server testing, verification time, mirrors, faster updates — all of that costs money and effort.**
-If these configs helped you today, a small donation would be very welcome ❤️
+Keeping this repository saved means you can quickly return to:
+- free VPN configs for Russia;
+- verified subscription links;
+- Android, iPhone, Windows and macOS setup guides;
+- mirrors in case the main raw URL is unavailable.
 
-The easiest ways:
-- USDT (TRC-20) → ```TLkat7EH1LZ6aZB3nQ3yScJD1a9CSkYV1d```
-- Solana (SOL) → ```H8dJ9wJmCzYqBjvPW5fXkA8dTFngmpvLfNvQcn2mJGdS```
-- Bitcoin → ```bc1q376tjzk663f3kkrkvtgnqy2p9xat5klk5dytag```
-> Even a small amount from many people means stable updates and new mirrors.
-Thank you! 🙏
-
-Also, please star ⭐ the repo and share it with anyone who needs a free VPN for Russia.
-
-<a href="https://github.com/aviamastersgh/vpn-free-russia"><img src="https://img.shields.io/github/stars/aviamastersgh/vpn-free-russia?style=social" alt="Stars"/></a>
+> **⭐ A real Star helps the project.** Thank you to everyone who saves the repo, shares it, reports problems and leaves feedback. ❤️
 
 ---
 
-## 📖 About the project
+## ⚡ Quick start — free VPN in a few minutes
 
-This repository is a **public free VPN config aggregator** for servers that work inside Russia to bypass Roskomnadzor (RKN) blocks.
+### Step 1. Copy the verified subscription
 
-Every **6 hours** a script automatically:
-- 📥 Downloads configs from ~15 open sources
-- 🔍 Removes duplicates
-- ✅ Checks TCP reachability of every server
-- 📤 Publishes three files with the latest results
+Start with:
 
-No registration. No accounts. Just copy a link and paste it into your client.
-
-If you need stability without relying on the shared pool, see [«Stable VPN — personal key»](#-stable-vpn--personal-key).
-
----
-
-## 📂 Three files — what's the difference?
-
-This is the most common question from newcomers. Here's the simple explanation:
-
-### `all_configs.txt` — everything found
-
-Contains **all** configs found across all sources after deduplication. Some of them may not work right now — servers get overloaded, taken down, or blocked.
-
-➡️ **Use this when:** you have time to test servers yourself, or the standard file isn't helping.
-
-```
-https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt
-```
-
-### `verified_configs.txt` — working only ✅ (recommended)
-
-Only configs that had a successful **real TCP connection** at the time of the check are kept.
-
-➡️ **Use this when:** in most cases — this is the best starting point.
-
-```
+```text
 https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
 ```
 
-### `ru_configs.txt` — allowlist bypass ⚠️
+### Step 2. Add the URL to your VPN client
 
-For those on **mobile data with strict restrictions** (Megafon, MTS, Beeline, T2, Yota, etc. in allowlist mode). Contains configs using Russian IP ranges (CIDR blocks) that stay reachable even under the strictest carrier restrictions. Published without a TCP check — sourced from a trusted provider.
+Look for a menu named something like:
+- Subscription
+- Subscription Group
+- Profile
+- Add from URL
+- Import URL
 
-➡️ **Use this when:** `verified_configs.txt` doesn't help, your connection is in allowlist mode, and only Yandex/VK/Gosuslugi load.
+Paste the URL, save it and update the subscription.
 
-```
-https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
-```
+### Step 3. Test real connectivity
 
-### Comparison table
+Use **Real Delay / Real Latency / Test real latency** when available.
 
-| File | Amount | Checked | Who it's for |
-|------|-----------|----------|----------|
-| `all_configs.txt` | Maximum | ❌ No | I want choice, I'll test myself |
-| `verified_configs.txt` | Fewer | ✅ TCP check | **Most users** |
-| `ru_configs.txt` | ~50–150 | ⚠️ Unchecked | Mobile with allowlist restrictions |
+A TCP port responding does not necessarily mean the VPN tunnel will work correctly.
+
+### Step 4. Choose a working server
+
+Start with several servers showing good real latency and test more than one.
+
+> Public configs can stop working or become overloaded. One failed server does not mean the whole list is unavailable.
 
 ---
 
-## ⚡ Quick connect
+## 🧭 Which file should you use?
 
-Copy the link you need and add it to any VPN client as a subscription:
+| Situation | Recommended file |
+|---|---|
+| 🆓 Free VPN for normal internet | [`verified_configs.txt`](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
+| 📱 Mobile network with restrictive allowlists | [`ru_configs.txt`](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt) |
+| 🧪 Maximum number of configurations | [`all_configs.txt`](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
+| 🔒 You do not want to keep changing public servers | [Get a personal stable VPN →](https://t.me/NosokVPNBot?start=partner_8655864538) |
 
-**Recommended (working servers):**
-```
+---
+
+# 📂 VPN subscriptions
+
+## ✅ `verified_configs.txt` — recommended
+
+This is the best starting point for most users.
+
+```text
 https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
 ```
 
-**All configs:**
-```
-https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt
-```
-
-**Allowlist bypass (mobile data):**
-```
-https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
-```
-
-**If GitHub is blocked** — use the GitHack mirror:
-```
+**GitHack mirror**
+```text
 https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
 ```
 
----
+**jsDelivr mirror**
+```text
+https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/verified_configs.txt
+```
 
-## 🤔 Which file do I need?
-
-**Step 1.** Check whether `google.com` loads without a VPN.
-
-- **Yes** → normal internet (blocklist mode). Use `verified_configs.txt`.
-- **No, but Yandex/VK/Gosuslugi work** → allowlist mode. Use `ru_configs.txt`.
-- **Nothing loads** → no internet at all — configs won't help.
-
-**Step 2.** Add the link as a subscription in your client (instructions below).
-
-**Step 3.** Run the "Real Delay" test — pick the server with a green number.
+Use this list when you want:
+- free VPN configs for Russia;
+- a ready subscription;
+- VLESS / VMess / Shadowsocks / Trojan / Hysteria2 / TUIC configs;
+- less manual server selection.
 
 ---
 
-## 📱 How to add configs to a client — step by step
+## 📦 `all_configs.txt` — full public pool
 
-### Android — v2rayNG
+```text
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt
+```
 
-1. Download [v2rayNG](https://github.com/2dust/v2rayNG/releases) from GitHub
-2. Open the app → ☰ (menu) → **"Subscription group"**
-3. **+** → paste the subscription link → save
-4. On the main screen tap **"Update subscriptions"**
-5. Select the group → **"Real delay"** (not TCP ping!)
-6. Pick the server with the lowest number (green) → ▶️
+Use this when you need more choices or want to test configurations yourself.
 
-### Android — Karing
+Some public servers may already be unavailable.
 
-1. Download [Karing](https://github.com/KaringX/karing/releases) from GitHub
-2. Add profile → "Add subscription" → paste the link
-3. Update interval: 1 hour
-4. Settings → "Auto-select" → enable
-5. Tap the shield 🛡️ — the client picks the best server itself
-
-### Android — NekoBox
-
-1. Download [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)
-2. Profiles → "Add" → "URL" → paste the link
-3. Tap the profile → "Update" → select a server → connect
-
-### iOS — Streisand (free)
-
-1. Install [Streisand](https://apps.apple.com/us/app/streisand/id6450534064) from the App Store
-2. **+** → "Import from clipboard" or enter the subscription URL
-3. After loading, pick a server → "Connect"
-
-### iOS — Karing (free, recommended)
-
-1. Install [Karing](https://apps.apple.com/us/app/karing/id6472431552) from the App Store
-2. Add profile → "Add subscription" → paste the link
-3. Enable auto-select
-
-### iOS — v2Box (free)
-
-1. Install [v2Box](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690) from the App Store
-2. Subscriptions → **+** → paste the URL → save → update
-
-### Windows — v2rayN
-
-1. Download [v2rayN](https://github.com/2dust/v2rayN/releases) → unzip → run as administrator
-2. Settings → Regional presets → "Russia" → restart
-3. Subscription group → group settings → **+** → paste the link
-4. Subscription group → "Update without proxy"
-5. Select configs → right-click → "Real delay test"
-6. Sort by ping → pick the best one → Enter
-
-### Windows — Karing
-
-1. Download [Karing](https://github.com/KaringX/karing/releases) → run as administrator
-2. Add profile → "Add subscription" → paste the link → 1-hour interval
-3. Settings → Auto-select → 10-min interval, 150ms tolerance
-4. Tap the shield 🛡️
+Mirrors:
+```text
+https://raw.githack.com/aviamastersgh/vpn-free-russia/main/all_configs.txt
+https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/all_configs.txt
+```
 
 ---
 
-## 📱 Supported clients
+## 🇷🇺 `ru_configs.txt` — allowlist / whitelist scenarios
 
-| Client | Platform | Free | Link |
-|--------|-----------|-----------|--------|
-| **Karing** | Android / iOS / Windows / macOS | ✅ | [GitHub](https://github.com/KaringX/karing/releases) · [iOS](https://apps.apple.com/us/app/karing/id6472431552) |
-| **v2rayNG** | Android | ✅ | [GitHub](https://github.com/2dust/v2rayNG/releases) |
-| **v2rayN** | Windows / macOS / Linux | ✅ | [GitHub](https://github.com/2dust/v2rayN/releases) |
-| **Streisand** | iOS | ✅ | [App Store](https://apps.apple.com/us/app/streisand/id6450534064) |
-| **v2Box** | iOS | ✅ | [App Store](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690) |
-| **NekoBox** | Android | ✅ | [GitHub](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) |
-| **Hiddify** | Android / Windows / macOS | ✅ | [GitHub](https://github.com/hiddify/hiddify-next/releases) |
-| **Happ** | Android / iOS | ✅ | [Play](https://play.google.com/store/apps/details?id=com.happproxy) · [iOS](https://apps.apple.com/us/app/happ-proxy-utility/id6504287215) |
+```text
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
+```
 
----
+This list is intended for mobile-network scenarios where access is heavily restricted and only selected destinations remain available.
 
-## 🔒 Stable VPN — personal key
+Try it when:
+- ordinary subscriptions fail;
+- mobile internet is heavily restricted;
+- only a limited set of websites/services is reachable.
 
-Public configs are free, but come with no guarantees: servers get overloaded, change, or slow down sometimes. That's normal for an aggregator of public sources.
+Mirrors:
+```text
+https://raw.githack.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
+https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/ru_configs.txt
+```
 
-If you need stability on a dedicated server, a personal key is available through a Telegram bot:
-
-<div align="center">
-
-### 🤖 [@NosokVPNBot](https://t.me/NosokVPNBot?start=partner_8655864538)
-
-<a href="https://t.me/NosokVPNBot?start=partner_8655864538"><img src="https://img.shields.io/badge/Get_a_stable_VPN-@NosokVpnBot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Stable VPN Telegram bot"/></a>
-
-*Personal key · Dedicated server · Stable connection*
-
-</div>
+> No single file can be guaranteed to work for every operator, region and device.
 
 ---
 
-## 🔒 Supported protocols
+# 📱 Detailed setup guides
 
-| Protocol | Resistance to RKN | Notes |
-|----------|-------------------|-------------|
-| **VLESS + Reality** | 🥇 Maximum | Disguises traffic as a real HTTPS site |
-| **VLESS + XTLS** | 🥇 Maximum | Advanced encryption, invisible to DPI |
-| **Trojan** | 🥈 High | Mimics an HTTPS connection |
-| **VMess** | 🥉 Medium | Classic, broadly compatible |
-| **Shadowsocks** | 🥉 Medium | Fast and lightweight |
-| **Hysteria2** | ✅ Good | UDP-based, high speed |
-| **TUIC** | ✅ Good | Modern QUIC-based protocol |
+## Android — v2rayNG
+
+[v2rayNG releases](https://github.com/2dust/v2rayNG/releases)
+
+1. Install v2rayNG.
+2. Open **Subscription Group**.
+3. Tap **+**.
+4. Paste the `verified_configs.txt` URL.
+5. Save the group.
+6. Update the subscription.
+7. Run **Real Delay**.
+8. Pick a working server.
+9. Start the VPN.
+
+If nothing works, refresh the subscription, try another server, try `ru_configs.txt`, or test another client.
 
 ---
 
-## ❓ FAQ
+## Android — Karing
+
+[Karing releases](https://github.com/KaringX/karing/releases)
+
+1. Install Karing.
+2. Add a profile.
+3. Choose subscription-by-URL.
+4. Paste the URL.
+5. Save and refresh.
+6. Use automatic server selection if available.
+7. Connect and verify actual internet access.
+
+---
+
+## Android — NekoBox
+
+[NekoBoxForAndroid releases](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)
+
+1. Open **Profiles**.
+2. Tap **Add**.
+3. Import by URL.
+4. Paste the subscription URL.
+5. Refresh the profile.
+6. Test several servers.
+
+---
+
+## iPhone / iPad — Karing
+
+[Karing on the App Store](https://apps.apple.com/us/app/karing/id6472431552)
+
+Install Karing → add a profile by URL → paste the subscription → refresh → select a working server → connect.
+
+---
+
+## iPhone / iPad — Streisand
+
+[Streisand on the App Store](https://apps.apple.com/us/app/streisand/id6450534064)
+
+Install the app → tap **+** → import from clipboard or URL → refresh → choose a server → connect.
+
+---
+
+## iPhone / iPad — v2Box
+
+[v2Box on the App Store](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690)
+
+Open **Subscriptions → +** → paste the URL → save → update → choose a working server.
+
+---
+
+## Windows — v2rayN
+
+[v2rayN releases](https://github.com/2dust/v2rayN/releases)
+
+1. Install v2rayN.
+2. Open **Subscription Group → Group Settings**.
+3. Add the subscription URL.
+4. Save it.
+5. Update the subscription.
+6. Run a real latency test.
+7. Select a working server.
+8. Enable TUN/VPN mode if needed and supported.
+
+---
+
+## Windows / macOS / Linux — Karing
+
+[Karing releases](https://github.com/KaringX/karing/releases)
+
+Install Karing → create a profile → import the URL subscription → refresh → test servers → use automatic selection where appropriate.
+
+---
+
+# 🧩 Supported VPN clients
+
+| Client | Platforms | Download |
+|---|---|---|
+| **Karing** | Android / iOS / Windows / macOS | [GitHub](https://github.com/KaringX/karing/releases) · [App Store](https://apps.apple.com/us/app/karing/id6472431552) |
+| **v2rayNG** | Android | [GitHub](https://github.com/2dust/v2rayNG/releases) |
+| **v2rayN** | Windows / macOS / Linux | [GitHub](https://github.com/2dust/v2rayN/releases) |
+| **NekoBox** | Android | [GitHub](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) |
+| **Hiddify** | Android / Windows / macOS | [GitHub](https://github.com/hiddify/hiddify-next/releases) |
+| **Happ** | Android / iOS | [Google Play](https://play.google.com/store/apps/details?id=com.happproxy) · [App Store](https://apps.apple.com/us/app/happ-proxy-utility/id6504287215) |
+| **Streisand** | iOS | [App Store](https://apps.apple.com/us/app/streisand/id6450534064) |
+| **v2Box** | iOS | [App Store](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690) |
+
+---
+
+# 🧪 How to test VPN configs
+
+## TCP ping is not the same as a working VPN
+
+A server can respond on a network port while the actual VPN connection fails or performs badly.
+
+Prefer:
+**Real Delay / Real Latency**
+
+### Recommended workflow
+
+1. Update the subscription.
+2. Run a real connectivity test.
+3. Sort by latency.
+4. Try several top results.
+5. Judge both latency and actual stability/speed.
+6. Keep a few backup servers.
+
+---
+
+# 🔄 Automatic updates
+
+The public configuration pool is updated automatically.
+
+Current documented interval:
+
+**Every 6 hours.**
+
+Each cycle:
+1. collects configs from public sources;
+2. removes duplicates;
+3. checks availability;
+4. builds the subscription files;
+5. publishes the result.
+
+`verified_configs.txt` represents the state of configs at the time of testing. A verified server is not guaranteed to work forever or for every network.
+
+---
+
+# 📲 Enable subscription auto-refresh
+
+When your client supports it, enable automatic subscription updates.
+
+A practical setup:
+- refresh several times per day;
+- force-refresh when a connection starts failing;
+- keep the subscription URL saved;
+- keep a few backup servers.
+
+---
+
+# 🆘 Nothing works?
+
+Try this order:
+
+1. Refresh the subscription.
+2. Restart the client.
+3. Test several servers.
+4. Use Real Delay instead of only TCP ping.
+5. Try another compatible client.
+6. Try `ru_configs.txt`.
+7. Try a mirror.
+
+### If you report a problem
+
+Tell us:
+
+```text
+Device:
+Client:
+Network:
+Region:
+Subscription file:
+What happened:
+Error message:
+What was already tried:
+```
+
+**[🐛 Open an Issue →](https://github.com/aviamastersgh/vpn-free-russia/issues/new)**
+
+or
+
+**[💬 Open Discussions →](https://github.com/aviamastersgh/vpn-free-russia/discussions)**
+
+Detailed reports make the project easier to improve.
+
+---
+
+# 💬 User feedback
+
+Real reports are especially useful.
+
+Example:
+
+```text
+✅ Working
+
+Device: Android
+Client: v2rayNG
+Network: mobile
+Subscription: verified_configs.txt
+Result: connected successfully
+```
+
+Or:
+
+```text
+❌ Not working
+
+Device: iPhone
+Client: Karing
+Network: mobile
+Subscription: verified_configs.txt
+Result: no connection
+Error: ...
+```
+
+**[💬 Leave feedback or ask a question →](https://github.com/aviamastersgh/vpn-free-russia/discussions)**
+
+---
+
+# ⭐ If this repository helped, save it
+
+You can use the configs for free. A Star, Fork or share is a simple way to support the project.
+
+**⭐ Star:** https://github.com/aviamastersgh/vpn-free-russia/stargazers
+
+**🍴 Fork:** https://github.com/aviamastersgh/vpn-free-russia/fork
+
+**🔖 Bookmark:** save the repository in your browser
+
+**📤 Share:** send it to someone who may need a free VPN.
+
+> ❤️ Thank you to everyone who uses the lists, reports problems, shares the project, makes Forks and leaves Stars.
+
+---
+
+# 🔒 Need a more stable VPN?
+
+Public configs are useful for free access, but public servers are shared and can become overloaded or unavailable.
+
+If you are tired of:
+- changing servers;
+- testing many configs;
+- searching for a working node;
+- rebuilding your setup,
+
+a personal VPN server/key may be more convenient.
+
+<p align="center">
+  <a href="https://t.me/NosokVPNBot?start=partner_8655864538">
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20A%20STABLE%20VPN%20%E2%86%92-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Get a stable VPN">
+  </a>
+</p>
+
+**[Open @NosokVPNBot →](https://t.me/NosokVPNBot?start=partner_8655864538)**
+
+Current plans, terms and connection parameters are shown in the Telegram bot.
+
+---
+
+# 🌐 Mirrors
+
+### Verified
+```text
+https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/verified_configs.txt
+```
+
+### All configs
+```text
+https://raw.githack.com/aviamastersgh/vpn-free-russia/main/all_configs.txt
+https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/all_configs.txt
+```
+
+### RU configs
+```text
+https://raw.githack.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
+https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/ru_configs.txt
+```
+
+---
+
+# 💾 Save the subscription URLs
+
+Keep these links in your notes or bookmarks:
+
+```text
+PRIMARY
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+
+MIRROR 1
+https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+
+MIRROR 2
+https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/verified_configs.txt
+```
+
+You can also **[Fork the repository](https://github.com/aviamastersgh/vpn-free-russia/fork)** to keep your own copy.
+
+---
+
+# 📌 Quick reference
+
+```text
+Need free VPN
+      ↓
+verified_configs.txt
+      ↓
+Add as subscription
+      ↓
+Refresh
+      ↓
+Real Delay
+      ↓
+Choose a working server
+      ↓
+Not working?
+      ↓
+Another server → another client → ru_configs.txt → mirror
+      ↓
+Need stability?
+      ↓
+Personal VPN
+```
+
+---
+
+# ❓ FAQ
 
 <details>
-<summary><strong>I added the configs but none of them work. What now?</strong></summary>
+<summary><strong>Is this really free?</strong></summary>
 
-1. Make sure you're using `verified_configs.txt`, not `all_configs.txt`
-2. Run the "Real delay" test (not TCP ping — it doesn't show actual VPN availability)
-3. Try a different client — one client sometimes "doesn't see" configs that another one does
-4. On mobile data, try `ru_configs.txt`
-5. Refresh the subscription manually — configs update every 6 hours
-
+Yes. The public configuration lists are available for free. Public servers are not guaranteed to remain available.
 </details>
 
 <details>
-<summary><strong>What's the difference between "TCP ping" and "real delay"?</strong></summary>
+<summary><strong>Which file should I use first?</strong></summary>
 
-**TCP ping** just checks whether a port is open. The server can respond even if the VPN itself doesn't work (port open, but the service is overloaded or down).
-
-**Real delay** — the client actually establishes a VPN connection and checks internet access through it. A green number means the VPN genuinely works.
-
-Always use **real delay** to pick a working server.
-
+Start with `verified_configs.txt`.
 </details>
 
 <details>
-<summary><strong>Why did the configs work yesterday but not today?</strong></summary>
+<summary><strong>Why can a verified config fail for me?</strong></summary>
 
-Free public servers come with no stability guarantees. They can get blocked by RKN, overloaded by too many users, or taken offline by their owner.
+Verification reflects the state of a server at the time of testing. Your network, operator, region, device and client may behave differently.
+</details>
 
-That's why subscriptions refresh every 6 hours. Turn on **auto-update** in your client (1–2 hour interval) — that's the most reliable way to always have working configs.
+<details>
+<summary><strong>Why does TCP ping succeed but the VPN fail?</strong></summary>
 
+TCP ping only tests reachability of a port. A real VPN test checks whether the actual connection can be established.
+</details>
+
+<details>
+<summary><strong>Why did a server work yesterday and fail today?</strong></summary>
+
+Public servers change. A server can become overloaded, disabled or unavailable.
+</details>
+
+<details>
+<summary><strong>What client should I use?</strong></summary>
+
+Use the client you are most comfortable with. Android users can start with v2rayNG or Karing; Windows users can try v2rayN or Karing; iOS users can try Karing, Streisand or v2Box.
 </details>
 
 <details>
 <summary><strong>Is it safe to use public VPN configs?</strong></summary>
 
-Public configs are free servers from unknown operators. The main risks: the server owner can theoretically see unencrypted traffic passing through it, and there's no guarantee logging isn't happening.
-
-**Recommendation:** don't send passwords or banking details over public configs. For higher privacy, use a personal key on a dedicated server.
-
+Treat public servers as untrusted infrastructure. Do not send sensitive information through an unknown public server unless you understand and accept the risks.
 </details>
 
 <details>
-<summary><strong>What if GitHub is blocked?</strong></summary>
+<summary><strong>Do you need a stable VPN without searching for servers?</strong></summary>
 
-Use the mirrors — they work even when GitHub is blocked:
+Public configs are designed for free access and testing. For a more convenient stable setup, see:
 
-| Mirror | How to use |
-|---------|-------------------|
-| **GitHack** (recommended) | Replace `raw.githubusercontent.com` with `raw.githack.com` in any link above |
-| **jsDelivr** | `https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/verified_configs.txt` |
-
-</details>
-
-<details>
-<summary><strong>Can I use the configs on a router or multiple devices?</strong></summary>
-
-Yes. **v2rayN** (Windows) and **Karing** (all platforms) support TUN mode, which routes all device traffic through the VPN. For routers, use clients that support Mihomo (Clash Meta) — for example, OpenClash for OpenWrt.
-
-</details>
-
-<details>
-<summary><strong>Which protocol should I pick: VLESS, Shadowsocks, or Hysteria2?</strong></summary>
-
-For maximum resistance to RKN blocking — **VLESS + Reality**: it disguises traffic as a connection to a real HTTPS site, making DPI detection much harder. **Hysteria2** is great for speed over UDP-based connections. **Shadowsocks** and **VMess** are older protocols but remain functional and widely supported by clients.
-
+**[🚀 Get a stable VPN →](https://t.me/NosokVPNBot?start=partner_8655864538)**
 </details>
 
 ---
 
-## 🌍 Mirrors (if GitHub is blocked)
+# 🗂️ Public sources
 
-| Mirror | `verified_configs.txt` | `all_configs.txt` | `ru_configs.txt` |
-|---------|----------------------|-------------------|------------------|
-| **GitHack** | [Link](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) | [Link](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) | [Link](https://raw.githack.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt) |
-| **jsDelivr** | [Link](https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/verified_configs.txt) | [Link](https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/all_configs.txt) | [Link](https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/ru_configs.txt) |
+The repository aggregates publicly available configurations from open sources, including:
 
-> **GitHack** is a live proxy, always current. **jsDelivr** is a CDN and may cache content for up to 24 hours.
+1. [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia)
+2. [barry-far/V2ray-Configs](https://github.com/barry-far/V2ray-Configs)
+3. [mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator)
+4. [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers)
+5. [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls)
+6. [freefq/free](https://github.com/freefq/free)
+7. [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe)
+8. [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree)
 
----
-
-## 📋 Config sources
-
-| # | Repository | Protocols |
-|---|-------------|-----------|
-| 1 | [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) | VLESS, Reality, RU CIDR |
-| 2 | [barry-far/V2ray-Configs](https://github.com/barry-far/V2ray-Configs) | VLESS, VMess, SS, Trojan |
-| 3 | [mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator) | Mix |
-| 4 | [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) | Mix |
-| 5 | [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls) | Mix |
-| 6 | [freefq/free](https://github.com/freefq/free) | VMess |
-| 7 | [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe) | Mix |
-| 8 | [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree) | VMess |
-
-> We don't generate or sell servers — we only aggregate and verify public sources.
+We do not own these third-party servers and cannot guarantee their permanent availability.
 
 ---
 
-## ‼️ Disclaimer
+# 🤖 How the project works
 
-*The author is not the owner, developer, or provider of the listed VPN configurations. This repository is an independent information aggregator of publicly available data.*
+```text
+Public sources
+     ↓
+Collect configurations
+     ↓
+Remove duplicates
+     ↓
+Check availability
+     ↓
+Filter / publish
+     ↓
+verified_configs.txt
+all_configs.txt
+ru_configs.txt
+```
 
-*This material is intended for residents of countries where this information is legal, including for research and educational purposes.*
+---
 
-*The author does not encourage or promote using VPNs to break the law. Responsibility for use rests with the user.*
+# 🙏 Thank you
 
-*Use VPNs only for lawful purposes: protecting personal data, secure remote access, and online privacy.*
+Thanks to everyone who:
+- uses the free subscriptions;
+- reports broken configurations;
+- shares the repository;
+- creates Forks;
+- leaves Stars;
+- helps other users.
 
-*All information is provided "as is" with no guarantee of accuracy or timeliness.*
+**❤️ Thank you for saving the project and coming back for updates.**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=100&section=footer" alt="footer"/>
+<p align="center">
+  <a href="https://github.com/aviamastersgh/vpn-free-russia/stargazers"><strong>⭐ Star</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/aviamastersgh/vpn-free-russia/fork"><strong>🍴 Fork</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/aviamastersgh/vpn-free-russia/discussions"><strong>💬 Feedback</strong></a>
+</p>
+
+---
+
+# ⚠️ Disclaimer
+
+This repository is an independent aggregator of publicly available VPN configurations.
+
+The author is not the owner, developer or provider of the listed third-party VPN servers unless explicitly stated.
+
+Information is provided "as is" without guarantees of permanent availability, speed, security or successful operation of every configuration.
+
+Users are responsible for complying with applicable laws and provider rules when using VPN and network tools.
+
+Use VPN and related tools only for lawful purposes.
+
+---
+
+<div align="center">
+
+### 🇷🇺 Free VPN Russia
+
+**Free VPN configs · VLESS · Reality · Hysteria2 · Trojan · VMess · Shadowsocks**
+
+⭐ **Save the repository now so you do not have to search for it again.**
+
+<a href="https://github.com/aviamastersgh/vpn-free-russia/stargazers">⭐ Star</a>
+&nbsp; · &nbsp;
+<a href="https://github.com/aviamastersgh/vpn-free-russia/fork">🍴 Fork</a>
+&nbsp; · &nbsp;
+<a href="https://t.me/NosokVPNBot?start=partner_8655864538">🔒 Stable VPN</a>
+
+</div>
