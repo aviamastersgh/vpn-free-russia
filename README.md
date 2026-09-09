@@ -1,3 +1,13 @@
+<p align="center">
+🇷🇺 <strong>Русский</strong>
+&nbsp; · &nbsp;
+<a href="README.en.md">🇬🇧 English</a>
+&nbsp; · &nbsp;
+<a href="README.zh.md">🇨🇳 中文</a>
+&nbsp; · &nbsp;
+<a href="README.ar.md">🇸🇦 العربية</a>
+</p>
+
 <div align="center">
 
 # 🇷🇺 Бесплатные VPN-конфиги для России
