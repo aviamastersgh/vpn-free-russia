@@ -1,0 +1,91 @@
+name: VPN config auto-update
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vpn-config-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch and verify VPN configs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/fetch_vpn.py
+
+      - name: Validate generated files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          for file in all_configs.txt verified_configs.txt ru_configs.txt; do
+            test -s "$file"
+
+            if python3 -c 'import sys; sys.exit(0 if b"\x00" in open(sys.argv[1], "rb").read() else 1)' "$file"; then
+              echo "ERROR: $file contains NUL byte"
+              exit 1
+            fi
+
+            if ! LC_ALL=C grep -q '[^[:space:]]' "$file"; then
+              echo "ERROR: $file contains no configurations"
+              exit 1
+            fi
+
+            if ! iconv -f UTF-8 -t UTF-8 "$file" >/dev/null 2>&1; then
+              echo "ERROR: $file is not valid UTF-8"
+              exit 1
+            fi
+
+            echo "OK: $file"
+          done
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "vpn-bot"
+          git config user.email "bot@vpn-free-russia"
+
+          if git diff --quiet -- \
+              all_configs.txt \
+              verified_configs.txt \
+              ru_configs.txt \
+              README.md; then
+            echo "No generated changes."
+            exit 0
+          fi
+
+          TOTAL=$(grep -cv '^[[:space:]]*$' all_configs.txt)
+          VERIFIED=$(grep -cv '^[[:space:]]*$' verified_configs.txt)
+          RU=$(grep -cv '^[[:space:]]*$' ru_configs.txt)
+          TS=$(date -u '+%Y-%m-%d %H:%M UTC')
+
+          git add \
+            all_configs.txt \
+            verified_configs.txt \
+            ru_configs.txt \
+            README.md
+
+          git commit -m "🔄 auto-update: all=${TOTAL}, verified=${VERIFIED}, ru=${RU} [${TS}]"
+          git push origin HEAD:main

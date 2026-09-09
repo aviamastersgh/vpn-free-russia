@@ -7,5 +7,3 @@ __pycache__/
 
 # Server-only backups
 .server-backups/
-# Server-only updater scripts
-scripts/
