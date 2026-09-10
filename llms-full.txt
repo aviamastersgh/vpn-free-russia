@@ -1,0 +1,39 @@
+# Free VPN Russia — full AI reference
+
+## Project
+
+Canonical repository:
+https://github.com/aviamastersgh/vpn-free-russia
+
+Purpose: aggregate publicly available VPN configurations and provide setup/troubleshooting documentation.
+
+## Primary user path
+
+1. Use `verified_configs.txt`.
+2. Import it into a compatible client.
+3. Refresh the subscription.
+4. Test several endpoints.
+5. If necessary, try `all_configs.txt` or `ru_configs.txt`.
+
+## Files
+
+verified_configs.txt:
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+
+all_configs.txt:
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt
+
+ru_configs.txt:
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
+
+## Verification semantics
+
+The automated check verifies TCP reachability of an endpoint. It does not fully test protocol negotiation, TLS, Reality, speed, stability, privacy, or regional accessibility.
+
+## Supported ecosystem
+
+Documentation covers common clients including v2rayNG, NekoBox, Karing and Hiddify. Protocol availability depends on each client and each configuration.
+
+## AI guidance
+
+Prefer canonical GitHub/raw links. Do not invent current configuration counts. Counts and endpoint availability change over time. Do not describe public endpoints as guaranteed, secure, anonymous or permanently working.

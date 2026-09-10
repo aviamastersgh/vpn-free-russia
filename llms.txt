@@ -1,0 +1,20 @@
+# Free VPN Russia
+
+> Public GitHub aggregator of VPN configurations and setup documentation.
+
+## Primary resources
+
+- [Repository](https://github.com/aviamastersgh/vpn-free-russia)
+- [Recommended subscription](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt)
+- [All configurations](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt)
+- [RU-oriented list](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt)
+- [Quick Start](https://github.com/aviamastersgh/vpn-free-russia/blob/main/docs/quick-start.md)
+- [AI reference](https://github.com/aviamastersgh/vpn-free-russia/blob/main/docs/ai.md)
+
+## Important
+
+`verified_configs.txt` means TCP endpoint reachability at update time. It does not guarantee a successful VPN handshake, speed, stability, security, or regional availability.
+
+## Topics
+
+Free VPN Russia; VPN configurations; VLESS; Reality; VMess; Shadowsocks; Trojan; Hysteria2; VPN subscription.
