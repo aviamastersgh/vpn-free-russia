@@ -23,6 +23,13 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Generate site data
+        run: |
+          set -euo pipefail
+          python3 scripts/generate_site_data.py
+          python3 -m json.tool site/configs.json >/dev/null
+          echo "SITE DATA: OK"
+
       - name: Validate site
         run: |
           set -euo pipefail
