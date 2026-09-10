@@ -1,39 +1,77 @@
-name: Deploy GitHub Pages
+name: Publish GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: pages
+  group: publish-pages
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  publish:
     runs-on: ubuntu-latest
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
         with:
-          path: ./site
+          fetch-depth: 1
 
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Generate site data
+        run: |
+          set -euo pipefail
+
+          mkdir -p site
+
+          python3 scripts/generate_site_data.py
+
+          python3 -m json.tool site/configs.json >/dev/null
+
+          echo "Generated:"
+          ls -lh site/configs.json
+
+          python3 - <<'PY'
+          import json
+
+          with open("site/configs.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          print("verified:", len(data["verified"]))
+          print("all:", len(data["all"]))
+          print("updated:", data["updated"])
+          PY
+
+      - name: Publish gh-pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          rm -rf /tmp/pages
+          mkdir -p /tmp/pages
+
+          cp -a site/. /tmp/pages/
+
+          cd /tmp/pages
+
+          touch .nojekyll
+
+          git init
+          git checkout -b gh-pages
+
+          git add -A
+          git commit -m "deploy: publish site"
+
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          git push --force origin gh-pages
