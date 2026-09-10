@@ -2,9 +2,7 @@ name: Publish GitHub Pages
 
 on:
   push:
-    branches:
-      - main
-
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -24,54 +22,116 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Generate site data
+      - name: Generate configs.json
         run: |
-          set -euo pipefail
-
-          mkdir -p site
-
-          python3 scripts/generate_site_data.py
-
-          python3 -m json.tool site/configs.json >/dev/null
-
-          echo "Generated:"
-          ls -lh site/configs.json
+          set -e
 
           python3 - <<'PY'
           import json
+          from datetime import datetime, timezone
+          from pathlib import Path
 
-          with open("site/configs.json", encoding="utf-8") as f:
-              data = json.load(f)
+          root = Path.cwd()
+          site = root / "site"
+          site.mkdir(exist_ok=True)
 
-          print("verified:", len(data["verified"]))
-          print("all:", len(data["all"]))
-          print("updated:", data["updated"])
+          def load_file(name):
+              p = root / name
+
+              if not p.exists():
+                  return []
+
+              result = []
+              seen = set()
+
+              for line in p.read_text(
+                  encoding="utf-8",
+                  errors="replace"
+              ).splitlines():
+
+                  value = line.strip()
+
+                  if not value:
+                      continue
+
+                  if value.startswith("#"):
+                      continue
+
+                  if value in seen:
+                      continue
+
+                  seen.add(value)
+                  result.append(value)
+
+              return result
+
+          verified = load_file("verified_configs.txt")
+          all_configs = load_file("all_configs.txt")
+
+          data = {
+              "updated": datetime.now(timezone.utc).isoformat(),
+              "verified": verified,
+              "all": all_configs
+          }
+
+          output = site / "configs.json"
+
+          output.write_text(
+              json.dumps(
+                  data,
+                  ensure_ascii=False,
+                  separators=(",", ":")
+              ),
+              encoding="utf-8"
+          )
+
+          print("verified:", len(verified))
+          print("all:", len(all_configs))
+          print("file:", output)
+          print("size:", output.stat().st_size)
           PY
+
+          test -s site/configs.json
+
+      - name: Prepare site
+        run: |
+          set -e
+
+          test -f site/index.html
+          test -f site/configs.json
+
+          rm -rf /tmp/gh-pages
+          mkdir -p /tmp/gh-pages
+
+          cp -a site/. /tmp/gh-pages/
+
+          touch /tmp/gh-pages/.nojekyll
+
+          echo "=== PUBLISHED FILES ==="
+          find /tmp/gh-pages -maxdepth 1 -type f \
+            -printf '%f %s bytes\n' | sort
 
       - name: Publish gh-pages
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          set -euo pipefail
+          set -e
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
 
-          rm -rf /tmp/pages
-          mkdir -p /tmp/pages
-
-          cp -a site/. /tmp/pages/
-
-          cd /tmp/pages
-
-          touch .nojekyll
+          cd /tmp/gh-pages
 
           git init
           git checkout -b gh-pages
 
           git add -A
-          git commit -m "deploy: publish site"
+          git commit -m "deploy: update VPN site"
 
-          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git remote add origin \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
           git push --force origin gh-pages
+
+          echo "=== DEPLOYED ==="
