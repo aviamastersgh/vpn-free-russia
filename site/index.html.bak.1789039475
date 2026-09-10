@@ -346,28 +346,39 @@
   </p>
 </footer>
 
-
 <script>
+const VERIFIED_URL =
+  "https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt";
+
+const ALL_URL =
+  "https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt";
+
 let verified = [];
-let allConfigs = [];
-let visibleConfigs = [];
+let all = [];
 
-function typeOfConfig(value) {
-  const x = value.toLowerCase();
+function detectType(config) {
+  const value = config.toLowerCase();
 
-  if (x.startsWith("vless://")) return "VLESS";
-  if (x.startsWith("vmess://")) return "VMess";
-  if (x.startsWith("trojan://")) return "Trojan";
-  if (x.startsWith("ss://")) return "Shadowsocks";
-  if (x.startsWith("hysteria2://") || x.startsWith("hy2://"))
-    return "Hysteria2";
-  if (x.startsWith("tuic://")) return "TUIC";
+  if (value.startsWith("vless://")) return "VLESS";
+  if (value.startsWith("vmess://")) return "VMess";
+  if (value.startsWith("trojan://")) return "Trojan";
+  if (value.startsWith("ss://")) return "Shadowsocks";
+  if (value.startsWith("hysteria2://")) return "Hysteria2";
+  if (value.startsWith("hy2://")) return "Hysteria2";
+  if (value.startsWith("tuic://")) return "TUIC";
 
   return "Другой";
 }
 
-function esc(value) {
-  return String(value)
+function parseConfigs(text) {
+  return text
+    .split(/\r?\n/)
+    .map(x => x.trim())
+    .filter(x => x && !x.startsWith("#"));
+}
+
+function escapeHtml(value) {
+  return value
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
@@ -376,10 +387,8 @@ function esc(value) {
 }
 
 function render() {
-  const search =
-    document.getElementById("search").value
-      .toLowerCase()
-      .trim();
+  const query =
+    document.getElementById("search").value.toLowerCase().trim();
 
   const source =
     document.getElementById("source").value;
@@ -387,65 +396,64 @@ function render() {
   const type =
     document.getElementById("type").value;
 
-  const sourceData =
-    source === "verified"
-      ? verified
-      : allConfigs;
+  const sourceList =
+    source === "verified" ? verified : all;
 
-  const result = sourceData
+  const filtered = sourceList
     .map(config => ({
       config,
-      type: typeOfConfig(config)
+      type: detectType(config)
     }))
     .filter(item => {
-      if (type && item.type !== type)
-        return false;
+      if (type && item.type !== type) return false;
 
       if (
-        search &&
-        !item.config.toLowerCase().includes(search)
-      )
+        query &&
+        !item.config.toLowerCase().includes(query)
+      ) {
         return false;
+      }
 
       return true;
     });
 
-  visibleConfigs =
-    result.map(item => item.config);
-
   document.getElementById("resultCount").textContent =
-    result.length;
+    filtered.length;
 
-  const box =
+  const container =
     document.getElementById("configs");
 
-  if (!result.length) {
-    box.innerHTML =
+  if (!filtered.length) {
+    container.innerHTML =
       '<p class="muted">Конфигурации не найдены.</p>';
     return;
   }
 
-  box.innerHTML = result.map((item, i) => `
-    <article class="config">
-      <div class="config-head">
-        <span class="badge">
-          ${esc(item.type)}
-        </span>
+  container.innerHTML = filtered
+    .map((item, index) => `
+      <article class="config">
+        <div class="config-head">
+          <span class="badge">${escapeHtml(item.type)}</span>
 
-        <button onclick="copyConfig(${i})">
-          Скопировать
-        </button>
-      </div>
+          <button
+            onclick="copyConfig(${index})">
+            Скопировать
+          </button>
+        </div>
 
-      <div class="config-text">
-        ${esc(item.config)}
-      </div>
-    </article>
-  `).join("");
+        <div
+          class="config-text"
+          id="config-${index}">${escapeHtml(item.config)}</div>
+      </article>
+    `)
+    .join("");
+
+  window.currentConfigs =
+    filtered.map(item => item.config);
 }
 
 async function copyConfig(index) {
-  const value = visibleConfigs[index];
+  const value = window.currentConfigs[index];
 
   try {
     await navigator.clipboard.writeText(value);
@@ -455,45 +463,40 @@ async function copyConfig(index) {
   }
 }
 
-async function loadConfigs() {
+async function load() {
   try {
-    const response =
-      await fetch("./configs.json?v=" + Date.now());
+    const [verifiedResponse, allResponse] =
+      await Promise.all([
+        fetch(VERIFIED_URL + "?v=" + Date.now()),
+        fetch(ALL_URL + "?v=" + Date.now())
+      ]);
 
-    if (!response.ok)
-      throw new Error("HTTP " + response.status);
-
-    const data = await response.json();
+    if (!verifiedResponse.ok || !allResponse.ok) {
+      throw new Error("Не удалось загрузить списки");
+    }
 
     verified =
-      Array.isArray(data.verified)
-        ? data.verified
-        : [];
+      parseConfigs(await verifiedResponse.text());
 
-    allConfigs =
-      Array.isArray(data.all)
-        ? data.all
-        : [];
+    all =
+      parseConfigs(await allResponse.text());
 
     document.getElementById("verifiedCount").textContent =
       verified.length;
 
     document.getElementById("allCount").textContent =
-      allConfigs.length;
+      all.length;
 
     document.getElementById("updateDate").textContent =
-      data.updated
-        ? new Date(data.updated)
-            .toLocaleDateString("ru-RU")
-        : "—";
+      new Date().toLocaleDateString("ru-RU");
 
     render();
 
   } catch (error) {
-    console.error(error);
-
     document.getElementById("configs").innerHTML =
-      '<p class="muted">Не удалось загрузить конфигурации.</p>';
+      '<p class="muted">Не удалось загрузить конфигурации. Попробуйте обновить страницу позже.</p>';
+
+    console.error(error);
   }
 }
 
@@ -509,9 +512,8 @@ document
   .getElementById("type")
   .addEventListener("change", render);
 
-loadConfigs();
+load();
 </script>
-
 
 </body>
 </html>

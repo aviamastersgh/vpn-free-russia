@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'site/**'
-      - '.github/workflows/publish-pages.yml'
   workflow_dispatch:
 
 permissions:
@@ -23,40 +20,49 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Publish site to gh-pages
+      - name: Validate site
+        run: |
+          set -euo pipefail
+
+          test -f site/index.html
+          test -f site/robots.txt
+          test -f site/sitemap.xml
+
+          grep -q '<title>' site/index.html
+          grep -q 'VERIFIED_URL' site/index.html
+          grep -q 'ALL_URL' site/index.html
+
+          echo "SITE VALIDATION: OK"
+
+      - name: Publish gh-pages
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
 
           TMP="$(mktemp -d)"
 
-          git clone --quiet \
-            --branch gh-pages \
-            "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
-            "$TMP/repo"
+          cp -a site/. "$TMP/"
 
-          cd "$TMP/repo"
+          cd "$TMP"
+
+          touch .nojekyll
+
+          git init
+          git checkout -b gh-pages
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          find . -mindepth 1 \
-            -maxdepth 1 \
-            ! -name '.git' \
-            -exec rm -rf {} +
+          git add .
+          git commit -m "deploy: update GitHub Pages"
 
-          cp -R "$GITHUB_WORKSPACE/site"/. .
+          git remote add origin \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
-          touch .nojekyll
+          git push origin gh-pages --force
 
-          git add -A
-
-          if git diff --cached --quiet; then
-            echo "No site changes"
-            exit 0
-          fi
-
-          git commit -m "deploy: update VPN site"
-          git push origin gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          echo "GH-PAGES: PUBLISHED"
