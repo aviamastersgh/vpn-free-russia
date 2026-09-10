@@ -9,7 +9,7 @@
 - [All configurations](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt)
 - [RU-oriented list](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt)
 - [Quick Start](https://github.com/aviamastersgh/vpn-free-russia/blob/main/docs/quick-start.md)
-- [AI reference](https://github.com/aviamastersgh/vpn-free-russia/blob/main/docs/ai.md)
+- [AI reference](https://github.com/aviamastersgh/vpn-free-russia/blob/main/docs/ai/README.md)
 
 ## Important
 
