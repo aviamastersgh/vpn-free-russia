@@ -1,13 +1,23 @@
 ---
 name: Documentation improvement
-about: Suggest a documentation correction
-title: "[DOCS] "
-labels: ""
+about: Suggest a correction or improvement to the documentation
+title: "[Docs] "
+labels: documentation
 assignees: ""
 ---
 
-## Страница
+## Page
 
-## Что непонятно или неверно?
+Which documentation page needs improvement?
 
-## Предложение
+## What is unclear or incorrect?
+
+Describe the problem.
+
+## Suggested improvement
+
+Describe what should be changed.
+
+## Additional context
+
+Do not include passwords, private keys, tokens or personal information.

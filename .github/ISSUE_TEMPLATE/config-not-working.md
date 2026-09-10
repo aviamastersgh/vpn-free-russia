@@ -1,13 +1,14 @@
 ---
-name: Config not working
-about: Report a public configuration that does not work
+name: Configuration not working
+about: Report a public VPN configuration that does not work
 title: "[Config] "
 labels: bug
+assignees: ""
 ---
 
 ## Client
 
-Example: v2rayNG / Hiddify / NekoBox / Karing
+Example: v2rayNG / v2rayN / Hiddify / NekoBox / Karing
 
 ## Platform
 
@@ -17,14 +18,22 @@ Example: Android / iOS / Windows / macOS
 
 Describe what happens.
 
-## Subscription
+## Which list did you use?
 
-Which list did you use?
+- [ ] verified_configs.txt
+- [ ] all_configs.txt
+- [ ] ru_configs.txt
 
-- verified_configs.txt
-- all_configs.txt
-- ru_configs.txt
+## What did you already try?
+
+- [ ] Refreshed the subscription
+- [ ] Tried another server
+- [ ] Tested real latency
+- [ ] Tried another client
+- [ ] Tried another configuration list
 
 ## Additional information
 
-Please do not post private credentials, personal information or payment details.
+Do not post passwords, private keys, tokens, personal information or payment details.
+
+Remember: `verified_configs.txt` means TCP endpoint reachability at update time. It does not guarantee a working VPN tunnel.

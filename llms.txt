@@ -4,16 +4,18 @@
 
 ## Primary resources
 
-- [Repository](https://github.com/aviamastersgh/vpn-free-russia)
-- [Recommended subscription](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt)
-- [All configurations](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt)
-- [RU-oriented list](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt)
-- [Quick Start](https://github.com/aviamastersgh/vpn-free-russia/blob/main/docs/quick-start.md)
-- [AI reference](https://github.com/aviamastersgh/vpn-free-russia/blob/main/docs/ai/README.md)
+- Repository: https://github.com/aviamastersgh/vpn-free-russia
+- Recommended subscription: https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+- All configurations: https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt
+- RU-oriented list: https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
+- Quick Start: https://github.com/aviamastersgh/vpn-free-russia/blob/main/docs/quick-start.md
+- AI reference: https://github.com/aviamastersgh/vpn-free-russia/blob/main/docs/ai/README.md
 
-## Important
+## Verification
 
-`verified_configs.txt` means TCP endpoint reachability at update time. It does not guarantee a successful VPN handshake, speed, stability, security, or regional availability.
+`verified_configs.txt` means TCP endpoint reachability at update time.
+
+It does not guarantee VPN handshake success, speed, stability, security, anonymity or regional availability.
 
 ## Topics
 
