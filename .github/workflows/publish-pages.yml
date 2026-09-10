@@ -4,13 +4,16 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'site/**'
+      - '.github/workflows/publish-pages.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: pages-publish
+  group: publish-pages
   cancel-in-progress: true
 
 jobs:
@@ -18,23 +21,42 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout main
         uses: actions/checkout@v4
 
-      - name: Prepare site
+      - name: Publish site to gh-pages
         run: |
-          test -f site/index.html
-          test -f site/robots.txt
-          test -f site/sitemap.xml
+          set -euo pipefail
 
-          echo "Site files:"
-          find site -maxdepth 1 -type f -printf '%f\n' | sort
+          TMP="$(mktemp -d)"
 
-      - name: Publish gh-pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./site
-          force_orphan: true
-          enable_jekyll: false
+          git clone --quiet \
+            --branch gh-pages \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            "$TMP/repo"
+
+          cd "$TMP/repo"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          find . -mindepth 1 \
+            -maxdepth 1 \
+            ! -name '.git' \
+            -exec rm -rf {} +
+
+          cp -R "$GITHUB_WORKSPACE/site"/. .
+
+          touch .nojekyll
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No site changes"
+            exit 0
+          fi
+
+          git commit -m "deploy: update VPN site"
+          git push origin gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
