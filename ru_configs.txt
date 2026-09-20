@@ -1,15 +1,15 @@
 # RU CIDR Configs | NosokVPNBot
-# Обновлено: 2026-09-20 03:02 UTC
-# Строк: 45
+# Обновлено: 2026-09-20 05:01 UTC
+# Строк: 43
 # Telegram: https://t.me/NosokVPNBot?start=partner_8655864538
 #
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@107.150.93.51:443?encryption=none&extra=%7B%22xmux%22%3A%7B%22maxConnections%22%3A1%2C%22maxReuseTimes%22%3A0%7D%7D&security=tls&sni=6a32736d.ferrin.uk&type=xhttp&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@107.150.93.51:443?encryption=none&extra=%7B%22xmux%22%3A%7B%22maxConnections%22%3A1%2C%22maxReuseTimes%22%3A0%7D%7D&security=tls&sni=6a32736d.ferrin.uk&type=xhttp&fp=edge#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@107.150.93.51:443?encryption=none&extra=%7B%22xmux%22%3A%7B%22maxConnections%22%3A1%2C%22maxReuseTimes%22%3A0%7D%7D&security=tls&sni=6a32736d.ferrin.uk&type=xhttp&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
+vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@107.150.93.51:443?encryption=none&extra=%7B%22xmux%22%3A%7B%22maxConnections%22%3A1%2C%22maxReuseTimes%22%3A0%7D%7D&security=tls&sni=6a32736d.ferrin.uk&type=xhttp&fp=ios#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@107.150.93.51:443?encryption=none&extra=%7B%22xmux%22%3A%7B%22maxConnections%22%3A1%2C%22maxReuseTimes%22%3A0%7D%7D&security=tls&sni=6a32736d.ferrin.uk&type=xhttp&fp=safari#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@fi.alpheratzz.org:443/?type=xhttp&encryption=none&flow=&security=tls&sni=6a32736d.ferrin.uk&alpn=h2&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@fi.alpheratzz.org:443/?type=xhttp&encryption=none&flow=&security=tls&sni=6a32736d.ferrin.uk&alpn=h2&fp=edge#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
-vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@fi.alpheratzz.org:443/?type=xhttp&encryption=none&flow=&security=tls&sni=6a32736d.ferrin.uk&alpn=h2&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@fi.alpheratzz.org:443/?type=xhttp&encryption=none&flow=&security=tls&sni=6a32736d.ferrin.uk&alpn=h2&fp=ios#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@fi.alpheratzz.org:443/?type=xhttp&encryption=none&flow=&security=tls&sni=6a32736d.ferrin.uk&alpn=h2&fp=qq#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@fi.alpheratzz.org:443?allowInsecure=0&alpn=h2&encryption=none&extra=%7B%22xmux%22%3A%7B%22maxConnections%22%3A1%2C%22maxReuseTimes%22%3A0%7D%7D&insecure=0&mode=stream-one&path=%2F&security=tls&sni=6a32736d.ferrin.uk&type=xhttp&fp=edge#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
@@ -21,14 +21,10 @@ vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@fi.alpheratzz.org:443?type=xhttp&se
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@fi.alpheratzz.org:443?allowInsecure=0&alpn=h2&encryption=none&extra=%7B%22xmux%22%3A%7B%22maxConnections%22%3A1%2C%22maxReuseTimes%22%3A0%7D%7D&insecure=0&mode=stream-one&path=%2F&security=tls&sni=6a32736d.ferrin.uk&type=xhttp&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%5B%2ACIDR%5D
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@fi.alpheratzz.org:443?allowInsecure=0&alpn=h2&encryption=none&extra=%7B%22xmux%22%3A%7B%22maxConnections%22%3A1%2C%22maxReuseTimes%22%3A0%7D%7D&insecure=0&mode=stream-one&path=%2F&security=tls&sni=6a32736d.ferrin.uk&type=xhttp&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%5B%2ACIDR%5D
 vless://6a32736d-4b7f-4c35-a1cf-4489d49f2cfb@fi.alpheratzz.org:443?type=xhttp&security=tls&path=%2F&sni=6a32736d.ferrin.uk&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%5B%2ACIDR%5D
-vless://86873637-d71a-4f58-8ce6-76b6df131a68@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=chrome#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%7C%20%5B%2ACIDR%5D
-vless://86873637-d71a-4f58-8ce6-76b6df131a68@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=edge#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%7C%20%5B%2ACIDR%5D
-vless://86873637-d71a-4f58-8ce6-76b6df131a68@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=ios#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%7C%20%5B%2ACIDR%5D
-vless://86873637-d71a-4f58-8ce6-76b6df131a68@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=safari#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%7C%20%5B%2ACIDR%5D
-vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&type=tcp&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D%20Beeline
-vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&type=tcp&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D%20Beeline
+vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&type=tcp&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D%20Beeline
 vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&type=tcp&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20Beeline
-vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&type=tcp&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20Beeline
+vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&type=tcp&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20Beeline
+vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&type=tcp&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20Beeline
 vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&alpn=h2&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20Beeline
 vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&alpn=h2&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20Beeline
 vless://151077fd-f4a0-4622-bfd2-1ee2c121a544@66.90.90.13:8443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=tls&sni=dsapi-v2-6aaeee8a.adhil.uk&alpn=h2&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20Beeline
@@ -38,6 +34,7 @@ hysteria2://hysteria2_fastlane_f6dt3q19m%3AvqCgcZnSL76jftd4853Sq8pUCmsYIjTJ@87.2
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%5B%2ACIDR%5D
 hysteria2://2a3b101d-d8f9-40e7-9373-b0ef487c0035@46.8.210.129:22443?sni=disk.api-yandex.net#%F0%9F%87%B3%F0%9F%87%B4%20Norway%20%5B%2ACIDR%5D
 hysteria2://2a3b101d-d8f9-40e7-9373-b0ef487c0035@46.8.210.129:22443?sni=disk.api-yandex.net&alpn=h3#%F0%9F%87%B3%F0%9F%87%B4%20Norway%20%5B%2ACIDR%5D
+hysteria2://2a3b101d-d8f9-40e7-9373-b0ef487c0035@46.8.210.152:23443?sni=disk.api-yandex.net#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 hysteria2://2a3b101d-d8f9-40e7-9373-b0ef487c0035@46.8.210.152:23443?sni=disk.api-yandex.net&alpn=h3#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=91.240.86.70&insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
@@ -46,5 +43,6 @@ hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quatt
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@els.mangshe.xyz:2056?insecure=1&sni=els.mangshe.xyz#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
