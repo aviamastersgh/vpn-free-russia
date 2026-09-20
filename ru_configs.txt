@@ -1,41 +1,11 @@
 # RU CIDR Configs | NosokVPNBot
-# Обновлено: 2026-09-20 15:09 UTC
-# Строк: 50
+# Обновлено: 2026-09-20 17:01 UTC
+# Строк: 18
 # Telegram: https://t.me/NosokVPNBot?start=partner_8655864538
 #
-vless://e121b564-fade-44aa-ba15-aa46538efaca@188.225.33.173:5001?encryption=none&type=grpc&security=tls&sni=rus.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=android#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@188.225.33.173:5001?encryption=none&type=grpc&security=tls&sni=rus.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@188.225.33.173:5001?encryption=none&type=grpc&security=tls&sni=rus.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=edge#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@188.225.33.173:5001?encryption=none&type=grpc&security=tls&sni=rus.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=ios#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@188.225.33.173:6001?encryption=none&type=grpc&security=tls&sni=fin.centermass.net&alpn=h2&serviceName=media.playback.v1.SessionGateway&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@188.225.33.173:6001?encryption=none&type=grpc&security=tls&sni=fin.centermass.net&alpn=h2&serviceName=media.playback.v1.SessionGateway&fp=edge#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@188.225.33.173:6001?encryption=none&type=grpc&security=tls&sni=fin.centermass.net&alpn=h2&serviceName=media.playback.v1.SessionGateway&fp=qq#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@188.225.33.173:6001?encryption=none&type=grpc&security=tls&sni=fin.centermass.net&alpn=h2&serviceName=media.playback.v1.SessionGateway&fp=safari#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@188.225.33.173:6001?encryption=none&type=grpc&security=tls&sni=fin.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@188.225.33.173:6001?encryption=none&type=grpc&security=tls&sni=fin.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=edge#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@188.225.33.173:6001?encryption=none&type=grpc&security=tls&sni=fin.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@188.225.33.173:6001?encryption=none&type=grpc&security=tls&sni=fin.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=ios#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@188.225.33.173:6001?encryption=none&type=grpc&security=tls&sni=fin.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=safari#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@188.225.33.173:6001?encryption=none&security=tls&serviceName=media.playback.v1.SessionGateway&sni=fin.centermass.net&type=grpc&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@188.225.33.173:6001?encryption=none&security=tls&serviceName=media.playback.v1.SessionGateway&sni=fin.centermass.net&type=grpc&fp=edge#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@188.225.33.173:6001?encryption=none&security=tls&serviceName=media.playback.v1.SessionGateway&sni=fin.centermass.net&type=grpc&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@188.225.33.173:6001?encryption=none&security=tls&serviceName=media.playback.v1.SessionGateway&sni=fin.centermass.net&type=grpc&fp=qq#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@188.225.33.173:6001?encryption=none&type=grpc&security=tls&sni=fin.centermass.net&alpn=h2&serviceName=media.playback.v1.SessionGateway&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@201.34.128.128:6443?encryption=none&type=grpc&security=tls&sni=nld.centermass.net&alpn=h2&serviceName=media.playback.v1.SessionGateway&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@201.34.128.128:6443?encryption=none&type=grpc&security=tls&sni=nld.centermass.net&alpn=h2&serviceName=media.playback.v1.SessionGateway&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@201.34.128.128:6443?encryption=none&type=grpc&security=tls&sni=nld.centermass.net&alpn=h2&serviceName=media.playback.v1.SessionGateway&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@201.34.128.128:6443?encryption=none&type=grpc&security=tls&sni=nld.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@201.34.128.128:6443?encryption=none&type=grpc&security=tls&sni=nld.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@201.34.128.128:6443?encryption=none&type=grpc&security=tls&sni=nld.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@201.34.128.128:6443?encryption=none&type=grpc&security=tls&sni=nld.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
-vless://e121b564-fade-44aa-ba15-aa46538efaca@201.34.128.128:6443?encryption=none&type=grpc&security=tls&sni=nld.centermass.net&serviceName=media.playback.v1.SessionGateway&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
-vless://ae8e2b94-5d44-437b-9002-80c2015f0e23@201.34.128.128:6443?encryption=none&type=grpc&security=tls&sni=nld.centermass.net&alpn=h2&serviceName=media.playback.v1.SessionGateway&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
-vless://5d224cf0-4c4e-46e2-a89c-9b804c5d3999@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=chrome#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%B8%F0%9F%87%AA%20%7C%20%5B%2ACIDR%5D
-vless://5d224cf0-4c4e-46e2-a89c-9b804c5d3999@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=edge#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%B8%F0%9F%87%AA%20%7C%20%5B%2ACIDR%5D
-vless://5d224cf0-4c4e-46e2-a89c-9b804c5d3999@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=ios#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%B8%F0%9F%87%AA%20%7C%20%5B%2ACIDR%5D
-vless://5d224cf0-4c4e-46e2-a89c-9b804c5d3999@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=qq#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%B8%F0%9F%87%AA%20%7C%20%5B%2ACIDR%5D
 hysteria2://hysteria2_fastlane_cfm7kzssa:OHDpvCARUv5xvE07caQIrVo6IpqRkgkq@84.23.54.203:1935?sni=ru2.h.smartaisupport.ru#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D%20VK
 hysteria2://hysteria2_fastlane_f6dt3q19m:vqCgcZnSL76jftd4853Sq8pUCmsYIjTJ@87.239.111.109:1935?insecure=1&sni=ru2.h.smartaisupport.ru&alpn=h3#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D%20VK
+hysteria2://hysteria2_fastlane_f6dt3q19m:vqCgcZnSL76jftd4853Sq8pUCmsYIjTJ@87.239.111.109:1935?sni=ru2.h.smartaisupport.ru#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D%20VK
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%5B%2ACIDR%5D
 hysteria2://2a3b101d-d8f9-40e7-9373-b0ef487c0035@46.8.210.129:22443?sni=disk.api-yandex.net#%F0%9F%87%B3%F0%9F%87%B4%20Norway%20%5B%2ACIDR%5D
 hysteria2://2a3b101d-d8f9-40e7-9373-b0ef487c0035@46.8.210.129:22443?sni=disk.api-yandex.net&alpn=h3#%F0%9F%87%B3%F0%9F%87%B4%20Norway%20%5B%2ACIDR%5D
@@ -46,8 +16,6 @@ hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=91.240.8
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru&insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@ru.xiaoliyu.cyou:4433?insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@ru.xiaoliyu.cyou:4433?insecure=1&sni=ru.xiaoliyu.cyou#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@els.mangshe.xyz:2056?insecure=1&sni=els.mangshe.xyz#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
