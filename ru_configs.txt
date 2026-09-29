@@ -1,22 +1,32 @@
 # RU CIDR Configs | NosokVPNBot
-# Обновлено: 2026-09-29 09:00 UTC
-# Строк: 28
+# Обновлено: 2026-09-29 11:00 UTC
+# Строк: 36
 # Telegram: https://t.me/NosokVPNBot?start=partner_8655864538
 #
-vless://4871e898-0980-402f-882f-e1983ffc851b@193.33.133.195:443?encryption=none&security=reality&sni=ozon.ru&pbk=5f_7knvdTuK5bek16zI3cgP5sjDAPJaeFKjd-NALfwQ&type=grpc&serviceName=grpc&mode=gun&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D
-vless://4871e898-0980-402f-882f-e1983ffc851b@193.33.133.195:443?encryption=none&security=reality&sni=ozon.ru&pbk=5f_7knvdTuK5bek16zI3cgP5sjDAPJaeFKjd-NALfwQ&type=grpc&serviceName=grpc&mode=gun&fp=edge#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D
-vless://4871e898-0980-402f-882f-e1983ffc851b@193.33.133.195:443?encryption=none&security=reality&sni=ozon.ru&pbk=5f_7knvdTuK5bek16zI3cgP5sjDAPJaeFKjd-NALfwQ&type=grpc&serviceName=grpc&mode=gun&fp=ios#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D
-vless://adc11f30-e4cb-4985-bf5e-f9ded69c019f@109.120.181.153:443?sni=eh.vk.ru&flow=xtls-rprx-vision&security=reality&pbk=fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI&sid=db04ce8bdb8900f1&fp=android#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D%20VK
-vless://adc11f30-e4cb-4985-bf5e-f9ded69c019f@109.120.181.153:443?sni=eh.vk.ru&flow=xtls-rprx-vision&security=reality&pbk=fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI&sid=db04ce8bdb8900f1&fp=chrome#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D%20VK
-vless://adc11f30-e4cb-4985-bf5e-f9ded69c019f@109.120.181.153:443?sni=eh.vk.ru&flow=xtls-rprx-vision&security=reality&pbk=fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI&sid=db04ce8bdb8900f1&fp=firefox#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D%20VK
-vless://adc11f30-e4cb-4985-bf5e-f9ded69c019f@109.120.181.153:443?sni=eh.vk.ru&flow=xtls-rprx-vision&security=reality&pbk=fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI&sid=db04ce8bdb8900f1&fp=qq#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D%20VK
-vless://adc11f30-e4cb-4985-bf5e-f9ded69c019f@109.120.181.153:443?sni=eh.vk.ru&flow=xtls-rprx-vision&security=reality&pbk=fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI&sid=db04ce8bdb8900f1&fp=safari#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D%20VK
-vless://4871e898-0980-402f-882f-e1983ffc851b@193.33.133.195:443?encryption=none&security=reality&sni=ozon.ru&pbk=5f_7knvdTuK5bek16zI3cgP5sjDAPJaeFKjd-NALfwQ&type=grpc&serviceName=grpc&mode=gun&fp=firefox#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://4871e898-0980-402f-882f-e1983ffc851b@193.33.133.195:443?encryption=none&security=reality&sni=ozon.ru&pbk=5f_7knvdTuK5bek16zI3cgP5sjDAPJaeFKjd-NALfwQ&type=grpc&serviceName=grpc&mode=gun&fp=safari#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://1b201db0-b373-455a-8ccd-fd624aaef8d3@91.240.87.237:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=J0SK1ic3YJvP1gac5m3KSVaUuK_bxFtqz0fh0uEdEw4&sid=00000000&sni=fiae3.maxtelemost.com&fp=android#%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%5B%2ACIDR%5D
+vless://1b201db0-b373-455a-8ccd-fd624aaef8d3@91.240.87.237:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=J0SK1ic3YJvP1gac5m3KSVaUuK_bxFtqz0fh0uEdEw4&sid=00000000&sni=fiae3.maxtelemost.com&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%5B%2ACIDR%5D
+vless://1b201db0-b373-455a-8ccd-fd624aaef8d3@91.240.87.237:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=J0SK1ic3YJvP1gac5m3KSVaUuK_bxFtqz0fh0uEdEw4&sid=00000000&sni=fiae3.maxtelemost.com&fp=firefox#%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%5B%2ACIDR%5D
+vless://1b201db0-b373-455a-8ccd-fd624aaef8d3@91.240.87.237:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=J0SK1ic3YJvP1gac5m3KSVaUuK_bxFtqz0fh0uEdEw4&sid=00000000&sni=fiae3.maxtelemost.com&fp=qq#%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%5B%2ACIDR%5D
+vless://1b201db0-b373-455a-8ccd-fd624aaef8d3@91.240.87.237:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=J0SK1ic3YJvP1gac5m3KSVaUuK_bxFtqz0fh0uEdEw4&sid=00000000&sni=fiae3.maxtelemost.com&fp=safari#%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%5B%2ACIDR%5D
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@37.139.42.179:443?encryption=none&host=vyvoz-musora.cc&path=%2Fe8ws&security=tls&sni=vyvoz-musora.cc&type=ws&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@37.139.42.179:443?encryption=none&host=vyvoz-musora.cc&path=%2Fe8ws&security=tls&sni=vyvoz-musora.cc&type=ws&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@37.139.42.179:443?encryption=none&host=vyvoz-musora.cc&path=%2Fe8ws&security=tls&sni=vyvoz-musora.cc&type=ws&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@37.139.42.179:443?encryption=none&host=vyvoz-musora.cc&path=%2Fe8ws&security=tls&sni=vyvoz-musora.cc&type=ws&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@37.139.42.179:443?encryption=none&host=vyvoz-musora.cc&path=%2Fe8ws&security=tls&sni=vyvoz-musora.cc&type=ws&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@37.139.42.179:443?encryption=none&host=vyvoz-musora.cc&path=%2Fe8ws&security=tls&sni=vyvoz-musora.cc&type=ws&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@vyvoz-musora.cc:443?encryption=none&security=tls&sni=vyvoz-musora.cc&alpn=http%2F1.1&type=ws&host=vyvoz-musora.cc&path=%2Fe8ws&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@vyvoz-musora.cc:443?encryption=none&security=tls&sni=vyvoz-musora.cc&alpn=http%2F1.1&type=ws&host=vyvoz-musora.cc&path=%2Fe8ws&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@vyvoz-musora.cc:443?encryption=none&security=tls&sni=vyvoz-musora.cc&alpn=http%2F1.1&type=ws&host=vyvoz-musora.cc&path=%2Fe8ws&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@vyvoz-musora.cc:443?encryption=none&security=tls&sni=vyvoz-musora.cc&alpn=http%2F1.1&type=ws&host=vyvoz-musora.cc&path=%2Fe8ws&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@37.139.42.179:443?encryption=none&host=vyvoz-musora.cc&path=%2Fe8ws&security=tls&sni=vyvoz-musora.cc&type=ws&fp=random#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D%20VK
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@vyvoz-musora.cc:443?encryption=none&security=tls&sni=vyvoz-musora.cc&alpn=http%2F1.1&type=ws&host=vyvoz-musora.cc&path=%2Fe8ws&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D%20VK
+vless://Fluffy_VPN-8d7GxL0p@195.209.219.176:443?security=reality&encryption=none&pbk=AzPJmJdRCwGXucsY1R-YPZk5xdxRo5IZPAWsA3JWOUI&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=absolute-disaster.org&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
+vless://Fluffy_VPN-8d7GxL0p@195.209.219.176:443?security=reality&encryption=none&pbk=AzPJmJdRCwGXucsY1R-YPZk5xdxRo5IZPAWsA3JWOUI&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=absolute-disaster.org&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
+vless://Fluffy_VPN-8d7GxL0p@195.209.219.176:443?security=reality&encryption=none&pbk=AzPJmJdRCwGXucsY1R-YPZk5xdxRo5IZPAWsA3JWOUI&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=absolute-disaster.org&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
+vless://Fluffy_VPN-8d7GxL0p@195.209.219.176:443?security=reality&encryption=none&pbk=AzPJmJdRCwGXucsY1R-YPZk5xdxRo5IZPAWsA3JWOUI&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=absolute-disaster.org&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
+vless://Fluffy_VPN-8d7GxL0p@195.209.219.176:443?security=reality&encryption=none&pbk=AzPJmJdRCwGXucsY1R-YPZk5xdxRo5IZPAWsA3JWOUI&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=absolute-disaster.org&fp=safari#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?alpn=h3&insecure=1&sni=hy.quattro-tech.ru#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%5B%2ACIDR%5D
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru&insecure=1#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%5B%2ACIDR%5D
-hysteria2://ODM2MzExOTcyMCwxNzkwNTMyNzE0ksak7YOGMD@185.246.65.176:8113?sni=lit1.lumenvpn.tech#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-hysteria2://ODM2MzExOTcyMCwxNzkwNTMyNzE0ksak7YOGMD@185.246.65.176:8112?sni=nl2.lumenvpn.tech#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=1&sni=91.240.86.70#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=91.240.86.70&insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
@@ -27,7 +37,5 @@ hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallpr
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=off&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@ru.xiaoliyu.cyou:18333?insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@ru.xiaoliyu.cyou:18333?insecure=1&sni=ru.xiaoliyu.cyou#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
