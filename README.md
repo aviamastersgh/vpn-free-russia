@@ -40,7 +40,7 @@
 <p>
   <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><strong>⚡ ОТКРЫТЬ БЕСПЛАТНУЮ ПОДПИСКУ</strong></a>
   &nbsp; · &nbsp;
-  <a href="https://t.me/NosokVPNBot?start=github_top"><strong>🚀 ПОЛУЧИТЬ СТАБИЛЬНЫЙ VPN</strong></a>
+  <a href="https://t.me/NosokVPNBot?start=partner_8655864538?start=github_top"><strong>🚀 ПОЛУЧИТЬ СТАБИЛЬНЫЙ VPN</strong></a>
 </p>
 
 </div>
@@ -131,12 +131,12 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 Если бесплатные публичные серверы часто перегружаются и вам нужен более стабильный вариант для ежедневного использования:
 
 <p align="center">
-  <a href="https://t.me/NosokVPNBot?start=github_top">
+  <a href="https://t.me/NosokVPNBot?start=partner_8655864538">
     <img src="https://img.shields.io/badge/🚀%20Получить%20стабильный%20VPN%20→-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Получить стабильный VPN">
   </a>
 </p>
 
-**[🚀 Получить стабильный VPN →](https://t.me/NosokVPNBot?start=github_top)**
+**[🚀 Получить стабильный VPN →](https://t.me/NosokVPNBot?start=partner_8655864538)**
 
 ---
 
@@ -147,7 +147,7 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 | 🆓 Нужен бесплатный VPN для обычного интернета | [`verified_configs.txt`](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
 | 📱 Мобильный интернет сильно ограничен | [`ru_configs.txt`](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt) |
 | 🧪 Нужны все доступные варианты | [`all_configs.txt`](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
-| 🔒 Нужна стабильность без постоянной смены публичных серверов | [Персональный стабильный VPN →](https://t.me/NosokVPNBot?start=github_table) |
+| 🔒 Нужна стабильность без постоянной смены публичных серверов | [Персональный стабильный VPN →](https://t.me/NosokVPNBot?start=partner_8655864538) |
 
 ---
 
@@ -711,12 +711,12 @@ https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/verified_configs.
 - самостоятельно разбираться с каждым нерабочим узлом.
 
 <p align="center">
-  <a href="https://t.me/NosokVPNBot?start=github_bottom">
+  <a href="https://t.me/NosokVPNBot?start=partner_8655864538">
     <img src="https://img.shields.io/badge/🚀%20Получить%20стабильный%20VPN%20→-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Получить стабильный VPN">
   </a>
 </p>
 
-**[Открыть @NosokVPNBot →](https://t.me/NosokVPNBot?start=github_bottom)**
+**[Открыть @NosokVPNBot →](https://t.me/NosokVPNBot?start=partner_8655864538)**
 
 Актуальные тарифы, условия и параметры подключения доступны непосредственно в Telegram-боте.
 
@@ -902,7 +902,7 @@ TCP ping проверяет сетевую доступность порта.
 
 Для более стабильного и удобного сценария можно перейти к персональному VPN-ключу:
 
-**[🚀 Получить стабильный VPN →](https://t.me/NosokVPNBot?start=github_faq)**
+**[🚀 Получить стабильный VPN →](https://t.me/NosokVPNBot?start=partner_8655864538)**
 </details>
 
 ---
@@ -1045,6 +1045,6 @@ ru_configs.txt
 &nbsp; · &nbsp;
 <a href="https://github.com/aviamastersgh/vpn-free-russia/fork">🍴 Fork</a>
 &nbsp; · &nbsp;
-<a href="https://t.me/NosokVPNBot?start=github_footer">🔒 Stable VPN</a>
+<a href="https://t.me/NosokVPNBot?start=partner_8655864538">🔒 Stable VPN</a>
 
 </div>
