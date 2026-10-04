@@ -326,14 +326,6 @@ def update_readme(
             #
             # В таком случае оборачиваем именно блок с тремя
             # config-badges, не затрагивая остальной SEO-текст.
-            badge_pattern = re.compile(
-                r'(?P<indent> *)<a href="https://raw\.githubusercontent\.com/'
-                r'aviamastersgh/vpn-free-russia/main/'
-                r'verified_configs\.txt">.*?</a>\\n'
-                r'(?P<second>.*?all_configs\.txt">.*?</a>\\n'
-                r'(?P<third>.*?ru_configs\.txt">.*?</a>)',
-                re.DOTALL,
-            )
 
             # Работаем непосредственно с markdown-текстом.
             block = re.search(
