@@ -40,7 +40,7 @@
 <p>
   <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><strong>⚡ ОТКРЫТЬ БЕСПЛАТНУЮ ПОДПИСКУ</strong></a>
   &nbsp; · &nbsp;
-  <a href="https://t.me/NosokVPNBot?start=partner_8655864538?start=github_top"><strong>🚀 ПОЛУЧИТЬ СТАБИЛЬНЫЙ VPN</strong></a>
+  <a href="https://t.me/NosokVPNBot?start=partner_8655864538"><strong>🚀 ПОЛУЧИТЬ СТАБИЛЬНЫЙ VPN</strong></a>
 </p>
 
 </div>
