@@ -10,19 +10,16 @@
 
 <div align="center">
 
-# 🇷🇺 Бесплатные VPN-конфиги для России
+# 🇷🇺 Бесплатный VPN для России — рабочие VPN-конфиги VLESS, Reality
 
-**Актуальные публичные VPN-подписки для России: VLESS, Reality, Hysteria2, Trojan, VMess, Shadowsocks и TUIC.**
+**Бесплатные рабочие VPN-конфиги и VPN-подписки для России: VLESS Reality, Hysteria2, Trojan, VMess, Shadowsocks и TUIC.**
 
 Работают через совместимые клиенты: **v2rayNG, v2rayN, Karing, Hiddify, Happ, NekoBox, Streisand, v2Box** и другие клиенты на базе Xray / sing-box / совместимых ядер.
 
 <p>
-  <!-- STATS_START -->
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/Все_конфиги-9061-4C8BF5?style=for-the-badge&logo=server&logoColor=white" alt="All configs"/></a>
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/Проверенные-500-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Verified configs"/></a>
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt"><img src="https://img.shields.io/badge/RU_обход-5-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="RU configs"/></a>
-<img src="https://img.shields.io/badge/Обновлено-2026_10_04_13%3A00_UTC-f97316?style=for-the-badge&logo=clockify&logoColor=white" alt="Updated"/>
-<!-- STATS_END -->
+  <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/✅%20Проверенные%20конфиги-367-2ea44f?style=for-the-badge" alt="Проверенные VPN конфиги"></a>
+  <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/📦%20Все%20конфиги-671-4C8BF5?style=for-the-badge" alt="Все VPN конфиги"></a>
+  <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt"><img src="https://img.shields.io/badge/🇷🇺%20RU%20обход-26-2ea44f?style=for-the-badge" alt="RU конфиги"></a>
 </p>
 
 <p>
@@ -40,7 +37,7 @@
 <p>
   <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><strong>⚡ ОТКРЫТЬ БЕСПЛАТНУЮ ПОДПИСКУ</strong></a>
   &nbsp; · &nbsp;
-  <a href="https://t.me/NosokVPNBot?start=partner_8655864538"><strong>🔒 СТАБИЛЬНЫЙ VPN</strong></a>
+  <a href="https://t.me/NosokVPNBot?start=github_top"><strong>🚀 ПОЛУЧИТЬ СТАБИЛЬНЫЙ VPN</strong></a>
 </p>
 
 </div>
@@ -67,7 +64,7 @@
 - чтобы быстро вернуться сюда после обновления сети или клиента;
 - чтобы поделиться источником с семьёй, друзьями или коллегами.
 
-> **⭐ Одна Star очень помогает проекту.** Чем больше реальных пользователей сохраняют и отмечают репозиторий, тем легче проекту находиться через GitHub и поисковики.
+> **⭐ Если репозиторий оказался полезен, поставьте Star.** Это помогает проекту получать больше внимания и не потеряться среди других VPN-репозиториев.
 
 Спасибо всем, кто пользуется конфигами, сообщает о проблемах, делится репозиторием и помогает проекту становиться полезнее. ❤️
 
@@ -114,6 +111,32 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 
 ---
 
+## 🔥 Рабочий VPN для России
+
+Если вам нужен именно **бесплатный рабочий VPN для России**, начните с проверенной подписки:
+
+```text
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+```
+
+Конфигурации автоматически собираются, проверяются и обновляются. После добавления подписки в VPN-клиент проверьте несколько серверов через **Real Delay / Реальную задержку**.
+
+> Публичные VPN-серверы могут перегружаться или переставать работать. Если один сервер не подключается, попробуйте другой.
+
+### 🔒 Нужна стабильность без постоянного перебора серверов?
+
+Если бесплатные публичные серверы часто перегружаются и вам нужен более стабильный вариант для ежедневного использования:
+
+<p align="center">
+  <a href="https://t.me/NosokVPNBot?start=github_top">
+    <img src="https://img.shields.io/badge/🚀%20Получить%20стабильный%20VPN%20→-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Получить стабильный VPN">
+  </a>
+</p>
+
+**[🚀 Получить стабильный VPN →](https://t.me/NosokVPNBot?start=github_top)**
+
+---
+
 ## 🧭 Какой файл нужен именно вам?
 
 | Ситуация | Рекомендуемый файл |
@@ -121,7 +144,23 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 | 🆓 Нужен бесплатный VPN для обычного интернета | [`verified_configs.txt`](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt) |
 | 📱 Мобильный интернет сильно ограничен | [`ru_configs.txt`](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt) |
 | 🧪 Нужны все доступные варианты | [`all_configs.txt`](https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt) |
-| 🔒 Нужна стабильность без постоянной смены публичных серверов | [Персональный стабильный VPN →](https://t.me/NosokVPNBot?start=partner_8655864538) |
+| 🔒 Нужна стабильность без постоянной смены публичных серверов | [Персональный стабильный VPN →](https://t.me/NosokVPNBot?start=github_table) |
+
+---
+
+# ⚡ VLESS Reality для России
+
+В репозитории доступны публичные конфигурации **VLESS Reality** и других протоколов, которые используются совместимыми Xray / sing-box-клиентами.
+
+VLESS Reality часто встречается в современных VPN-конфигурациях и поддерживается популярными клиентами, включая **v2rayNG, v2rayN, Hiddify, Happ, Karing и NekoBox**.
+
+Если вам нужен готовый вариант для проверки, начните с:
+
+```text
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+```
+
+Если подходящего сервера нет, попробуйте `all_configs.txt` или `ru_configs.txt`.
 
 ---
 
@@ -184,13 +223,13 @@ https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/all_configs.txt
 
 ---
 
-## 🇷🇺 `ru_configs.txt` — конфиги для сценариев с белыми списками
+## 🇷🇺 VPN для России при белых списках — `ru_configs.txt`
 
 ```text
 https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
 ```
 
-Этот вариант предназначен прежде всего для ситуаций, когда мобильный интернет работает в сильно ограниченном режиме и доступны только отдельные российские ресурсы или разрешённые направления.
+Этот вариант предназначен прежде всего для ситуаций, когда мобильный интернет работает в сильно ограниченном режиме. Если обычный VPN не подключается в России или VPN не работает на ограниченном мобильном интернете, попробуйте этот отдельный пул конфигураций и доступны только отдельные российские ресурсы или разрешённые направления.
 
 Пробуйте `ru_configs.txt`, когда:
 
@@ -212,7 +251,7 @@ https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/ru_configs.txt
 
 # 📱 Подробные инструкции по подключению
 
-## Android: v2rayNG
+## 📱 Бесплатный VPN для Android — v2rayNG
 
 [v2rayNG — официальный репозиторий](https://github.com/2dust/v2rayNG/releases)
 
@@ -248,7 +287,7 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 
 ---
 
-## Android: Karing
+## 📱 Бесплатный VPN для Android — Karing
 
 [Karing — релизы](https://github.com/KaringX/karing/releases)
 
@@ -272,7 +311,7 @@ Karing удобен, когда не хочется вручную переби�
 
 ---
 
-## Android: NekoBox
+## 📱 Бесплатный VPN для Android — NekoBox
 
 [NekoBoxForAndroid — релизы](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)
 
@@ -288,7 +327,7 @@ Karing удобен, когда не хочется вручную переби�
 
 ---
 
-## iPhone / iPad: Karing
+## 🍎 Бесплатный VPN для iPhone / iPad — Karing
 
 [Karing в App Store](https://apps.apple.com/us/app/karing/id6472431552)
 
@@ -303,7 +342,7 @@ Karing удобен, когда не хочется вручную переби�
 
 ---
 
-## iPhone / iPad: Streisand
+## 🍎 Бесплатный VPN для iPhone / iPad — Streisand
 
 [Streisand в App Store](https://apps.apple.com/us/app/streisand/id6450534064)
 
@@ -317,7 +356,7 @@ Karing удобен, когда не хочется вручную переби�
 
 ---
 
-## iPhone / iPad: v2Box
+## 🍎 Бесплатный VPN для iPhone / iPad — v2Box
 
 [v2Box в App Store](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690)
 
@@ -332,7 +371,7 @@ Karing удобен, когда не хочется вручную переби�
 
 ---
 
-## Windows: v2rayN
+## 🪟 Бесплатный VPN для Windows — v2rayN
 
 [v2rayN — релизы](https://github.com/2dust/v2rayN/releases)
 
@@ -355,7 +394,7 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 
 ---
 
-## Windows / macOS / Linux: Karing
+## 🖥️ Бесплатный VPN для Windows / macOS / Linux — Karing
 
 [Karing — релизы](https://github.com/KaringX/karing/releases)
 
@@ -501,7 +540,11 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 
 ---
 
-# 🆘 Что делать, если ничего не работает
+# 🆘 VPN не работает в России — что делать
+
+Если **VPN не подключается**, подписка не обновляется или сервер перестал работать, не удаляйте репозиторий и не выбрасывайте старые ссылки сразу.
+
+Проблема может быть связана с конкретным сервером, VPN-клиентом, оператором, регионом или устаревшей подпиской. Обычно достаточно обновить список и попробовать несколько других конфигураций.
 
 Не удаляйте репозиторий и не выбрасывайте старые ссылки сразу.
 
@@ -665,12 +708,12 @@ https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/verified_configs.
 - самостоятельно разбираться с каждым нерабочим узлом.
 
 <p align="center">
-  <a href="https://t.me/NosokVPNBot?start=partner_8655864538">
+  <a href="https://t.me/NosokVPNBot?start=github_bottom">
     <img src="https://img.shields.io/badge/🚀%20Получить%20стабильный%20VPN%20→-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Получить стабильный VPN">
   </a>
 </p>
 
-**[Открыть @NosokVPNBot →](https://t.me/NosokVPNBot?start=partner_8655864538)**
+**[Открыть @NosokVPNBot →](https://t.me/NosokVPNBot?start=github_bottom)**
 
 Актуальные тарифы, условия и параметры подключения доступны непосредственно в Telegram-боте.
 
@@ -856,8 +899,20 @@ TCP ping проверяет сетевую доступность порта.
 
 Для более стабильного и удобного сценария можно перейти к персональному VPN-ключу:
 
-**[🚀 Получить стабильный VPN →](https://t.me/NosokVPNBot?start=partner_8655864538)**
+**[🚀 Получить стабильный VPN →](https://t.me/NosokVPNBot?start=github_faq)**
 </details>
+
+---
+
+# 🔎 Бесплатный VPN для России — быстрый выбор
+
+Если вы пришли в репозиторий из поиска по запросам **«бесплатный VPN для России»**, **«рабочий VPN для России»**, **«VPN-конфиги для России»**, **«VLESS Reality»** или **«VPN не работает»**, используйте эту последовательность:
+
+1. Для большинства случаев — `verified_configs.txt`.
+2. Если обычная подписка не работает — попробуйте несколько серверов и другой VPN-клиент.
+3. Если мобильный интернет ограничен — попробуйте `ru_configs.txt`.
+4. Если нужен максимально широкий выбор — `all_configs.txt`.
+5. Если нужна стабильность без постоянной смены публичных серверов — используйте персональный VPN.
 
 ---
 
@@ -977,7 +1032,7 @@ ru_configs.txt
 
 <div align="center">
 
-### 🇷🇺 Free VPN Russia
+### 🇷🇺 Бесплатный VPN для России
 
 **Бесплатные VPN-конфиги · VLESS · Reality · Hysteria2 · Trojan · VMess · Shadowsocks**
 
@@ -987,6 +1042,6 @@ ru_configs.txt
 &nbsp; · &nbsp;
 <a href="https://github.com/aviamastersgh/vpn-free-russia/fork">🍴 Fork</a>
 &nbsp; · &nbsp;
-<a href="https://t.me/NosokVPNBot?start=partner_8655864538">🔒 Stable VPN</a>
+<a href="https://t.me/NosokVPNBot?start=github_footer">🔒 Stable VPN</a>
 
 </div>
