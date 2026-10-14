@@ -1,29 +1,17 @@
 # RU CIDR Configs | NosokVPNBot
-# Обновлено: 2026-10-14 16:13 UTC
-# Строк: 24
+# Обновлено: 2026-10-14 17:00 UTC
+# Строк: 12
 # Telegram: https://t.me/NosokVPNBot?start=partner_8655864538
 #
-vless://3126e5b3-90dd-4ba4-b950-739ac88e59f8@ru.cdn2.vpnruss1.ru:443?type=ws&security=tls&encryption=none&path=%2F&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://3126e5b3-90dd-4ba4-b950-739ac88e59f8@ru.cdn2.vpnruss1.ru:443?type=ws&security=tls&encryption=none&path=%2F&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://3126e5b3-90dd-4ba4-b950-739ac88e59f8@ru.cdn2.vpnruss1.ru:443?type=ws&security=tls&encryption=none&path=%2F&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://3126e5b3-90dd-4ba4-b950-739ac88e59f8@ru.cdn2.vpnruss1.ru:443?type=ws&security=tls&encryption=none&path=%2F&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://3126e5b3-90dd-4ba4-b950-739ac88e59f8@ru.cdn2.vpnruss1.ru:443?type=ws&security=tls&encryption=none&path=%2F&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://a96ad3ea-4820-43d2-bbf3-27c6bf19d652@pl.bootless.ru:443?encryption=none&security=tls&sni=pl.bootless.ru&type=xhttp&path=%2Fapi%2Fv2%2Fstream&mode=auto&fp=chrome#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%5B%2ACIDR%5D
-vless://a96ad3ea-4820-43d2-bbf3-27c6bf19d652@pl.bootless.ru:443?encryption=none&security=tls&sni=pl.bootless.ru&type=xhttp&path=%2Fapi%2Fv2%2Fstream&mode=auto&fp=edge#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%5B%2ACIDR%5D
-vless://a96ad3ea-4820-43d2-bbf3-27c6bf19d652@pl.bootless.ru:443?encryption=none&security=tls&sni=pl.bootless.ru&type=xhttp&path=%2Fapi%2Fv2%2Fstream&mode=auto&fp=ios#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%5B%2ACIDR%5D
-vless://a96ad3ea-4820-43d2-bbf3-27c6bf19d652@pl.bootless.ru:443?encryption=none&security=tls&sni=pl.bootless.ru&type=xhttp&path=%2Fapi%2Fv2%2Fstream&mode=auto&fp=qq#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%5B%2ACIDR%5D
-vless://a96ad3ea-4820-43d2-bbf3-27c6bf19d652@pl.bootless.ru:443?encryption=none&security=tls&sni=pl.bootless.ru&type=xhttp&path=%2Fapi%2Fv2%2Fstream&mode=auto&fp=safari#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%5B%2ACIDR%5D
-vless://a96ad3ea-4820-43d2-bbf3-27c6bf19d652@200.169.184.97:443?encryption=none&path=%2Fapi%2Fv2%2Fstream&security=tls&sni=pl.bootless.ru&type=xhttp&fp=chrome#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D
-vless://a96ad3ea-4820-43d2-bbf3-27c6bf19d652@200.169.184.97:443?encryption=none&path=%2Fapi%2Fv2%2Fstream&security=tls&sni=pl.bootless.ru&type=xhttp&fp=edge#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D
-vless://a96ad3ea-4820-43d2-bbf3-27c6bf19d652@200.169.184.97:443?encryption=none&path=%2Fapi%2Fv2%2Fstream&security=tls&sni=pl.bootless.ru&type=xhttp&fp=firefox#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D
-vless://a96ad3ea-4820-43d2-bbf3-27c6bf19d652@200.169.184.97:443?encryption=none&path=%2Fapi%2Fv2%2Fstream&security=tls&sni=pl.bootless.ru&type=xhttp&fp=ios#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D
-vless://a96ad3ea-4820-43d2-bbf3-27c6bf19d652@200.169.184.97:443?encryption=none&path=%2Fapi%2Fv2%2Fstream&security=tls&sni=pl.bootless.ru&type=xhttp&fp=safari#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D
+vless://37e0fe94-02b7-4d08-9555-c8cd9dcde11c@api.mediaplav.cc:443?encryption=none&type=grpc&serviceName=3e99d50d5740985d&mode=gun&authority=api.mediaplav.cc&security=tls&sni=api.mediaplav.cc&alpn=h2&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
+vless://37e0fe94-02b7-4d08-9555-c8cd9dcde11c@api.mediaplav.cc:443?encryption=none&type=grpc&serviceName=3e99d50d5740985d&mode=gun&authority=api.mediaplav.cc&security=tls&sni=api.mediaplav.cc&alpn=h2&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D
 vless://37e0fe94-02b7-4d08-9555-c8cd9dcde11c@api.mediaplav.cc:443?encryption=none&type=grpc&serviceName=3e99d50d5740985d&mode=gun&authority=api.mediaplav.cc&security=tls&sni=api.mediaplav.cc&alpn=h2&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
-vless://37e0fe94-02b7-4d08-9555-c8cd9dcde11c@api.mediaplav.cc:443?encryption=none&type=grpc&serviceName=3e99d50d5740985d&mode=gun&authority=api.mediaplav.cc&security=tls&sni=api.mediaplav.cc&alpn=h2&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
-vless://37e0fe94-02b7-4d08-9555-c8cd9dcde11c@api.mediaplav.cc:443?encryption=none&type=grpc&serviceName=3e99d50d5740985d&mode=gun&authority=api.mediaplav.cc&security=tls&sni=api.mediaplav.cc&alpn=h2&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
-vless://37e0fe94-02b7-4d08-9555-c8cd9dcde11c@api.mediaplav.cc:443?encryption=none&type=grpc&serviceName=3e99d50d5740985d&mode=gun&authority=api.mediaplav.cc&security=tls&sni=api.mediaplav.cc&alpn=h2&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
 vless://37e0fe94-02b7-4d08-9555-c8cd9dcde11c@api.mediaplav.cc:443?encryption=none&type=grpc&serviceName=3e99d50d5740985d&mode=gun&authority=api.mediaplav.cc&security=tls&sni=api.mediaplav.cc&alpn=h2&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
-hysteria2://7ab3c77e-8fcc-4848-918f-cae3d4eac794@194.87.118.184:2053?security=tls&sni=match-stream.lovkisport.blog&alpn=h3&insecure=0#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D
-hysteria2://7ab3c77e-8fcc-4848-918f-cae3d4eac794@194.87.118.184:2053?insecure=1&sni=194.87.118.184#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%B7%F0%9F%87%BA%20%5B%2ACIDR%5D
-hysteria2://7ab3c77e-8fcc-4848-918f-cae3d4eac794@194.87.118.184:2053?insecure=1&sni=off#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%B7%F0%9F%87%BA%20%5B%2ACIDR%5D
-hysteria2://7ab3c77e-8fcc-4848-918f-cae3d4eac794@194.87.118.184:2053?sni=match-stream.lovkisport.blog#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%B7%F0%9F%87%BA%20%5B%2ACIDR%5D
+vless://37e0fe94-02b7-4d08-9555-c8cd9dcde11c@api.mediaplav.cc:443?encryption=none&type=grpc&serviceName=3e99d50d5740985d&mode=gun&authority=api.mediaplav.cc&security=tls&sni=api.mediaplav.cc&alpn=h2&fp=safari#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D
+vless://624bfb9d-df06-4fe6-8d9e-35287ffb95ad@185.229.9.31:49922?encryption=none&type=grpc&security=reality&sni=lk.x5.ru&pbk=1VyJ_wt8NjUBMGHR_jId8919MvPscyNHqFL1kNUDfCk&sid=ff0d&serviceName=grpc&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://624bfb9d-df06-4fe6-8d9e-35287ffb95ad@185.229.9.31:49922?encryption=none&type=grpc&security=reality&sni=lk.x5.ru&pbk=1VyJ_wt8NjUBMGHR_jId8919MvPscyNHqFL1kNUDfCk&sid=ff0d&serviceName=grpc&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://624bfb9d-df06-4fe6-8d9e-35287ffb95ad@185.229.9.31:49922?encryption=none&type=grpc&security=reality&sni=lk.x5.ru&pbk=1VyJ_wt8NjUBMGHR_jId8919MvPscyNHqFL1kNUDfCk&sid=ff0d&serviceName=grpc&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://624bfb9d-df06-4fe6-8d9e-35287ffb95ad@185.229.9.31:49922?encryption=none&type=grpc&security=reality&sni=lk.x5.ru&pbk=1VyJ_wt8NjUBMGHR_jId8919MvPscyNHqFL1kNUDfCk&sid=ff0d&serviceName=grpc&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://624bfb9d-df06-4fe6-8d9e-35287ffb95ad@185.229.9.31:49922?encryption=none&type=grpc&security=reality&sni=lk.x5.ru&pbk=1VyJ_wt8NjUBMGHR_jId8919MvPscyNHqFL1kNUDfCk&sid=ff0d&serviceName=grpc&fp=safari#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+hysteria2://7ab3c77e-8fcc-4848-918f-cae3d4eac794@194.87.118.184:2053?insecure=0&sni=match-stream.lovkisport.blog#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+hysteria2://7ab3c77e-8fcc-4848-918f-cae3d4eac794@194.87.118.184:2053?insecure=1&sni=off#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
