@@ -1,5 +1,5 @@
 # RU CIDR Configs | NosokVPNBot
-# Обновлено: 2026-10-19 02:31 UTC
+# Обновлено: 2026-10-19 03:00 UTC
 # Строк: 128
 # Telegram: https://t.me/NosokVPNBot?start=partner_8655864538
 #
