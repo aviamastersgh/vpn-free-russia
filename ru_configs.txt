@@ -1,10 +1,15 @@
 # RU CIDR Configs | NosokVPNBot
-# Обновлено: 2026-10-20 11:00 UTC
-# Строк: 5
+# Обновлено: 2026-10-20 13:00 UTC
+# Строк: 10
 # Telegram: https://t.me/NosokVPNBot?start=partner_8655864538
 #
-vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?mode=auto&path=%2Fberu-uk&security=tls&alpn=h2%2Chttp%2F1.1&type=xhttp&sni=ru2.radiolumens.uk&fp=android#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?mode=auto&path=%2Fberu-uk&security=tls&alpn=h2%2Chttp%2F1.1&type=xhttp&sni=ru2.radiolumens.uk&fp=chrome#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?mode=auto&path=%2Fberu-uk&security=tls&alpn=h2%2Chttp%2F1.1&type=xhttp&sni=ru2.radiolumens.uk&fp=edge#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?mode=auto&path=%2Fberu-uk&security=tls&alpn=h2%2Chttp%2F1.1&type=xhttp&sni=ru2.radiolumens.uk&fp=firefox#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?mode=auto&path=%2Fberu-uk&security=tls&alpn=h2%2Chttp%2F1.1&type=xhttp&sni=ru2.radiolumens.uk&fp=qq#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://27653b37-603c-4c90-b1f5-25c4d23f8932@72.56.235.75:443?encryption=none&security=tls&serviceName=VideoRenderer&sni=renderer-bridge-2-121.mirra.now&type=grpc&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%5B%2ACIDR%5D
+vless://27653b37-603c-4c90-b1f5-25c4d23f8932@72.56.235.75:443?encryption=none&security=tls&serviceName=VideoRenderer&sni=renderer-bridge-2-121.mirra.now&type=grpc&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%5B%2ACIDR%5D
+vless://27653b37-603c-4c90-b1f5-25c4d23f8932@72.56.235.75:443?encryption=none&security=tls&serviceName=VideoRenderer&sni=renderer-bridge-2-121.mirra.now&type=grpc&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%5B%2ACIDR%5D
+vless://27653b37-603c-4c90-b1f5-25c4d23f8932@72.56.235.75:443?encryption=none&security=tls&serviceName=VideoRenderer&sni=renderer-bridge-2-121.mirra.now&type=grpc&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%5B%2ACIDR%5D
+vless://27653b37-603c-4c90-b1f5-25c4d23f8932@72.56.235.75:443?encryption=none&security=tls&serviceName=VideoRenderer&sni=renderer-bridge-2-121.mirra.now&type=grpc&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%5B%2ACIDR%5D
+vless://1f50163a-33c9-4ef8-b5da-fa1b3694d9a7@46.8.255.252:443?flow=xtls-rprx-vision&pbk=-ec5ai1FYGZSDDbOQaR6aDuTklZzKsnrtQUUgykn-mI&security=reality&sid=9bb9409c0ec4c7a1&sni=msk-01.file-rkat.online&encryption=none&type=tcp&fp=android#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://1f50163a-33c9-4ef8-b5da-fa1b3694d9a7@46.8.255.252:443?flow=xtls-rprx-vision&pbk=-ec5ai1FYGZSDDbOQaR6aDuTklZzKsnrtQUUgykn-mI&security=reality&sid=9bb9409c0ec4c7a1&sni=msk-01.file-rkat.online&encryption=none&type=tcp&fp=edge#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://1f50163a-33c9-4ef8-b5da-fa1b3694d9a7@46.8.255.252:443?flow=xtls-rprx-vision&pbk=-ec5ai1FYGZSDDbOQaR6aDuTklZzKsnrtQUUgykn-mI&security=reality&sid=9bb9409c0ec4c7a1&sni=msk-01.file-rkat.online&encryption=none&type=tcp&fp=firefox#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://1f50163a-33c9-4ef8-b5da-fa1b3694d9a7@46.8.255.252:443?flow=xtls-rprx-vision&pbk=-ec5ai1FYGZSDDbOQaR6aDuTklZzKsnrtQUUgykn-mI&security=reality&sid=9bb9409c0ec4c7a1&sni=msk-01.file-rkat.online&encryption=none&type=tcp&fp=qq#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://1f50163a-33c9-4ef8-b5da-fa1b3694d9a7@46.8.255.252:443?flow=xtls-rprx-vision&pbk=-ec5ai1FYGZSDDbOQaR6aDuTklZzKsnrtQUUgykn-mI&security=reality&sid=9bb9409c0ec4c7a1&sni=msk-01.file-rkat.online&encryption=none&type=tcp&fp=safari#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
