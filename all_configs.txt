@@ -1,5 +1,5 @@
 # Free VPN Configs | NosokVPNBot
-# Обновлено: 2026-10-20 02:43 UTC
+# Обновлено: 2026-10-20 03:00 UTC
 # Всего: 8661
 # https://t.me/NosokVPNBot?start=partner_8655864538
 #
