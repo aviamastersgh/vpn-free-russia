@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<title>VPN для России — бесплатные конфигурации VLESS, Reality, Hysteria2</title>
+<meta name="description" content="Бесплатные VPN-конфигурации для России: VLESS Reality, Hysteria2, Trojan, VMess и Shadowsocks. Проверенные ключи, поиск, копирование, инструкции, клиенты, FAQ и диагностика.">
+<meta name="keywords" content="VPN Россия, бесплатный VPN, VLESS Reality, Hysteria2, Trojan, VMess, Shadowsocks, VPN конфигурации, VPN ключи, v2rayNG, v2rayN, Hiddify, NekoBox">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://aviamastersgh.github.io/vpn-free-russia/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="VPN для России — бесплатные конфигурации">
+<meta property="og:description" content="Проверенные публичные VPN-конфигурации, ключи, гайды и клиенты.">
+<meta property="og:url" content="https://aviamastersgh.github.io/vpn-free-russia/">
+<style>
+:root{
+  --bg:#070b16;--bg2:#0d1324;--card:rgba(18,25,43,.82);--text:#f6f7fb;--muted:#a8b1c5;
+  --line:rgba(255,255,255,.10);--blue:#4da3ff;--cyan:#49e1ff;--green:#46d38b;--yellow:#ffd166;
+  --pink:#ff5fa2;--shadow:0 20px 70px rgba(0,0,0,.35)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:
+ radial-gradient(900px 500px at 10% -10%,rgba(77,163,255,.20),transparent 60%),
+ radial-gradient(700px 450px at 95% 5%,rgba(255,95,162,.13),transparent 60%),
+ linear-gradient(180deg,var(--bg),#0a0f1d 55%,#070b16);color:var(--text);
+ font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6}
+a{color:inherit}
+.container{width:min(1180px,calc(100% - 32px));margin:auto}
+.topbar{position:sticky;top:0;z-index:50;background:rgba(7,11,22,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.topbar-inner{min-height:68px;display:flex;align-items:center;gap:22px}
+.brand{font-weight:900;text-decoration:none;white-space:nowrap}
+.nav{display:flex;gap:18px;flex:1;overflow:auto}
+.nav a{font-size:14px;color:var(--muted);text-decoration:none;white-space:nowrap}
+.nav a:hover{color:#fff}
+.lang{border:1px solid var(--line);background:#10172a;color:#fff;border-radius:10px;padding:8px 10px}
+.paid-banner{background:linear-gradient(90deg,#ff3d7f,#ff8a3d);color:#fff}
+.paid-inner{min-height:56px;display:flex;align-items:center;justify-content:center;gap:16px;text-align:center;font-weight:800}
+.paid-btn{background:#fff;color:#a31247;padding:9px 15px;border-radius:999px;text-decoration:none;box-shadow:0 8px 25px rgba(0,0,0,.22);white-space:nowrap}
+.hero{padding:74px 0 45px}
+.kicker{display:inline-flex;gap:8px;align-items:center;color:#bfeaff;font-weight:800;font-size:14px;letter-spacing:.04em;text-transform:uppercase}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 18px var(--green)}
+h1{font-size:clamp(42px,7vw,78px);line-height:.98;letter-spacing:-.045em;margin:18px 0}
+.grad{background:linear-gradient(90deg,#fff,#9bdcff 45%,#ff9cc6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{max-width:800px;font-size:20px;color:var(--muted)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 18px;border-radius:12px;text-decoration:none;font-weight:800;border:1px solid var(--line);background:#111a30}
+.btn.primary{background:linear-gradient(135deg,#2388ff,#56c7ff);color:#04101f;border:0}
+.btn:hover{transform:translateY(-1px)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:30px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:var(--shadow)}
+.stat strong{font-size:31px;display:block}.stat span{color:var(--muted);font-size:14px}
+section{scroll-margin-top:90px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px;margin:18px 0;box-shadow:var(--shadow)}
+h2{font-size:30px;letter-spacing:-.02em;margin:0 0 12px}
+h3{margin:0 0 8px}
+.muted{color:var(--muted)}
+.notice{border:1px solid rgba(73,225,255,.22);background:rgba(73,225,255,.06);padding:15px 17px;border-radius:14px;margin:16px 0}
+.toolbar{display:grid;grid-template-columns:1fr 170px 170px;gap:10px;margin:20px 0}
+input,select{width:100%;border:1px solid var(--line);background:#0b1222;color:#fff;border-radius:12px;padding:13px;font:inherit;outline:none}
+input:focus,select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(77,163,255,.12)}
+.config{border:1px solid var(--line);background:rgba(8,14,27,.7);border-radius:16px;padding:16px;margin:12px 0}
+.config-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.badge{font-size:12px;font-weight:900;padding:5px 9px;border-radius:999px;background:rgba(70,211,139,.12);color:#82efb5}
+.copy{border:1px solid var(--line);background:#121b31;color:#fff;border-radius:10px;padding:8px 11px;cursor:pointer}
+.config-text{margin-top:11px;padding:12px;border-radius:10px;background:#050912;border:1px solid var(--line);font:12px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-all;color:#dfe7f5}
+.two{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.feature{padding:18px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.025)}
+.feature p{margin:6px 0 0;color:var(--muted)}
+.client-link{display:inline-block;margin-top:10px;color:#9bdcff;text-decoration:none;font-weight:800}
+details{border-top:1px solid var(--line);padding:15px 0}
+details:first-child{border-top:0}
+summary{cursor:pointer;font-weight:800}
+.guide{counter-increment:guide}
+.guide::before{content:counter(guide);display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#12213c;color:#8fd9ff;margin-right:9px;font-weight:900}
+.guides{counter-reset:guide}
+footer{padding:45px 0 70px;color:var(--muted)}
+.small{font-size:13px}
+.pill{display:inline-block;padding:5px 9px;border-radius:999px;background:#111a30;color:#b8c8df;margin:3px}
+.hidden{display:none}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:1fr 1fr}.toolbar{grid-template-columns:1fr 1fr}.toolbar input{grid-column:1/-1}}
+@media(max-width:650px){.container{width:min(100% - 20px,1180px)}.nav{display:none}.topbar-inner{justify-content:space-between}.paid-inner{font-size:13px}.hero{padding-top:48px}.grid,.two,.three,.toolbar{grid-template-columns:1fr}.toolbar input{grid-column:auto}h1{font-size:48px}.card{padding:20px}}
+</style>
+</head>
+<body>
+<div class="paid-banner">
+  <div class="container paid-inner">
+    <span data-i18n="paid_top">Нужна стабильная платная сеть?</span>
+    <a class="paid-btn" href="https://t.me/NosokVPNBot?start=partner_8655864538" rel="nofollow sponsored" data-i18n="paid_btn">Открыть VPN-сервис →</a>
+  </div>
+</div>
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="#top">VPN для России</a>
+    <nav class="nav">
+      <a href="#configs" data-i18n="nav_configs">Конфигурации</a>
+      <a href="#guides" data-i18n="nav_guides">Гайды</a>
+      <a href="#clients" data-i18n="nav_clients">Клиенты</a>
+      <a href="#faq" data-i18n="nav_faq">FAQ</a>
+      <a href="#reviews" data-i18n="nav_reviews">Отзывы</a>
+      <a href="#about" data-i18n="nav_about">О проекте</a>
+    </nav>
+    <select class="lang" id="lang">
+      <option value="ru">RU</option><option value="en">EN</option>
+      <option value="de">DE</option><option value="es">ES</option><option value="tr">TR</option>
+    </select>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="container">
+  <div class="kicker"><span class="dot"></span><span data-i18n="live">Живые публичные конфигурации</span></div>
+  <h1><span class="grad" data-i18n="hero_title">VPN без лишнего</span><br><span data-i18n="hero_title2">поиска и хаоса.</span></h1>
+  <p class="lead" data-i18n="hero_lead">Проверенные и публичные VPN-конфигурации для России, быстрый поиск по ключам, инструкции по клиентам и понятная диагностика.</p>
+  <div class="actions">
+    <a class="btn primary" href="#configs" data-i18n="hero_btn">Смотреть конфигурации</a>
+    <a class="btn" href="#clients" data-i18n="hero_btn2">Выбрать клиент</a>
+  </div>
+  <div class="grid">
+    <div class="stat"><strong id="verifiedCount">—</strong><span data-i18n="verified">проверенных конфигураций</span></div>
+    <div class="stat"><strong id="allCount">—</strong><span data-i18n="all">конфигураций всего</span></div>
+    <div class="stat"><strong id="updateDate">—</strong><span data-i18n="updated">последнее обновление</span></div>
+    <div class="stat"><strong>6</strong><span data-i18n="protocols">основных протоколов</span></div>
+  </div>
+</div>
+</section>
+
+<section id="configs">
+<div class="container card">
+  <h2 data-i18n="configs_title">Конфигурации и ключи</h2>
+  <p class="muted" data-i18n="configs_lead">Выбирай проверенные ключи или открывай полный публичный список. Перед использованием проверяй сервер и источник.</p>
+  <div class="notice" data-i18n="notice">Ключи загружаются из публичного репозитория проекта. Если локального configs.json нет, страница попробует получить актуальные данные напрямую из GitHub.</div>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Поиск по ключам, серверу, стране..." data-i18n-placeholder="search">
+    <select id="source"><option value="verified" data-i18n="verified_opt">Проверенные</option><option value="all" data-i18n="all_opt">Все</option></select>
+    <select id="type">
+      <option value="" data-i18n="type_all">Все типы</option>
+      <option>VLESS</option><option>VMess</option><option>Trojan</option><option>Shadowsocks</option><option>Hysteria2</option><option>TUIC</option>
+    </select>
+  </div>
+  <p class="muted"><span data-i18n="found">Найдено</span>: <strong id="resultCount">0</strong></p>
+  <div id="configsBox"><p class="muted" data-i18n="loading">Загрузка конфигураций…</p></div>
+</div>
+</section>
+
+<section id="guides">
+<div class="container card">
+  <h2 data-i18n="guides_title">Гайды: от нуля до подключения</h2>
+  <div class="guides">
+    <div class="feature guide"><h3 data-i18n="g1">1. Выбери клиент</h3><p data-i18n="g1p">Для Android удобно начать с v2rayNG или NekoBox. Для Windows/macOS/Linux — v2rayN или Hiddify.</p></div>
+    <div class="feature guide"><h3 data-i18n="g2">2. Скопируй ключ</h3><p data-i18n="g2p">Открой проверенную конфигурацию, нажми «Скопировать» и импортируй её в клиент.</p></div>
+    <div class="feature guide"><h3 data-i18n="g3">3. Проверь соединение</h3><p data-i18n="g3p">Если первый сервер не подключается, попробуй другой ключ того же протокола.</p></div>
+    <div class="feature guide"><h3 data-i18n="g4">4. Не публикуй свои приватные ключи</h3><p data-i18n="g4p">Публичные конфигурации уже находятся в открытом доступе. Личные серверные данные не размещай в комментариях и чатах.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="clients">
+<div class="container card">
+  <h2 data-i18n="clients_title">Клиенты и скачивание</h2>
+  <div class="three">
+    <div class="feature"><h3>v2rayNG</h3><p data-i18n="android">Android · Xray / V2Ray</p><a class="client-link" href="https://github.com/2dust/v2rayNG/releases" target="_blank" rel="noopener" data-i18n="download">Скачать →</a></div>
+    <div class="feature"><h3>v2rayN</h3><p data-i18n="desktop">Windows · Linux · macOS</p><a class="client-link" href="https://github.com/2dust/v2rayN/releases" target="_blank" rel="noopener" data-i18n="download">Скачать →</a></div>
+    <div class="feature"><h3>NekoBox</h3><p data-i18n="neko">Android · sing-box</p><a class="client-link" href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases" target="_blank" rel="noopener" data-i18n="download">Скачать →</a></div>
+    <div class="feature"><h3>Hiddify</h3><p data-i18n="multi">Android · iOS · Windows · macOS · Linux</p><a class="client-link" href="https://hiddify.com/" target="_blank" rel="noopener" data-i18n="site">Официальный сайт →</a></div>
+    <div class="feature"><h3>Karing</h3><p data-i18n="multi2">Мультиплатформенный клиент</p><a class="client-link" href="https://karing.app/" target="_blank" rel="noopener" data-i18n="site">Официальный сайт →</a></div>
+    <div class="feature"><h3>Telegram</h3><p data-i18n="telegram">Сервис и новости проекта</p><a class="client-link" href="https://t.me/NosokVPNBot?start=partner_8655864538" target="_blank" rel="noopener nofollow sponsored" data-i18n="open">Открыть →</a></div>
+  </div>
+</div>
+</section>
+
+<section id="faq">
+<div class="container card">
+  <h2 data-i18n="faq_title">Вопросы и ответы</h2>
+  <details><summary data-i18n="q1">Почему конфигурация не подключается?</summary><p class="muted" data-i18n="a1">Публичный сервер мог быть отключён, перегружен или заблокирован. Попробуй другой ключ и, по возможности, другой протокол.</p></details>
+  <details><summary data-i18n="q2">Что выбрать: VLESS Reality или Hysteria2?</summary><p class="muted" data-i18n="a2">Начни с VLESS Reality. Если качество сети нестабильное или нужен другой транспорт, попробуй Hysteria2.</p></details>
+  <details><summary data-i18n="q3">Почему список меняется?</summary><p class="muted" data-i18n="a3">Публичные конфигурации имеют ограниченный срок жизни. Список обновляется автоматически.</p></details>
+  <details><summary data-i18n="q4">Это гарантирует анонимность?</summary><p class="muted" data-i18n="a4">Нет. Публичный VPN не является гарантией приватности. Не передавай через неизвестные серверы чувствительные данные и используй доверенные сервисы для важных задач.</p></details>
+  <details><summary data-i18n="q5">Где взять больше конфигураций?</summary><p class="muted"><a href="https://github.com/aviamastersgh/vpn-free-russia">Основной репозиторий проекта →</a></p></details>
+</div>
+</section>
+
+<section id="reviews">
+<div class="container card">
+  <h2 data-i18n="reviews_title">Отзывы</h2>
+  <p class="muted" data-i18n="reviews_lead">Здесь лучше публиковать реальные отзывы пользователей, а не придумывать оценки. Оставь ссылку на отзыв или текст — блок можно обновлять без изменения структуры сайта.</p>
+  <div class="two">
+    <div class="feature"><h3 data-i18n="review1">Что работает</h3><p data-i18n="review1p">Отмечай клиент, протокол и дату проверки — так отзывы будут полезнее.</p></div>
+    <div class="feature"><h3 data-i18n="review2">Что не работает</h3><p data-i18n="review2p">Сообщай о нерабочих ключах и времени проверки, чтобы список можно было быстрее очистить.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="about">
+<div class="container card">
+  <h2 data-i18n="about_title">О проекте</h2>
+  <p class="muted" data-i18n="about_text">Проект собирает открытые VPN-конфигурации, делает их удобными для поиска и показывает базовые инструкции. Конфигурации не являются гарантированно рабочими: состояние публичных серверов меняется.</p>
+  <div>
+    <a class="pill" href="https://github.com/aviamastersgh/vpn-free-russia">GitHub</a>
+    <a class="pill" href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt">verified_configs.txt</a>
+    <a class="pill" href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt">all_configs.txt</a>
+  </div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container">
+  <p><strong>VPN для России</strong> · <span data-i18n="footer">публичные конфигурации, гайды и инструменты.</span></p>
+  <p class="small" data-i18n="disclaimer">Используй публичные конфигурации на свой риск. Не размещай здесь приватные ключи, пароли или персональные данные.</p>
+</div>
+</footer>
+
+<script>
+const RAW="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/";
+let verified=[], allConfigs=[], visible=[];
+const T={
+ru:{paid_top:"Нужна стабильная платная сеть?",paid_btn:"Открыть VPN-сервис →",nav_configs:"Конфигурации",nav_guides:"Гайды",nav_clients:"Клиенты",nav_faq:"FAQ",nav_reviews:"Отзывы",nav_about:"О проекте",live:"Живые публичные конфигурации",hero_title:"VPN без лишнего",hero_title2:"поиска и хаоса.",hero_lead:"Проверенные и публичные VPN-конфигурации для России, быстрый поиск по ключам, инструкции по клиентам и понятная диагностика.",hero_btn:"Смотреть конфигурации",hero_btn2:"Выбрать клиент",verified:"проверенных конфигураций",all:"конфигураций всего",updated:"последнее обновление",protocols:"основных протоколов",configs_title:"Конфигурации и ключи",configs_lead:"Выбирай проверенные ключи или открывай полный публичный список. Перед использованием проверяй сервер и источник.",notice:"Ключи загружаются из публичного репозитория проекта. Если локального configs.json нет, страница попробует получить актуальные данные напрямую из GitHub.",search:"Поиск по ключам, серверу, стране...",verified_opt:"Проверенные",all_opt:"Все",type_all:"Все типы",found:"Найдено",loading:"Загрузка конфигураций…",guides_title:"Гайды: от нуля до подключения",g1:"1. Выбери клиент",g1p:"Для Android удобно начать с v2rayNG или NekoBox. Для Windows/macOS/Linux — v2rayN или Hiddify.",g2:"2. Скопируй ключ",g2p:"Открой проверенную конфигурацию, нажми «Скопировать» и импортируй её в клиент.",g3:"3. Проверь соединение",g3p:"Если первый сервер не подключается, попробуй другой ключ того же протокола.",g4:"4. Не публикуй свои приватные ключи",g4p:"Публичные конфигурации уже находятся в открытом доступе. Личные серверные данные не размещай в комментариях и чатах.",clients_title:"Клиенты и скачивание",android:"Android · Xray / V2Ray",desktop:"Windows · Linux · macOS",neko:"Android · sing-box",multi:"Android · iOS · Windows · macOS · Linux",multi2:"Мультиплатформенный клиент",telegram:"Сервис и новости проекта",download:"Скачать →",site:"Официальный сайт →",open:"Открыть →",faq_title:"Вопросы и ответы",q1:"Почему конфигурация не подключается?",a1:"Публичный сервер мог быть отключён, перегружен или заблокирован. Попробуй другой ключ и, по возможности, другой протокол.",q2:"Что выбрать: VLESS Reality или Hysteria2?",a2:"Начни с VLESS Reality. Если качество сети нестабильное или нужен другой транспорт, попробуй Hysteria2.",q3:"Почему список меняется?",a3:"Публичные конфигурации имеют ограниченный срок жизни. Список обновляется автоматически.",q4:"Это гарантирует анонимность?",a4:"Нет. Публичный VPN не является гарантией приватности. Не передавай через неизвестные серверы чувствительные данные и используй доверенные сервисы для важных задач.",reviews_title:"Отзывы",reviews_lead:"Здесь лучше публиковать реальные отзывы пользователей, а не придумывать оценки. Оставь ссылку на отзыв или текст — блок можно обновлять без изменения структуры сайта.",review1:"Что работает",review1p:"Отмечай клиент, протокол и дату проверки — так отзывы будут полезнее.",review2:"Что не работает",review2p:"Сообщай о нерабочих ключах и времени проверки, чтобы список можно было быстрее очистить.",about_title:"О проекте",about_text:"Проект собирает открытые VPN-конфигурации, делает их удобными для поиска и показывает базовые инструкции. Конфигурации не являются гарантированно рабочими: состояние публичных серверов меняется.",footer:"публичные конфигурации, гайды и инструменты.",disclaimer:"Используй публичные конфигурации на свой риск. Не размещай здесь приватные ключи, пароли или персональные данные."},
+en:{paid_top:"Need a more stable paid network?",paid_btn:"Open VPN service →",nav_configs:"Configs",nav_guides:"Guides",nav_clients:"Clients",nav_faq:"FAQ",nav_reviews:"Reviews",nav_about:"About",live:"Live public configurations",hero_title:"VPN without the",hero_title2:"search chaos.",hero_lead:"Public and checked VPN configurations for Russia, fast key search, client guides and simple troubleshooting.",hero_btn:"Browse configurations",hero_btn2:"Choose a client",verified:"checked configurations",all:"configurations total",updated:"last update",protocols:"main protocols",configs_title:"Configurations & keys",configs_lead:"Use checked keys or open the full public list. Verify the server and source before connecting.",notice:"Keys are loaded from the project's public repository. If local configs.json is missing, the page will try to load current data directly from GitHub.",search:"Search keys, server, country...",verified_opt:"Checked",all_opt:"All",type_all:"All types",found:"Found",loading:"Loading configurations…",guides_title:"Guides: from zero to connected",g1:"1. Pick a client",g1p:"For Android start with v2rayNG or NekoBox. For Windows/macOS/Linux use v2rayN or Hiddify.",g2:"2. Copy a key",g2p:"Open a checked configuration, press Copy and import it into your client.",g3:"3. Test the connection",g3p:"If the first server fails, try another key using the same protocol.",g4:"4. Never publish private keys",g4p:"Public configs are already exposed. Keep private server data out of comments and chats.",clients_title:"Clients & downloads",android:"Android · Xray / V2Ray",desktop:"Windows · Linux · macOS",neko:"Android · sing-box",multi:"Android · iOS · Windows · macOS · Linux",multi2:"Multi-platform client",telegram:"Project service and news",download:"Download →",site:"Official site →",open:"Open →",faq_title:"FAQ",q1:"Why does a configuration fail?",a1:"A public server may be offline, overloaded or blocked. Try another key and, if possible, another protocol.",q2:"VLESS Reality or Hysteria2?",a2:"Start with VLESS Reality. If the network is unstable or you need another transport, try Hysteria2.",q3:"Why does the list change?",a3:"Public configurations have limited lifetimes. The list is updated automatically.",q4:"Does this guarantee anonymity?",a4:"No. A public VPN is not a privacy guarantee. Do not send sensitive data through unknown servers.",reviews_title:"Reviews",reviews_lead:"Publish real user feedback rather than invented ratings. Add a review link or text when you have one.",review1:"What works",review1p:"Include the client, protocol and check date so feedback is useful.",review2:"What fails",review2p:"Report broken keys and the check time so the list can be cleaned faster.",about_title:"About",about_text:"The project collects public VPN configurations, makes them searchable and provides basic guides. Public servers can change state at any time.",footer:"public configurations, guides and tools.",disclaimer:"Use public configurations at your own risk. Never publish private keys, passwords or personal data here."},
+de:{paid_top:"Brauchst du ein stabileres kostenpflichtiges VPN?",paid_btn:"VPN-Service öffnen →",nav_configs:"Konfigurationen",nav_guides:"Anleitungen",nav_clients:"Clients",nav_faq:"FAQ",nav_reviews:"Bewertungen",nav_about:"Projekt",live:"Aktuelle öffentliche Konfigurationen",hero_title:"VPN ohne",hero_title2:"Suchchaos.",hero_lead:"Öffentliche und geprüfte VPN-Konfigurationen für Russland, schnelle Schlüsselsuche und verständliche Anleitungen.",hero_btn:"Konfigurationen",hero_btn2:"Client wählen",verified:"geprüfte Konfigurationen",all:"Konfigurationen insgesamt",updated:"letzte Aktualisierung",protocols:"Hauptprotokolle",configs_title:"Konfigurationen & Schlüssel",configs_lead:"Nutze geprüfte Schlüssel oder die vollständige öffentliche Liste. Prüfe Quelle und Server vor dem Verbinden.",notice:"Schlüssel werden aus dem öffentlichen Projekt-Repository geladen.",search:"Schlüssel, Server, Land suchen…",verified_opt:"Geprüft",all_opt:"Alle",type_all:"Alle Typen",found:"Gefunden",loading:"Konfigurationen werden geladen…",guides_title:"Anleitungen",g1:"1. Client wählen",g1p:"Android: v2rayNG oder NekoBox. Desktop: v2rayN oder Hiddify.",g2:"2. Schlüssel kopieren",g2p:"Konfiguration kopieren und in den Client importieren.",g3:"3. Verbindung testen",g3p:"Wenn ein Server ausfällt, einen anderen Schlüssel probieren.",g4:"4. Private Schlüssel nicht veröffentlichen",g4p:"Keine privaten Serverdaten in Chats oder Kommentaren teilen.",clients_title:"Clients & Downloads",android:"Android · Xray / V2Ray",desktop:"Windows · Linux · macOS",neko:"Android · sing-box",multi:"Android · iOS · Windows · macOS · Linux",multi2:"Multiplattform-Client",telegram:"Projekt-Service und News",download:"Download →",site:"Offizielle Website →",open:"Öffnen →",faq_title:"Fragen & Antworten",q1:"Warum funktioniert ein Schlüssel nicht?",a1:"Öffentliche Server können offline, überlastet oder blockiert sein. Probiere einen anderen Schlüssel.",q2:"VLESS Reality oder Hysteria2?",a2:"Beginne mit VLESS Reality. Bei instabiler Verbindung Hysteria2 testen.",q3:"Warum ändert sich die Liste?",a3:"Öffentliche Konfigurationen sind oft kurzlebig und werden automatisch aktualisiert.",q4:"Garantiert das Anonymität?",a4:"Nein. Ein öffentlicher VPN ist keine Garantie für Privatsphäre.",reviews_title:"Bewertungen",reviews_lead:"Veröffentliche echte Nutzerberichte statt erfundener Bewertungen.",review1:"Was funktioniert",review1p:"Client, Protokoll und Prüfdatum angeben.",review2:"Was nicht funktioniert",review2p:"Defekte Schlüssel mit Prüfzeit melden.",about_title:"Über das Projekt",about_text:"Das Projekt sammelt öffentliche VPN-Konfigurationen und stellt sie übersichtlich dar.",footer:"öffentliche Konfigurationen, Anleitungen und Tools.",disclaimer:"Öffentliche Konfigurationen auf eigenes Risiko verwenden."},
+es:{paid_top:"¿Necesitas una red VPN de pago más estable?",paid_btn:"Abrir servicio VPN →",nav_configs:"Configuraciones",nav_guides:"Guías",nav_clients:"Clientes",nav_faq:"FAQ",nav_reviews:"Reseñas",nav_about:"Proyecto",live:"Configuraciones públicas activas",hero_title:"VPN sin",hero_title2:"caos de búsqueda.",hero_lead:"Configuraciones VPN públicas y verificadas para Rusia, búsqueda rápida y guías de clientes.",hero_btn:"Ver configuraciones",hero_btn2:"Elegir cliente",verified:"configuraciones verificadas",all:"configuraciones totales",updated:"última actualización",protocols:"protocolos principales",configs_title:"Configuraciones y claves",configs_lead:"Usa claves verificadas o la lista pública completa. Comprueba el servidor y la fuente antes de conectar.",notice:"Las claves se cargan desde el repositorio público del proyecto.",search:"Buscar claves, servidor, país…",verified_opt:"Verificadas",all_opt:"Todas",type_all:"Todos los tipos",found:"Encontradas",loading:"Cargando configuraciones…",guides_title:"Guías",g1:"1. Elige un cliente",g1p:"Android: v2rayNG o NekoBox. Escritorio: v2rayN o Hiddify.",g2:"2. Copia una clave",g2p:"Copia una configuración e impórtala en el cliente.",g3:"3. Prueba la conexión",g3p:"Si falla un servidor, prueba otra clave.",g4:"4. No publiques claves privadas",g4p:"No compartas datos privados del servidor.",clients_title:"Clientes y descargas",android:"Android · Xray / V2Ray",desktop:"Windows · Linux · macOS",neko:"Android · sing-box",multi:"Android · iOS · Windows · macOS · Linux",multi2:"Cliente multiplataforma",telegram:"Servicio y noticias",download:"Descargar →",site:"Sitio oficial →",open:"Abrir →",faq_title:"Preguntas frecuentes",q1:"¿Por qué falla una configuración?",a1:"El servidor público puede estar fuera de línea, saturado o bloqueado. Prueba otra clave.",q2:"¿VLESS Reality o Hysteria2?",a2:"Empieza con VLESS Reality. Si la red es inestable, prueba Hysteria2.",q3:"¿Por qué cambia la lista?",a3:"Las configuraciones públicas tienen vida limitada y se actualizan automáticamente.",q4:"¿Garantiza anonimato?",a4:"No. Un VPN público no garantiza privacidad.",reviews_title:"Reseñas",reviews_lead:"Publica opiniones reales, no puntuaciones inventadas.",review1:"Lo que funciona",review1p:"Indica cliente, protocolo y fecha.",review2:"Lo que falla",review2p:"Reporta claves rotas y hora de prueba.",about_title:"Sobre el proyecto",about_text:"El proyecto recopila configuraciones VPN públicas y ofrece guías básicas.",footer:"configuraciones públicas, guías y herramientas.",disclaimer:"Usa configuraciones públicas bajo tu responsabilidad."},
+tr:{paid_top:"Daha kararlı ücretli bir VPN mi lazım?",paid_btn:"VPN hizmetini aç →",nav_configs:"Yapılandırmalar",nav_guides:"Rehberler",nav_clients:"İstemciler",nav_faq:"SSS",nav_reviews:"Yorumlar",nav_about:"Proje",live:"Güncel herkese açık yapılandırmalar",hero_title:"VPN, gereksiz",hero_title2:"arama karmaşası olmadan.",hero_lead:"Rusya için herkese açık ve kontrol edilmiş VPN yapılandırmaları, hızlı anahtar arama ve istemci rehberleri.",hero_btn:"Yapılandırmaları gör",hero_btn2:"İstemci seç",verified:"kontrol edilmiş yapılandırma",all:"toplam yapılandırma",updated:"son güncelleme",protocols:"ana protokol",configs_title:"Yapılandırmalar ve anahtarlar",configs_lead:"Kontrol edilmiş anahtarları veya tam herkese açık listeyi kullan. Bağlanmadan önce sunucuyu ve kaynağı kontrol et.",notice:"Anahtarlar projenin herkese açık deposundan yüklenir.",search:"Anahtar, sunucu, ülke ara…",verified_opt:"Kontrol edilmiş",all_opt:"Tümü",type_all:"Tüm türler",found:"Bulunan",loading:"Yapılandırmalar yükleniyor…",guides_title:"Rehberler",g1:"1. İstemci seç",g1p:"Android: v2rayNG veya NekoBox. Masaüstü: v2rayN veya Hiddify.",g2:"2. Anahtarı kopyala",g2p:"Yapılandırmayı kopyalayıp istemciye aktar.",g3:"3. Bağlantıyı test et",g3p:"Bir sunucu çalışmazsa başka bir anahtar dene.",g4:"4. Özel anahtarları paylaşma",g4p:"Özel sunucu bilgilerini sohbetlerde yayınlama.",clients_title:"İstemciler ve indirmeler",android:"Android · Xray / V2Ray",desktop:"Windows · Linux · macOS",neko:"Android · sing-box",multi:"Android · iOS · Windows · macOS · Linux",multi2:"Çoklu platform istemcisi",telegram:"Proje hizmeti ve haberleri",download:"İndir →",site:"Resmi site →",open:"Aç →",faq_title:"Sık sorulan sorular",q1:"Yapılandırma neden bağlanmıyor?",a1:"Herkese açık sunucu kapalı, yoğun veya engelli olabilir. Başka bir anahtar dene.",q2:"VLESS Reality mi Hysteria2 mi?",a2:"VLESS Reality ile başla. Ağ kararsızsa Hysteria2 dene.",q3:"Liste neden değişiyor?",a3:"Herkese açık yapılandırmaların ömrü sınırlıdır ve otomatik güncellenir.",q4:"Anonimlik garanti mi?",a4:"Hayır. Herkese açık VPN gizlilik garantisi değildir.",reviews_title:"Yorumlar",reviews_lead:"Uydurma puanlar yerine gerçek kullanıcı yorumları yayınla.",review1:"Çalışanlar",review1p:"İstemci, protokol ve kontrol tarihini belirt.",review2:"Çalışmayanlar",review2p:"Bozuk anahtarları ve kontrol saatini bildir.",about_title:"Proje hakkında",about_text:"Proje herkese açık VPN yapılandırmalarını toplar ve temel rehberler sunar.",footer:"herkese açık yapılandırmalar, rehberler ve araçlar.",disclaimer:"Herkese açık yapılandırmaları kendi sorumluluğunla kullan."}
+};
+
+function setLang(lang){
+  const dict=T[lang]||T.ru;
+  document.documentElement.lang=lang;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{
+    const k=el.dataset.i18n;if(dict[k])el.textContent=dict[k];
+  });
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el=>{
+    const k=el.dataset.i18nPlaceholder;if(dict[k])el.placeholder=dict[k];
+  });
+  localStorage.setItem("vpn_lang",lang);
+}
+document.getElementById("lang").addEventListener("change",e=>setLang(e.target.value));
+setLang(localStorage.getItem("vpn_lang")||"ru");
+
+function kind(x){
+  x=x.toLowerCase();
+  if(x.startsWith("vless://"))return"VLESS";
+  if(x.startsWith("vmess://"))return"VMess";
+  if(x.startsWith("trojan://"))return"Trojan";
+  if(x.startsWith("ss://"))return"Shadowsocks";
+  if(x.startsWith("hysteria2://")||x.startsWith("hy2://"))return"Hysteria2";
+  if(x.startsWith("tuic://"))return"TUIC";
+  return"Other";
+}
+function esc(x){return String(x).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;")}
+function render(){
+  const q=document.getElementById("search").value.toLowerCase().trim();
+  const src=document.getElementById("source").value;
+  const typ=document.getElementById("type").value;
+  const arr=(src==="verified"?verified:allConfigs).map(x=>({x,t:kind(x)})).filter(o=>(!typ||o.t===typ)&&(!q||o.x.toLowerCase().includes(q)));
+  visible=arr.map(o=>o.x);
+  document.getElementById("resultCount").textContent=arr.length.toLocaleString();
+  const box=document.getElementById("configsBox");
+  if(!arr.length){box.innerHTML='<p class="muted">Конфигурации не найдены.</p>';return}
+  box.innerHTML=arr.slice(0,250).map((o,i)=>`<article class="config"><div class="config-head"><span class="badge">${esc(o.t)}</span><button class="copy" data-i="${i}">Скопировать</button></div><div class="config-text">${esc(o.x)}</div></article>`).join("");
+  if(arr.length>250)box.insertAdjacentHTML("beforeend",`<p class="muted small">Показаны первые 250 результатов. Уточни поиск для более точного списка.</p>`);
+  box.querySelectorAll(".copy").forEach(b=>b.onclick=async()=>{try{await navigator.clipboard.writeText(visible[+b.dataset.i]);b.textContent="Скопировано ✓";setTimeout(()=>b.textContent="Скопировать",1200)}catch{alert("Не удалось скопировать")}})
+}
+async function load(){
+  try{
+    let r=await fetch("./configs.json?v="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw Error("local");
+    const d=await r.json();verified=d.verified||[];allConfigs=d.all||[];
+    document.getElementById("updateDate").textContent=d.updated?new Date(d.updated).toLocaleDateString("ru-RU"):"—";
+  }catch{
+    const [vr,ar]=await Promise.all([
+      fetch(RAW+"verified_configs.txt?v="+Date.now()),
+      fetch(RAW+"all_configs.txt?v="+Date.now())
+    ]);
+    verified=(await vr.text()).split(/\r?\n/).map(x=>x.trim()).filter(x=>x&&!x.startsWith("#"));
+    allConfigs=(await ar.text()).split(/\r?\n/).map(x=>x.trim()).filter(x=>x&&!x.startsWith("#"));
+    document.getElementById("updateDate").textContent=new Date().toLocaleDateString("ru-RU");
+  }
+  document.getElementById("verifiedCount").textContent=verified.length.toLocaleString();
+  document.getElementById("allCount").textContent=allConfigs.length.toLocaleString();
+  render();
+}
+["search","source","type"].forEach(id=>document.getElementById(id).addEventListener(id==="search"?"input":"change",render));
+load().catch(err=>{console.error(err);document.getElementById("configsBox").innerHTML='<p class="muted">Не удалось загрузить конфигурации. Открой configs.json локально или проверь доступ к GitHub.</p>'});
+</script>
+</body>
+</html>
