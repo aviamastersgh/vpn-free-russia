@@ -20,8 +20,8 @@
   <!-- STATS_START -->
 <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"><img src="https://img.shields.io/badge/Все_конфиги-10695-4C8BF5?style=for-the-badge&logo=server&logoColor=white" alt="All configs"/></a>
 <a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt"><img src="https://img.shields.io/badge/Проверенные-500-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Verified configs"/></a>
-<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt"><img src="https://img.shields.io/badge/RU_обход-148-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="RU configs"/></a>
-<img src="https://img.shields.io/badge/Обновлено-2026_11_15_13%3A12_UTC-f97316?style=for-the-badge&logo=clockify&logoColor=white" alt="Updated"/>
+<a href="https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt"><img src="https://img.shields.io/badge/RU_обход-131-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="RU configs"/></a>
+<img src="https://img.shields.io/badge/Обновлено-2026_11_15_22%3A18_UTC-f97316?style=for-the-badge&logo=clockify&logoColor=white" alt="Updated"/>
 <!-- STATS_END -->
 </p>
 
