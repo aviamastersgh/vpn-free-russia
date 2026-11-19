@@ -466,7 +466,7 @@ https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_co
 
 Текущий заявленный интервал обновления:
 
-**каждые 6 часов.**
+**каждые 2 часа.**
 
 Во время обновления выполняются задачи:
 
