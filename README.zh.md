@@ -316,7 +316,7 @@ https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/ru_configs.txt
 
 当前文档记录的更新周期：
 
-**每 6 小时。**
+**每 2 小时。**
 
 每个周期会：
 1. 从公开来源收集配置；
