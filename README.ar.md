@@ -308,7 +308,7 @@ https://cdn.jsdelivr.net/gh/aviamastersgh/vpn-free-russia@main/ru_configs.txt
 
 الفاصل الموثّق حاليًا:
 
-**كل 6 ساعات.**
+**كل 2 ساعات.**
 
 في كل دورة:
 1. جمع الإعدادات من المصادر العامة؛
