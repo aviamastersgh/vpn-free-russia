@@ -310,7 +310,7 @@ The public configuration pool is updated automatically.
 
 Current documented interval:
 
-**Every 6 hours.**
+**Every 2 hours.**
 
 Each cycle:
 1. collects configs from public sources;
